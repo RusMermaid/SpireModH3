@@ -69,7 +69,7 @@
 			{
 				"description": "{Confusion}\n\nTarget enemy unit cannot retaliate once.\n",
 	 
-				"cost": 13,
+				"cost": 14,
 	 
 				"effects":
 				{
@@ -87,7 +87,7 @@
 			{
 				"description": "{Basic Confusion}\n\nTarget enemy unit cannot retaliate once.\n",
 	 
-				"cost": 10,
+				"cost": 12,
 	 
 				"effects":
 				{
@@ -105,7 +105,7 @@
 			{
 				"description": "{Advanced Confusion}\n\nTarget enemy unit cannot retaliate.\n",
 	 
-				"cost": 10,
+				"cost": 12,
 	 
 				"effects":
 				{
@@ -120,7 +120,7 @@
 			{
 				"description": "{Expert Confusion}\n\nAll enemy units cannot retaliate.\n",
 	 
-				"cost": 10,
+				"cost": 12,
 				"range": "X",
 	 
 				"effects":

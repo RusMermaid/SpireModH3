@@ -91,17 +91,17 @@
 			"none":
 			{
 				"description": "{Fear}\n\nStrikes an enemy unit with such fear, that it becomes unable to attack and nearly unable to move (-25% speed).\n",	 
-				"cost": 35
+				"cost": 40
 			},
 			"basic":
 			{
 				"description": "{Basic Fear}\n\nStrikes an enemy unit with such fear, that it becomes unable to attack and nearly unable to move (-25% speed).\n", 
-				"cost": 30	
+				"cost": 35	
 			},
 			"advanced":
 			{
 				"description": "{Advanced Fear}\n\nStrikes an enemy unit with such fear, that it becomes unable to attack and nearly unable to move.\n\nPenalty to movement is twice that of Basic Fear (-50% speed).\n",
-				"cost": 30,
+				"cost": 35,
 				"effects":
 				{
 					"reduceSpeed":

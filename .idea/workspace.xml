@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5955fd81-e41b-429f-905a-cf0b604e2a74" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Spire/RedNightmare/RedNightmare.def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spire/RedNightmare/RedNightmareB.def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spire/nightmare-blue-L.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spire/nightmare-blue-S.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spire/t1p/Acolyte.def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spire/t1p/AcyloteB.def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spire/t3/CourserRaven.def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spire/t3/Raven.def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spire/t3/raven0.def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spire/t3/raven1.def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spire/t7/BlueFaerieDragon.def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-old-spells-plus.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-summon-spells.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spire/Content/config/spire/spells/Confusion/Confusion.json" beforeDir="false" afterPath="$PROJECT_DIR$/spire/Content/config/spire/spells/Confusion/Confusion.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spire/Content/config/spire/spells/Fear/Fear.json" beforeDir="false" afterPath="$PROJECT_DIR$/spire/Content/config/spire/spells/Fear/Fear.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spire/Content/config/spire/spells/summonAngel/summonAngel.json" beforeDir="false" afterPath="$PROJECT_DIR$/spire/Content/config/spire/spells/summonAngel/summonAngel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spire/Content/config/spire/spells/summonDemon/summonDemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/spire/Content/config/spire/spells/summonDemon/summonDemon.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1762583543904</updated>
       <workItem from="1762583545135" duration="12000" />
-      <workItem from="1762583575957" duration="797000" />
+      <workItem from="1762583575957" duration="6224000" />
     </task>
     <servers />
   </component>

@@ -8,9 +8,9 @@
             "fire": true,
             "water": false
         },
-        "level": 4,
+        "level": 5,
         "power": 20,
-        "defaultGainChance": 4,
+        "defaultGainChance": 1,
         "gainChance": {
             "inferno": 10
         },
@@ -34,40 +34,41 @@
         "targetType": "NO_TARGET",
         "levels": {
             "base": {
-                "description": "{Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, any other creature can be summoned.",
+                "description": "{Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, only demons can be summoned.",
                 "range": "X",
-                "cost": 24,
+                "cost": 30,
                 "power": 2,
 				"aiValue": 10,
                 "battleEffects": {
                     "summon": {
-                        "exclusive": false,
+                        "exclusive": true,
                         "id": "demon",
+                        "summonByHealth" : false,
                         "permanent": false,
                         "type": "core:summon"
                     }
                 }
             },
             "none": {
-                "cost": 60,
+                "cost": 30,
                 "power": 1,
 				"aiValue": 10
             },
             "basic": {
-				"description": "{Basic Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 40,
+				"description": "{Basic Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, only demons can be summoned.",
+                "cost": 25,
                 "power": 2,
 				"aiValue": 11
             },
             "advanced": {
-				"description": "{Advanced Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 40,
+				"description": "{Advanced Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, only demons can be summoned.",
+                "cost": 25,
                 "power": 3,
 				"aiValue": 12
             },
             "expert": {
-				"description": "{Expert Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, any other creature can be summoned.",
-                "cost": 40,
+				"description": "{Expert Summon Demon}\r\n\r\nAllows you to summon Demons.\r\n\r\nOnce cast, only demons can be summoned.",
+                "cost": 25,
                 "power": 4,
 				"aiValue": 13
             }
