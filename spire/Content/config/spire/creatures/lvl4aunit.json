@@ -1,0 +1,124 @@
+{
+  "creatures": {
+    "spire.animatedArmor": {
+      "abilities": {
+        "unalive": { "type": "NON_LIVING" },
+        "mindImmunity": { "type": "MIND_IMMUNITY" },
+        "soulHarvestDef": { "type": "SPELL_AFTER_ATTACK", "subtype": "spire.soulharvest.def", "val": 100, "addInfo": [3, 0] }
+      },
+      "attack": 8,
+      "defense": 12,
+      "speed": 6,
+      "damage": { "min": 5, "max": 8 },
+      "hitPoints": 40,
+      "growth": 5,
+      "level": 4,
+      "faction": "spire",
+      "cost": { "gold": 280 },
+      "doubleWide": false,
+      "name": {
+        "singular": { "en": "Animated Armor", "ru": "Живые доспехи" },
+        "plural":   { "en": "Animated Armors", "ru": "Живые доспехи" }
+      },
+      "graphics": {
+        "animation": "", "iconLarge": "", "iconSmall": "", "map": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 }, "timeBetweenFidgets": 1
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" },
+      "upgrades": ["spire.revenant"]
+    },
+
+    "spire.revenant": {
+      "abilities": {
+        "unalive": { "type": "NON_LIVING" },
+        "mindImmunity": { "type": "MIND_IMMUNITY" },
+        "soulHarvestSpd": { "type": "SPELL_AFTER_ATTACK", "subtype": "spire.soulharvest.spd", "val": 100, "addInfo": [3, 0] }
+      },
+      "attack": 9,
+      "defense": 12,
+      "speed": 7,
+      "damage": { "min": 6, "max": 8 },
+      "hitPoints": 40,
+      "growth": 5,
+      "level": 4,
+      "faction": "spire",
+      "cost": { "gold": 400 },
+      "doubleWide": false,
+      "name": {
+        "singular": { "en": "Revenant", "ru": "Ревенант" },
+        "plural":   { "en": "Revenants", "ru": "Ревенанты" }
+      },
+      "graphics": {
+        "animation": "", "iconLarge": "", "iconSmall": "", "map": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 }, "timeBetweenFidgets": 1
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" }
+    }
+  },
+
+  "spells": {
+    "spire.soulharvest.def": {
+      "type": "combat",
+      "name": { "en": "Soul Harvest", "ru": "Жатва душ" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 0,
+      "allowedFor": ["CREATURE"],
+      "targetType": "CREATURE",
+      "flags": { "positive": true, "damage": false, "offensive": false, "hidden": true, "noSpellbook": true, "noShrine": true, "noScroll": true },
+      "sound": { "cast": "" },
+      "levels": {
+        "none": {
+          "description": { "en": "", "ru": "" },
+          "effects": {},
+          "battleEffects": {
+            "timed": {
+              "cumulative": true,
+              "bonuses": {
+                "defUp": {
+                  "type": "PRIMARY_SKILL",
+                  "subtype": "primSkill.defence",
+                  "val": 1,
+                  "valueType": "ADDITIVE_VALUE",
+                  "duration": "ONE_BATTLE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "spire.soulharvest.spd": {
+      "type": "combat",
+      "name": { "en": "Soul Harvest", "ru": "Жатва душ" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 0,
+      "allowedFor": ["CREATURE"],
+      "targetType": "CREATURE",
+      "flags": { "positive": true, "damage": false, "offensive": false, "hidden": true, "noSpellbook": true, "noShrine": true, "noScroll": true },
+      "sound": { "cast": "" },
+      "levels": {
+        "none": {
+          "description": { "en": "", "ru": "" },
+          "effects": {},
+          "battleEffects": {
+            "timed": {
+              "cumulative": true,
+              "bonuses": {
+                "spdUp": {
+                  "type": "PRIMARY_SKILL",
+                  "subtype": "creature.speed",
+                  "val": 1,
+                  "valueType": "ADDITIVE_VALUE",
+                  "duration": "ONE_BATTLE"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

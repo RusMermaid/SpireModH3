@@ -1,0 +1,61 @@
+{
+  "creatures": {
+    "spire.cultist": {
+      "abilities": { },
+      "attack": 2,
+      "defense": 4,
+      "speed": 5,
+      "damage": { "min": 1, "max": 2 },
+      "hitPoints": 4,
+      "growth": 13,
+      "level": 1,
+      "faction": "spire",
+      "cost": { "gold": 35 },
+      "doubleWide": false,
+      "name": {
+        "singular": { "en": "Cultist", "ru": "Культист" },
+        "plural":   { "en": "Cultists", "ru": "Культисты" }
+      },
+      "graphics": {
+        "animation": "",
+        "iconLarge": "",
+        "iconSmall": "",
+        "map": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 },
+        "timeBetweenFidgets": 1
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" },
+      "upgrades": [ "spire.occultist" ]
+    },
+
+    "spire.occultist": {
+      "abilities": {
+        "shooter": { "type": "SHOOTER" },
+        "shots":   { "type": "SHOTS", "val": 16 }
+      },
+      "attack": 3,
+      "defense": 5,
+      "speed": 6,
+      "damage": { "min": 1, "max": 3 },
+      "hitPoints": 5,
+      "growth": 13,
+      "level": 1,
+      "faction": "spire",
+      "cost": { "gold": 80 },
+      "doubleWide": false,
+      "name": {
+        "singular": { "en": "Occultist", "ru": "Окультист" },
+        "plural":   { "en": "Occultists", "ru": "Окультисты" }
+      },
+      "graphics": {
+        "animation": "",
+        "iconLarge": "",
+        "iconSmall": "",
+        "map": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 },
+        "timeBetweenFidgets": 1
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" }
+    }
+  }
+}

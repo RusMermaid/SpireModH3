@@ -1,0 +1,123 @@
+{
+  "creatures": {
+    "strix": {
+      "abilities": {
+        "noCorpse": { "type": "NO_CORPSE" },
+        "spellPower": { "type": "CREATURE_SPELL_POWER", "val": 250 },
+        "casts": { "type": "CASTS", "val": 4 },
+        "castStorm": { "type": "SPELLCASTER", "subtype": "spire.storm.adv", "val": 2, "addInfo": 10 }
+      },
+      "attack": 8,
+      "defense": 12,
+      "speed": 7,
+      "damage": { "min": 9, "max": 13 },
+      "hitPoints": 30,
+      "growth": 3,
+      "level": 5,
+      "faction": "spire",
+      "cost": { "gold": 525 },
+      "name": {
+        "singular": { "en": "Strix", "ru": "Стрикс" },
+        "plural":   { "en": "Strixes", "ru": "Стриксы" }
+      },
+      "doubleWide": false,
+      "graphics": { "animation": "", "iconLarge": "", "iconSmall": "", "map": "", "animationTime": { "attack": 1, "idle": 10, "walk": 1 }, "timeBetweenFidgets": 1 },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" },
+      "upgrades": [ "nebulastrix" ]
+    },
+
+    "nebulastrix": {
+      "abilities": {
+        "noCorpse": { "type": "NO_CORPSE" },
+        "airImmunity": { "type": "MAGIC_SCHOOL_IMMUNITY", "subtype": "AIR" },
+        "spellPower": { "type": "CREATURE_SPELL_POWER", "val": 300 },
+        "casts": { "type": "CASTS", "val": 8 },
+        "castStorm": { "type": "SPELLCASTER", "subtype": "spire.storm.exp", "val": 3, "addInfo": 10 }
+      },
+      "attack": 8,
+      "defense": 12,
+      "speed": 8,
+      "damage": { "min": 10, "max": 14 },
+      "hitPoints": 30,
+      "growth": 3,
+      "level": 5,
+      "faction": "spire",
+      "cost": { "gold": 666 },
+      "name": {
+        "singular": { "en": "Nebulastrix", "ru": "Стрикс-Туманница" },
+        "plural":   { "en": "Nebulastrixes", "ru": "Стриксы-Туманницы" }
+      },
+      "doubleWide": false,
+      "graphics": { "animation": "", "iconLarge": "", "iconSmall": "", "map": "", "animationTime": { "attack": 1, "idle": 10, "walk": 1 }, "timeBetweenFidgets": 1 },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" }
+    }
+  },
+
+  "spells": {
+    "spire.storm.basic": {
+      "type": "combat",
+      "name": { "en": "Storm Laughter (Basic)", "ru": "Штормовой смех (Баз.)" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 0,
+      "allowedFor": ["CREATURE"],
+      "targetType": "CREATURE",
+      "flags": { "damage": true, "offensive": true, "hidden": true, "noSpellbook": true, "noShrine": true, "noScroll": true },
+      "sound": { "cast": "" },
+      "levels": {
+        "none": {
+          "description": { "en": "", "ru": "" },
+          "effects": {},
+          "graphics": { "projectile": "spell.magicArrow", "area": "" },
+          "battleEffects": {
+            "damage": { "base": "spell.lightningBolt" }
+          }
+        }
+      }
+    },
+
+    "spire.storm.adv": {
+      "type": "combat",
+      "name": { "en": "Storm Laughter (Adv.)", "ru": "Штормовой смех (Продв.)" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 0,
+      "allowedFor": ["CREATURE"],
+      "targetType": "CREATURE",
+      "flags": { "damage": true, "offensive": true, "hidden": true, "noSpellbook": true, "noShrine": true, "noScroll": true },
+      "sound": { "cast": "" },
+      "levels": {
+        "none": {
+          "description": { "en": "", "ru": "" },
+          "effects": {},
+          "graphics": { "projectile": "spell.magicArrow", "area": "" },
+          "battleEffects": {
+            "damage": { "base": "spell.lightningBolt" }
+          }
+        }
+      }
+    },
+
+    "spire.storm.exp": {
+      "type": "combat",
+      "name": { "en": "Storm Laughter (Exp.)", "ru": "Штормовой смех (Экп.)" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 0,
+      "allowedFor": ["CREATURE"],
+      "targetType": "CREATURE",
+      "flags": { "damage": true, "offensive": true, "hidden": true, "noSpellbook": true, "noShrine": true, "noScroll": true },
+      "sound": { "cast": "" },
+      "levels": {
+        "none": {
+          "description": { "en": "", "ru": "" },
+          "effects": {},
+          "graphics": { "projectile": "spell.magicArrow", "area": "" },
+          "battleEffects": {
+            "damage": { "base": "spell.lightningBolt" }
+          }
+        }
+      }
+    }
+  }
+}

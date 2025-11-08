@@ -1,0 +1,102 @@
+{
+	"modType" : "Town",
+	"name" : "Spire",
+	"description" : "New faction based on psyche and the mind",
+	"author" : "RusMermaid",
+	"contact" : "Discord and telegram: @rusmermaid",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.0",
+	
+	"changelog" :
+    {
+		"1.00"   : [ "Pre release"  ]
+    },
+	
+	"compatibility":
+	{
+		"min" : "1.6.0"
+	},
+	
+	"spells" : [ 
+		"config/spire/spells/Confusion",
+		"config/spire/spells/Fear",
+		"config/spire/spells/Levitation",
+		"config/spire/spells/WaspSwarm",
+
+        "config/spire/spells/summonElementals",
+		"config/spire/spells/summonAngel",
+        "config/spire/spells/summonDemon",
+		"config/spire/spells/moat"
+		],
+		
+	"creatures" : [
+		"config/spire/creatures/stackExp",
+		"config/spire/creatures/wiki",
+		
+		"config/spire/creatures/lvl1unit",
+		"config/spire/creatures/lvl2unit",
+		"config/spire/creatures/lvl3unit",
+		"config/spire/creatures/lvl4unit",
+		"config/spire/creatures/lvl5unit",
+		"config/spire/creatures/lvl6unit",				
+		"config/spire/creatures/lvl7unit",
+		
+		"config/spire/warmachines/potionCartCreature",
+		"config/spire/warmachines/cameraObscuraCreature",
+		
+		"config/spire/creatures/commander"
+		],
+	"artifacts" : [
+		"config/spire/warmachines/potionCartArtifact",
+		"config/spire/warmachines/cameraObscuraArtifact"
+	],
+	
+	"skills" : [
+		"config/spire/skills/firstAidPotions"
+	],
+		
+	"factions" : [
+		"config/spire/town",
+		"config/spire/spirePuzzle"	
+	],
+	
+	"heroClasses" : [ 
+		"config/spire/classes/mightHero", 
+		"config/spire/classes/magicHero" 
+	],
+	
+	"heroes" : [
+		"config/spire/heroes/Nefefareen",
+		"config/spire/heroes/Auk",
+		"config/spire/heroes/Dizheel",
+		"config/spire/heroes/Ophrys",
+		"config/spire/heroes/Zana",
+		"config/spire/heroes/Lumiere",
+		"config/spire/heroes/Raphus",
+		"config/spire/heroes/Vogundessi",
+		"config/spire/heroes/Dictamnus",
+		"config/spire/heroes/Teophrast",
+		"config/spire/heroes/Audred",
+		"config/spire/heroes/Zazzerpan",
+		"config/spire/heroes/Migdigravia",
+		"config/spire/heroes/Caballe",
+		"config/spire/heroes/Hanester",
+		"config/spire/heroes/Kanim",
+		"config/spire/heroes/heroTexts"
+		
+	],
+	"objects" : [
+		"config/spire/dwellings", 
+		"config/spire/otherObjects" 
+	],
+
+	
+	"russian" : {
+		"name" : "Шпиль",
+		"description" : "Новый город человеческой психики и головомка сама по себе",
+		"translations" : [
+			"translation/spire/russian.json"
+		]
+	}
+}

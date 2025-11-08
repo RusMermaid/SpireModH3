@@ -1,0 +1,35 @@
+{
+	"core:oceanBottle" : {
+		"types" : {
+			"spireJournal" : {
+				"name" : "Journal",
+				"sounds": {
+					"visit" : ["STORE"]
+				},
+				"tags":["sign", "journal", "book", "letter"],
+				"aiValue" : 0,				
+				"templates" : {
+					"journal" : { 
+						"animation" : "spire/map/other/AJournal",
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VV", "VA" ] 
+					}					
+				}
+			},
+			"spireLetter" : {
+				"name" : "Letter",
+				"sounds": {
+					"visit" : ["STORE"]
+				},	
+				"tags":["sign", "journal", "book", "letter"],
+				"aiValue" : 0,
+				"templates" : {			
+					"letter" : { "animation" : "spire/map/other/ALetter", 
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VV", "VA" ]
+					}
+				}
+			}
+		}	
+	}
+}

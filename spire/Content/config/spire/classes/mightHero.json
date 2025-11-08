@@ -1,0 +1,93 @@
+{
+  "sprsentinel" :
+  {
+    "faction" : "Spire",
+    "animation" :
+    {
+      "battle" :
+      {
+        "male"   : "",
+        "female" : ""
+      }
+    },
+    "mapObject" : {
+      "templates" : {
+        "male"   : { "animation" : "" },
+        "female" : { "animation" : "" }
+      }
+    },
+
+    "name" : "Sentinel",
+
+    "affinity" : "might",
+
+    "commander" : "sa",
+
+    "primarySkills" :
+    {
+      "attack"     : 4,
+      "defence"    : 0,
+      "spellpower" : 0,
+      "knowledge"  : 2
+    },
+    "lowLevelChance" :
+    {
+      "attack"     : 40,
+      "defence"    : 10,
+      "spellpower" : 30,
+      "knowledge"  : 20
+    },
+    "highLevelChance" :
+    {
+      "attack"     : 30,
+      "defence"    : 20,
+      "spellpower" : 20,
+      "knowledge"  : 30
+    },
+    "secondarySkills" :
+    {
+      "pathfinding"  : 3,
+      "archery"      : 4,
+      "logistics"    : 5,
+      "scouting"     : 3,
+      "diplomacy"    : 1,
+      "navigation"   : 3,
+      "leadership"   : 3,
+      "wisdom"       : 1,
+      "mysticism"    : 4,
+      "luck"         : 3,
+      "ballistics"   : 5,
+      "eagleEye"     : 4,
+      "necromancy"   : 0,
+      "estates"      : 1,
+      "fireMagic"    : 0,
+      "airMagic"     : 4,
+      "waterMagic"   : 4,
+      "earthMagic"   : 3,
+      "scholar"      : 4,
+      "tactics"      : 1,
+      "artillery"    : 5,
+      "learning"     : 2,
+      "offence"      : 9,
+      "armorer"      : 6,
+      "intelligence" : 1,
+      "sorcery"      : 2,
+      "resistance"   : 2,
+      "firstAid"     : 7,
+      "Alkahestry"	: 10
+    },
+    "defaultTavern" : 5,
+    "tavern" :
+    {
+      "castle"     : 4,
+      "rampart"    : 3,
+      "tower"      : 3,
+      "inferno"    : 0,
+      "necropolis" : 1,
+      "dungeon"    : 1,
+      "stronghold" : 3,
+      "fortress"   : 3,
+      "conflux"    : 0
+    }
+  }
+}

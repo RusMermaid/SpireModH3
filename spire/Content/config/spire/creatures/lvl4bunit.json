@@ -1,0 +1,69 @@
+{
+  "creatures": {
+    "spire.embermoon": {
+      "abilities": {
+        "heroManaRegen": {
+          "type": "MANA_PERCENTAGE_REGENERATION",
+          "val": 5,
+          "valueType": "ADDITIVE_VALUE",
+          "propagator": ["HERO"],
+          "stacking": "spire-fox-mana-aura",
+          "description": ""
+        }
+      },
+      "attack": 12,
+      "defense": 6,
+      "speed": 7,
+      "damage": { "min": 9, "max": 9 },
+      "hitPoints": 20,
+      "growth": 4,
+      "level": 4,
+      "faction": "spire",
+      "cost": { "gold": 325 },
+      "doubleWide": true,
+      "name": {
+        "singular": { "en": "Embermoon", "ru": "Янтарница" },
+        "plural":   { "en": "Embermoons", "ru": "Янтарницы" }
+      },
+      "graphics": {
+        "animation": "", "iconLarge": "", "iconSmall": "", "map": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 }, "timeBetweenFidgets": 1
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" },
+      "upgrades": ["spire.huxian"]
+    },
+
+    "spire.huxian": {
+      "abilities": {
+        "noRetal": { "type": "NO_RETALIATION" },
+        "heroManaRegen": {
+          "type": "MANA_PERCENTAGE_REGENERATION",
+          "val": 10,
+          "valueType": "ADDITIVE_VALUE",
+          "propagator": ["HERO"],
+          "stacking": "spire-fox-mana-aura",
+          "description": ""
+        }
+      },
+      "attack": 13,
+      "defense": 6,
+      "speed": 8,
+      "damage": { "min": 9, "max": 10 },
+      "hitPoints": 20,
+      "growth": 4,
+      "level": 4,
+      "faction": "spire",
+      "cost": { "gold": 375 },
+      "doubleWide": true,
+      "name": {
+        "singular": { "en": "Huxian", "ru": "Хулъцзин" },
+        "plural":   { "en": "Huxian", "ru": "Хулъцзины" }
+      },
+      "graphics": {
+        "animation": "", "iconLarge": "", "iconSmall": "", "map": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 }, "timeBetweenFidgets": 1
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+    "summonAngel": {
+        "type": "combat",
+        "name": "Angel",
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": true
+        },
+        "level": 5,
+        "power": 1,
+        "defaultGainChance": 4,
+        "gainChance": {
+            "castle": 10
+        },
+        "flags": {
+            "indifferent": true
+        },
+        "graphics": {
+            "iconBook": "spire/summonAngelBook",
+            "iconScroll": "spire/summonAngelScroll",
+            "iconScenarioBonus": "spire/summonAngelSpell",
+            "iconEffect": "spire/summonAngelEffect"
+        },
+        "animation": {
+            "cast": [
+                "newSummonAngel.def"
+            ]
+        },
+        "sounds": {
+            "cast": "SUMNELM"
+        },
+        "targetType": "NO_TARGET",
+        "levels": {
+            "base": {
+                "description": "{Summon Angel}\r\n\r\nAllows you to summon Angels.\r\n\r\nOnce cast, any other creature can be summoned.",
+                "range": "X",
+                "cost": 35,
+                "power": 1,
+				"aiValue": 10,
+                "battleEffects": {
+                    "summon": {
+                        "exclusive": false,
+                        "id": "angel",
+                        "permanent": false,
+                        "type": "core:summon"
+                    }
+                }
+            },
+            "none": {
+                "cost": 150,
+                "power": 1,
+				"aiValue": 10
+            },
+            "basic": {
+				"description": "{Basic Summon Angel}\r\n\r\nAllows you to summon Angels.\r\n\r\nOnce cast, any other creature can be summoned.",
+                "cost": 150,
+                "power": 2,
+				"aiValue": 11
+            },
+            "advanced": {
+				"description": "{Advanced Summon Angel}\r\n\r\nAllows you to summon Angels.\r\n\r\nOnce cast, any other creature can be summoned.",
+                "cost": 150,
+                "power": 3,
+				"aiValue": 12
+            },
+            "expert": {
+				"description": "{Expert Summon Angel}\r\n\r\nAllows you to summon Angels.\r\n\r\nOnce cast, any other creature can be summoned.",
+                "cost": 140,
+                "power": 4,
+				"aiValue": 13
+            }
+        }
+    }
+}
