@@ -121,7 +121,7 @@
 						"type": "STACKS_SPEED",
 						"valueType" : "PERCENT_TO_ALL",
 						"duration" : "STACK_GETS_TURN",
-						"val": -50
+						"val": -33
 					}
 				}
 			},
@@ -139,7 +139,7 @@
 						"type": "STACKS_SPEED",
 						"valueType" : "PERCENT_TO_ALL",
 						"duration" : "STACK_GETS_TURN",
-						"val": -75
+						"val": -50
 					}
 				}
 			}
