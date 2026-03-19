@@ -1,0 +1,57 @@
+{
+	"steraks" : 
+	{
+		"class" : "general",
+		"female" : false,
+"texts" :
+		{
+			"name" : "Steraks",
+			"biography" : "Steraks mad scientist, who became the undead from their experiments, but continuously works.",
+			"specialty" :
+			{
+				"description" : "Can upgrade Cyborgs to Carnivores",
+				"tooltip" : "Creature Bonus: Cyborgs",
+				"name" : "Carnivores"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/steraks/spec-small.bmp",
+			"specialtyLarge" : "factory/heroes/steraks/spec-large.bmp",
+			"large" : "factory/heroes/steraks/portrait-large.bmp",
+			"small" : "factory/heroes/steraks/portrait-small.bmp"
+		},
+"spellbook" :
+		[
+			"teleport"		],
+
+
+		"army" :
+		[
+			{ "creature" : "faCyberDead", "min" : 10, "max" : 15 },
+			{ "creature" : "faGruntSoldier", "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.faCyberHunter",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"cyborg2carnivore" : { "subtype" : "creature.faCyborg" }
+			}
+		}
+	}
+}

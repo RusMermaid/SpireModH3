@@ -1,0 +1,80 @@
+{
+	"stringer":
+	{
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "forge",
+		"aiValue" : 1112,
+		"attack" : 14,
+		"cost" :
+		{
+			"gold" : 625
+		},
+		"damage" :
+		{
+			"max" : 15,
+			"min" : 12
+		},
+		"defense" : 8,
+		"fightValue" : 880,
+		"graphics" :
+		{
+			"animation" : "forge/battle/CR203.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "forge/map/stringer.def",
+			"iconSmall" : "forge/iconsSmall/CPRS203F.bmp",
+			"iconLarge" : "forge/iconsBig/CPrL203B.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 4,
+				"attack" : 1,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "forge/battle/projectile/SHOT208.DEF",
+			       "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+		},
+		"growth" : 3,
+		"hitPoints" : 60,
+		"level" : 5,
+		"upgrades":
+		[
+			"bruiser"
+		],
+		"shots" : 6,
+		"sound" :
+		{
+			"attack" : "forge/S203ATTK.wav",
+			"defend" : "forge/S203DFND.wav",
+			"killed" : "forge/S203KILL.wav",
+			"move" : "forge/S203MOVE.wav",
+			"wince" : "forge/S203WNCE.wav",
+ 			"shoot" : "forge/S203SHOT.wav"                    
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+                     "canshoot" :
+			{
+				"type" : "SHOOTER"
+			}
+		
+		}
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"faCyberHunter":
+	{
+		"name" :
+		{
+			"plural" : "Carnivores",
+		    "singular" : "Carnivore"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "factory",
+		"aiValue" : 324,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 3
+		},
+		"defense" : 7,
+		"fightValue" : 332,
+		"graphics" :
+		{
+			"animation" : "factory/battle/cyber.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.2 },
+			"map" : "factory/map/cyber.def",
+			"iconSmall" : "factory/iconsSmall/cyber.bmp",
+			"iconLarge" : "factory/iconsBig/cyber.bmp",
+			"timeBetweenFidgets" : 1
+		},
+        "hasDoubleWeek": true,
+		"growth" : 8,
+		"hitPoints" : 16,
+		"level" : 2,
+		"sound" :
+		{
+			"attack" : "factory/CHATTACK.wav",
+			"defend" : "factory/CHDEFEND.wav",
+			"killed" : "factory/CHDIE.wav",
+			"move"   : "factory/CHMOVE.wav",
+			"wince"  : "factory/CHWINCE.wav"
+		},
+		"speed" : 7,
+        "abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"enemyDefenceReduction" : 
+			{ 
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 25
+            },
+			"extraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		}
+	}
+}

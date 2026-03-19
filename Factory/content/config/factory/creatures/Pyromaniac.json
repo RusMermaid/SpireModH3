@@ -1,0 +1,75 @@
+{
+	"faPyromaniac":
+	{
+		"name" :
+		{
+			"plural" : "Purifiers",
+			"singular" : "Purifier"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "factory",
+		"aiValue" : 297,
+		"attack" : 9,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 280
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 3
+		},
+		"defense" : 6,
+		"fightValue" : 295,
+		"graphics" :
+		{
+			"animation" : "factory/battle/maniac.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "factory/map/maniac.def",
+			"iconSmall" : "factory/iconsSmall/maniac.bmp",
+			"iconLarge" : "factory/iconsBig/maniac.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 7,
+		"hitPoints" : 22,
+		"level" : 3,
+		"sound" :
+		{
+			"attack" : "factory/S201ATTK.wav",
+			"defend" : "factory/S201DFND.wav",
+			"killed" : "factory/S201KILL.wav",
+			"move" : "factory/S201MOVE.wav",
+			"wince" : "factory/S201WNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+            "abilities1":
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"lightingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 100
+			},
+			"chainLightingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 100
+			},
+             "ImmunityToFire" :
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 2
+			}
+		}
+	}
+}

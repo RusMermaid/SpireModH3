@@ -1,0 +1,62 @@
+{
+	"militian":
+	{
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "forge",
+		"aiValue" : 115,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 90
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 7,
+		"fightValue" : 130,
+		"graphics" :
+		{
+			"animation" : "forge/battle/CR200.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "forge/map/militian.def",
+			"iconSmall" : "forge/iconsSmall/CPrS200F.bmp",
+			"iconLarge" : "forge/iconsBig/CPrL200B.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.95,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+	
+		"growth" : 14,
+		"hitPoints" : 10,
+		"horde" : 7,
+		"level" : 1,
+		"sound" :
+		{
+			"attack" : "forge/S200ATTK.wav",
+			"defend" : "forge/S200DFND.wav",
+			"killed" : "forge/S200KILL.wav",
+			"move" : "forge/S200MOVE.wav",
+			"wince" : "forge/S200WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"deathCloundImmunity"	:
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud"
+			}
+
+		}
+	}
+}

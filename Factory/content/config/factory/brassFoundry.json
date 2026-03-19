@@ -1,0 +1,22 @@
+{
+ "core:warMachineFactory" : {
+        "types" : {
+            "brassFoundry" : {
+                "creatures" : [[ "faMortira" ]],
+				"name" : "Brass Foundry",
+                "templates" : {
+                    "fred1631" : {
+                        "animation" : "factory/map/dwellings/FRED1631.def",
+                        "visitableFrom" : [ "+++", "+++", "+++" ], 
+                        "mask" : [ "VVVV", "VBBB", "VBAV" ]
+                    }
+                },
+                "rmg" : {
+                    "zoneLimit"    : 1,
+                    "value"        : 1500,
+                    "rarity"    : 50
+                }
+            }
+        }
+    }
+}	

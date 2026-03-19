@@ -1,0 +1,74 @@
+{
+	"jumpSoldier":
+	{
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 10
+		},
+		"faction" : "forge",
+		"aiValue" : 586,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 350
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 9
+		},
+		"defense" : 8,
+		"fightValue" : 559,
+		"graphics" :
+		{
+			"animation" : "forge/battle/CR205.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "forge/map/jumpsoldier.def",
+			"iconSmall" : "forge/iconsSmall/CPrS205F.bmp",
+			"iconLarge" : "forge/iconsBig/CPrL205B.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"flight" : 1
+			},
+              },
+
+		"growth" : 4,
+		"hitPoints" : 40,
+		"level" : 4,
+		"upgrades":
+		[
+			"jumpTrooper"
+		],
+		"sound" :
+		{
+			"attack" : "forge/S205ATTK.wav",
+			"defend" : "forge/S205DFND.wav",
+			"killed" : "forge/S205KILL.wav",
+			"move" : "forge/S205MOVE.wav",
+			"wince" : "forge/S205WNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+		"flying" :
+			{
+				"type" : "FLYING"
+			},
+		"spellimmunityslow" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow"
+			},
+		"spellimmunityquick" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.quicksand"
+			}
+
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"name" : "Factory",
+	"description" : "New town Factory based on old Forge project.",
+	"author" : "Polish modders team, zeryss",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.3.0",
+	"modType" : "Town",
+	"changelog" :
+    {
+        "1.3.0"   : [ "Rebalancing", "New sounds", "New war machine", "Bugfixing"  ]
+    },
+	
+	"factions" :
+	[
+		"config/factory/town/buildings.json",
+		"config/factory/town/faction.json",
+		"config/factory/town/siege.json",
+		"config/factory/town/spells.json",
+		"config/factory/town/structures.json",
+		"config/factory/town/puzzle.json"
+	],
+     "creatures" :
+	[
+		"config/factory/creatures/CyberDead.json",
+		"config/factory/creatures/CyberZombie.json",
+		"config/factory/creatures/Cyborg.json",
+		"config/factory/creatures/GruntSoldier.json",
+		"config/factory/creatures/FootSoldier.json",
+		"config/factory/creatures/Pyro.json",
+		"config/factory/creatures/Pyromaniac.json",
+		"config/factory/creatures/mechFighter.json",
+		"config/factory/creatures/mechWarrior.json",
+		"config/factory/creatures/Droid.json",
+		"config/factory/creatures/CyberHunter.json",
+		"config/factory/creatures/SkyFighter.json",
+		"config/factory/creatures/SkyHunter.json",
+		"config/factory/creatures/BattleDroid.json",
+		"config/factory/creatures/WarDroid.json",
+		"config/factory/creatures/mechFighter.json",
+		"config/factory/creatures/mechWarrior.json",
+		"config/factory/creatures/MechanicalDragon.json",
+		"config/factory/creatures/HydraulicDragon.json",
+		"config/factory/creatures/Arkhon.json",
+		"config/factory/creatures/AcidDragon.json",
+		"config/factory/creatures/Mortira.json"
+	],
+	"heroClasses" :
+	[
+		"config/factory/heroes/General.json",
+		"config/factory/heroes/Technik.json"
+
+	],
+    "artifacts" :
+    [              
+       "config/factory/artifacts/mortiraArt.json"        
+    ],
+	"heroes" :
+	[
+		"config/factory/heroes/steraks.json",
+        "config/factory/heroes/Horna.json",
+        "config/factory/heroes/seprinteer.json",
+		"config/factory/heroes/Meltes.json",
+		"config/factory/heroes/singhel.json",
+		"config/factory/heroes/niclas.json",
+		"config/factory/heroes/charity.json",
+		"config/factory/heroes/sunni.json",
+		"config/factory/heroes/kastore.json",
+		"config/factory/heroes/rengist.json",
+		"config/factory/heroes/minore.json",
+		"config/factory/heroes/leane.json",
+		"config/factory/heroes/tarkin.json",
+		"config/factory/heroes/maximus.json",
+		"config/factory/heroes/cistrict.json",
+		"config/factory/heroes/karen.json",
+		"config/factory/heroes/resurrecta.json"		
+	],
+    "objects" :
+    [ 
+    "config/factory/dwellings",
+	"config/factory/brassFoundry"	
+	]
+}

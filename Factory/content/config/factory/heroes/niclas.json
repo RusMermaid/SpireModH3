@@ -1,0 +1,55 @@
+{
+	"niclas" :
+	{
+		"class" : "general",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Niclas",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Crystal + 1}\r\n\r\nIncreases kingdom's income by 1 crystal per day",
+				"tooltip" : "+1 Crystal each day",
+				"name" : "+1 Crystals"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "factory/heroes/niclas/spec-small.png",
+			"specialtyLarge" : "factory/heroes/niclas/spec-large.png",
+			"large" : "factory/heroes/niclas/portrait-large.png",
+			"small" : "factory/heroes/niclas/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "faCyberDead", "min" : 10, "max" : 15 },
+			{ "creature" : "faGruntSoldier", "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro", "min" : 4, "max" : 6}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

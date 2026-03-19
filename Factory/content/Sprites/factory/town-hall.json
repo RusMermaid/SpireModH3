@@ -1,0 +1,8 @@
+{
+    "basepath" : "factory/images/",
+	"images" :
+	[
+		{ "frame" : 39, "file" : "TBELup_2.png"},
+		{ "frame" : 44, "file" : "TBELup2_1.png"}
+	]
+}

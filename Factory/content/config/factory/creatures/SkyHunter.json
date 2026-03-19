@@ -1,0 +1,74 @@
+{
+	"faSkyHunter":
+	{
+		"name" :
+		{
+			"plural" : "Sky Hunters",
+			"singular" : "Sky Hunter"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "factory",
+		"aiValue" : 800,
+		"attack" : 12,
+		"doubleWide" : true,
+        "cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 7
+		},
+		"defense" : 9,
+		"fightValue" : 740,
+		"graphics" :
+		{
+			"animation" : "factory/battle/Hunter.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "factory/map/Hunter.def",
+			"iconSmall" : "factory/iconsSmall/Hunter.bmp",
+			"iconLarge" : "factory/iconsBig/Hunter.bmp",
+			"timeBetweenFidgets" : 1
+        },
+
+		"growth" : 4,
+		"hitPoints" : 45,
+		"level" : 4,
+		"sound" :
+		{
+			"attack" : "factory/S206ATTK.wav",
+			"defend" : "factory/S206DFND.wav",
+			"killed" : "factory/S206KILL.wav",
+			"move" : "factory/S206MOVE.wav",
+			"wince" : "factory/S206WNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"no morale" :
+			{
+				"type" : "NO_MORALE",
+			},
+			"canfly" :
+			{
+				"type" : "FLYING"
+			},
+             "fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+            "enchanted" : 
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 2
+			}
+		}
+	}
+}
+

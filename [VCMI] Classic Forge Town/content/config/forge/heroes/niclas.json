@@ -1,0 +1,59 @@
+{
+	"niclas" :
+	{
+		"class" : "guardian",
+
+		"images" :
+		{
+			
+			"specialtySmall" : "forge/heroes/niclas/spec-small.png",
+			"specialtyLarge" : "forge/heroes/niclas/spec-large.png",
+			"large" : "forge/heroes/niclas/portrait-large.png",
+			"small" : "forge/heroes/niclas/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "guard",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gruntSoldier",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty": //estate bonus
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "GENERATE_RESOURCE",
+						"subtype": "resource.gems",
+						"val": 1
+					}
+				]
+			}
+		]
+	}
+}

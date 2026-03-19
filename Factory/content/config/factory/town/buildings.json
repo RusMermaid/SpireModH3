@@ -1,0 +1,497 @@
+{
+	"factory" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"mageGuild1" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"id" : 0
+				},
+				"mageGuild2" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"id" : 1,
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"id" : 2,
+					"upgrades" : "mageGuild2"
+				},
+				"mageGuild4" : 
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
+					},
+					"id" : 3,
+					"upgrades" : "mageGuild3"
+				},
+				"mageGuild5" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
+					},
+					"id" : 4,
+					"upgrades" : "mageGuild4"
+				},
+				"tavern" :
+				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 5
+				},
+				"shipyard" :
+				{
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" :
+					{
+						"wood" : 20,
+						"gold" : 2000
+					},
+					"id" : 6
+				},
+				"fort" :
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" :
+					{
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					},
+					"id" : 7
+				},
+				"citadel" :
+				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 8,
+					"upgrades" : "fort"
+				},
+				"castle" :
+				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					},
+					"id" : 9,
+					"upgrades" : "citadel"
+				},
+				"villageHall" :
+				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"id" : 10,
+					"mode" : "auto"
+				},
+				"townHall" :
+				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"id" : 11,
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
+				},
+				"cityHall" :
+				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
+					"id" : 12,
+					"upgrades" : "townHall"
+				},
+				"capitol" :
+				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"id" : 13,
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
+				},
+				"marketplace" :
+				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 14
+				},
+				"resourceSilo" :
+				{
+					"description" : "The Resourse Silo provides you with an additional +1 sulfur each day.",
+					"name" : "Resourse Silo",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"requires" : [ "marketplace" ],
+					"id" : 15
+				},
+				"blacksmith" :
+				{
+					"description" : "The Blacksmith provides your armies with Mortira.",
+					"name" : "Blacksmith",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 16
+				},
+				"horde1" :
+				{
+					"description" : "The Mess Hall increases weekly production of Foot Soldiers by 6 per week.",
+					"name" : "Mess Hall",
+					"cost" : {
+						"gold" : 1000
+					},
+					"id" : 18,
+					"upgrades" : "dwellingLvl2"
+				},
+				"horde1Upgr" :
+				{
+					"description" : "The Mess Hall increases weekly production of Grunt Soldiers by 6 per week.",
+					"name" : "Mess Hall",
+					"id" : 19,
+					"upgrades" : "dwellingUpLvl2",
+					"requires" : [ "horde1" ],
+					"mode" : "auto"
+				},
+				"ship" :
+				{
+					"name" : "Shipyard",
+					"description" : "Your crew awaits.",
+					"id" : 20
+				},
+				"special1" :
+				{
+					"description" : "The Nanomedic increases luck of any visiting hero for next battle by +1 (not working yet).",
+					"name" : "Nanomedic",
+					"cost" : {
+						"gold" : 2000
+					},
+					"requires" : [ "resourceSilo" ],
+					"id" : 17
+				},
+				"special2" :
+				{
+					"description" : "The Erecting Bay increases the Power skill of any visiting hero by +1.",
+					"name" : "Erecting Bay",
+					"cost" : {
+						"gems" : 2,
+						"gold" : 3000
+					},
+					"requires" : [ "mageGuild2" ],
+					"id" : 21
+				},
+				"grail" :
+				{
+					"description" : "The Tesla's Coil increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
+					"name" : "Tesla's Coil",
+					"id" : 26,
+					"mode" : "grail"
+				},
+				"dwellingLvl1" :
+				{
+					"description" : "The Slaughterhouse allows to recruit Automatons.",
+					"name" : "Slaughterhouse",
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"requires" : [ "fort" ],
+					"id" : 30
+				},
+				"dwellingLvl2" :
+				{
+					"description" : "The Barracks allow to recruit Grunt Soldiers.",
+					"name" : "Barracks",
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"requires" : [ "dwellingLvl1" ],
+					"id" : 31
+				},
+				"dwellingLvl3" :
+				{
+					"description" : "The Fire Basin allows to recruit Incenerators.",
+					"name" : "Fire Basin",
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"mercury" : 5,
+						"gems" : 5
+					},
+					"requires" : [ "anyOf", [ "dwellingLvl4" ], [ "blacksmith" ] ],
+					"id" : 32
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "The Airstrip allows to recruit Sky Fighter.",
+					"name" : "Airstrip",
+					"cost" : {
+						"gold" : 2500,
+						"wood" : 5,
+						"mercury" : 3,
+						"crystal" : 3,
+						"gems" : 3,
+						"sulfur" : 3
+						},
+					"requires" : [ "anyOf", [ "dwellingLvl2" ], [ "marketplace" ] , [ "mageGuild1" ] ],
+					"id" : 33
+				},
+				"dwellingLvl5" :
+				{
+					"description" : "The Exoskeletons Works allow to recruit Land Walkers.",
+					"name" : "Exoskeletons Works",
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"wood" : 2,
+						"sulfur" : 5
+					},
+					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl4" ] ],
+					"id" : 34
+				},
+				"dwellingLvl6" :
+				{
+					"description" : "The Scientists' Outpost allows to recruit Bronze Masterminds.",
+					"name" : "Scientists' Outpost",
+					"cost" : {
+						"gold" : 4000,
+						"ore" : 5,
+						"wood" : 5,
+						"sulfur" : 2,
+						"mercury" : 5
+					},
+					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl5" ] ],
+					"id" : 35
+				},
+				"dwellingLvl7" :
+				{
+					"description" : "The Detached Garage allows to recruit Mechanical Dragons.",
+					"name" : "Detached Garage",
+					"cost" : {
+						"gold" : 12000,
+						"wood" : 10,
+						"mercury" : 10,
+						"ore" : 10,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10
+					},
+					"requires" : [ "dwellingLvl6" ],
+					"id" : 36
+				},
+				"dwellingUpLvl1" :
+				{
+					"description" : " The Slaughterhouse allows to recruit Grim Automatons.",
+					"name" : "Adv. Slaughterhouse",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"id" : 37,
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUp2Lvl1" :
+				{
+					"description" : "The Slaughterhouse allows to recruit Cyborgs.",
+					"name" : "Upg. Slaughterhouse",
+					"cost" : {
+						"gold" : 2500,
+						"wood" : 5,
+						"sulfur" : 3,
+						"mercury" : 5
+					},
+					"id" : 44,
+					"upgrades" : "dwellingUpLvl1",
+					"requires" : [ "mageGuild2" ],
+				},
+				"dwellingUpLvl2" :
+				{
+					"description" : "The Barracks allow to recruit Foot Soldiers.",
+					"name" : "Upg. Barracks",
+					"cost" : {
+						"gold" : 1500,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"id" : 38,
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" :
+				{
+					"description" : "The Fire Basin allows to recruit Purifiers.",
+					"name" : "Upg. Fire Basin",
+					"cost" : {
+						"gold" : 1500,
+						"ore" : 5,
+						"wood" : 5,
+						"mercury" : 2
+					},
+					"id" : 39,
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "The Airstrip allows to recruit Sky Hunters.",
+					"name" : "Upg. Airstrip",
+					"cost" : {
+						"mercury" : 5,
+						"sulfur" : 5,
+						"gold" : 3000,
+						"gems" : 5
+					},
+					"id" : 40,
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" :
+				{
+					"description" : "The Exoskeletons Works allow to recruit Mecha.",
+					"name" : "Adv. Exoskeletons Works",
+					"cost" : {
+						"ore" : 5,
+						"wood" : 5,
+						"gold" : 4000,
+						"crystal" : 10
+					},
+					"id" : 41,
+					"requires" : [ "special2" ],
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUp2Lvl5" :
+				{
+					"description" : "The Exoskeletons Works allow to recruit Assault Mecha.",
+					"name" : "Upg. Exoskeletons Works",
+					"cost" : {
+						"ore" : 5,
+						"wood" : 5,
+						"gold" : 5000,
+						"mercury" : 10
+					},
+					"id" : 48,
+					"requires" : [ "mageGuild3" ],
+					"upgrades" : "dwellingUpLvl5"
+				},
+				"dwellingUpLvl6" :
+				{
+					"description" : "The Scientists' Outpost allows to recruit Steel Masterminds.",
+					"name" : "Upg. Scientists' Outpost",
+					"cost" : {
+						"gold" : 4000,
+						"wood" : 5,
+						"mercury" : 2,
+						"ore" : 5,
+						"sulfur" : 5,
+						"crystal" : 2,
+						"gems" : 2
+					},
+					"id" : 42,
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" :
+				{
+					"description" : "The Detached Garage allows to recruit Hydraulic Dragons.",
+					"name" : "Upg. Detached Garage",
+					"cost" : {
+						"ore" : 10,
+						"gold" : 18000,
+						"crystal" : 5,
+						"gems" : 5,
+						"mercury" : 5
+					},
+					"id" : 43,
+					"requires" : [ "allOf", [ "special1" ], [ "dwellingUpLvl5" ] ],
+					"upgrades" : "dwellingLvl7"
+				}
+			}
+		}
+	}
+}
+

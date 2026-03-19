@@ -1,0 +1,67 @@
+{
+	"faCyberDead":
+	{
+		"name" :
+		{
+			"plural" : "Automatons",
+		    "singular" : "Automaton"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 50,
+			 "min" : 20
+		},
+		"faction" : "factory",
+		"aiValue" : 78,
+		"attack" : 2,
+		"cost" :
+		{
+			"gold" : 45
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 4,
+		"fightValue" : 89,
+		"graphics" :
+		{
+			"animation" : "factory/battle/CR199.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "factory/map/guard.def",
+			"iconSmall" : "factory/iconsSmall/CPrS199F.bmp",
+			"iconLarge" : "factory/iconsBig/CPrL199B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+            "hasDoubleWeek": true,
+		"growth" : 15,
+		"hitPoints" : 5,
+		"level" : 1,
+		"upgrades":
+		[
+			"faCyberZombie"
+		],
+		"sound" :
+		{
+			"attack" : "factory/S199ATTK.wav",
+			"defend" : "factory/S199DFND.wav",
+			"killed" : "factory/S199KILL.wav",
+			"move"   : "factory/S199MOVE.wav",
+			"wince"  : "factory/S199WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+   	     "nonliving":
+			{	
+				"type" : "NON_LIVING"
+			},    
+		"deathCloundImmunity"	:
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud"
+			}
+		}
+	}
+}

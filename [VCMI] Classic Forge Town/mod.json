@@ -1,0 +1,81 @@
+{
+	"name" : "Forge town",
+	"description" : "New town made by Witchking",
+	"author" : "Witchking, Hobbit, Trith, spo³ecznoœæ kwasowej groty",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "like 0.6b",
+	"modType" : "Town",
+
+
+	"factions" :
+	[
+		"config/forge/town/buildings.json",
+		"config/forge/town/faction.json",
+		"config/forge/town/siege.json",
+		"config/forge/town/spells.json",
+		"config/forge/town/structures.json",
+		"config/forge/town/puzzle.json",
+		"config/forge/town/texts.json"
+	],
+	"creatures" :
+	[
+
+		"config/forge/creatures/Guard.json",
+		"config/forge/creatures/Militian.json",
+
+		"config/forge/creatures/GruntSoldier.json",
+		"config/forge/creatures/FootSoldier.json",
+
+		"config/forge/creatures/CyberDead.json",
+		"config/forge/creatures/CyberZombie.json",
+
+		"config/forge/creatures/Pyro.json",
+		"config/forge/creatures/Pyromaniac.json",
+
+		"config/forge/creatures/mechFighter.json",
+		"config/forge/creatures/mechWarrior.json",
+		
+		"config/forge/creatures/Stringer.json",
+		"config/forge/creatures/Bruiser.json",
+		"config/forge/creatures/heavystringer.json",
+
+		"config/forge/creatures/JumpSoldier.json",
+		"config/forge/creatures/JumpTrooper.json",
+
+		"config/forge/creatures/SkyFighter.json",
+		"config/forge/creatures/SkyHunter.json",
+
+		"config/forge/creatures/Juggernaut.json",
+		"config/forge/creatures/Dreadnought.json",
+		
+		"config/forge/creatures/creature-names2.json"
+	],
+	"heroClasses" :
+	[
+		"config/forge/heroes/general.json",
+		"config/forge/heroes/technik.json",
+		"config/forge/heroes/texts-class3.json"
+	],
+
+	"heroes" :
+	[
+		"config/forge/heroes/seprinteer.json",
+		"config/forge/heroes/julian.json",
+		"config/forge/heroes/Meltes.json",
+		"config/forge/heroes/singhel.json",
+		"config/forge/heroes/niclas.json",
+		"config/forge/heroes/charity.json",
+		"config/forge/heroes/sunni.json",
+		"config/forge/heroes/kastore.json",
+		"config/forge/heroes/rengist.json",
+		"config/forge/heroes/minore.json",
+		"config/forge/heroes/leane.json",
+		"config/forge/heroes/tarkin.json",
+		"config/forge/heroes/maximus.json",
+		"config/forge/heroes/cistrict.json",
+		"config/forge/heroes/karen.json",
+		"config/forge/heroes/resurrecta.json",
+		"config/forge/heroes/texts-info3.json"
+	],
+	"objects" : [ "config/forge/dwellings" ]
+}

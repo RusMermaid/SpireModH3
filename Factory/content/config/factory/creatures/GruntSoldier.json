@@ -1,0 +1,81 @@
+{
+	"faGruntSoldier":
+	{
+		"name" :
+		{
+			"plural" : "Grunt Soldiers",
+			"singular" : "Grunt Soldier"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 25
+		},
+		"faction" : "factory",
+		"aiValue" : 188,
+		"attack" : 8,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 150
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 2
+		},
+		"defense" : 4,
+		"fightValue" : 198,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "factory/battle/CR197.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "factory/map/gruntsoldier.def",
+			"iconSmall" : "factory/iconsSmall/CPrS197F.bmp",
+			"iconLarge" : "factory/iconsBig/CPrL197B.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "factory/battle/projectile/SHOT197.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+
+		"growth" : 9,
+		"hitPoints" : 12,
+        "level" : 2,
+		"shots" : 12,
+		"upgrades":
+		[
+			"faFootSoldier"
+		],
+		"sound" :
+		{
+			"attack" : "factory/S198ATTK.wav",
+			"defend" : "factory/S198DFND.wav",
+			"killed" : "factory/S198KILL.wav",
+			"move" : "factory/S198MOVE.wav",
+			"wince" : "factory/S198WNCE.wav",
+            "shoot" : "factory/S198SHOT.wav"
+		},
+		"speed" : 4,
+		"abilities" :
+		{
+		"shooter" :
+			{
+				"type" : "SHOOTER"
+			}
+		}
+	}
+}

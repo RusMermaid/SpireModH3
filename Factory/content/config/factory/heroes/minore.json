@@ -1,0 +1,58 @@
+{
+	"minore" : 
+	{
+		"class" : "technik",
+		"female" : false,
+"texts" :
+		{
+			"name" : "Minore",
+			"biography" : "Minoure od zawsze lubila igrac umyslami wrogow, przez co zawsze potrafila wyjsc nawet z najgorszej opresji. Wygnana z rodzinnej Bracady za praktykowanie niedozwolonej magii, znalazla miejsce u boku Kastora, ktory docenil jej nietypowe zdolnosci mianujac ja na dowodce swojej armii.",
+			"specialty" : 
+			{
+				"description" : "Hero can cast the Berserk spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Berserk",
+				"name" : "Berserk"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/minore/spec-small.png",
+			"specialtyLarge" : "factory/heroes/minore/spec-large.png",
+			"large" : "factory/heroes/minore/portrait-large.png",
+			"small" : "factory/heroes/minore/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"berserk"
+		],
+		"army" :
+		[
+			{ "creature" : "faCyberDead", "min" : 10, "max" : 15 },
+			{ "creature" : "faGruntSoldier", "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"berserk" : {
+					"addInfo" : 0,
+					"subtype" : "spell.berserk",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+

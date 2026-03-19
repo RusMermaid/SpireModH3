@@ -1,0 +1,63 @@
+{
+	"faMechFighter":
+	{
+		"name" :
+		{
+			"plural" : "Bronze Masterminds",
+			"singular" : "Bronze Mastermind"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"faction" : "factory",
+		"aiValue" : 2079,
+		"attack" : 14,
+		"cost" :
+		{
+			"gold" : 1050
+			
+		},
+		"damage" :
+		{
+			 "max" : 28,
+			 "min" : 15
+		},
+		"defense" : 15,
+		"fightValue" : 1744,
+		"graphics" :
+		{
+			"animation" : "factory/battle/Mecha.DEF",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "factory/map/mechF",
+			"iconSmall" : "factory/iconsSmall/Mecha.bmp",
+			"iconLarge" : "factory/iconsBig/Mecha.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 120,
+		"level" : 6,
+		"upgrades":
+		[
+			"faMechWarrior"
+		],
+		"sound" :
+		{
+			"attack" : "factory/S209ATTK.wav",
+			"defend" : "factory/S209DFND.wav",
+			"killed" : "factory/S209KILL.wav",
+			"move" : "factory/S209MOVE.wav",
+			"wince" : "factory/S209WNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+		"no morale" :
+			{
+				"type" : "NO_MORALE"
+			}
+		}
+	}
+}

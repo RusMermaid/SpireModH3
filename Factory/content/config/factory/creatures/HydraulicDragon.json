@@ -1,0 +1,76 @@
+{
+	"faHydraulicDragon":
+	{
+		"name" :
+		{
+			"plural" : "Hydraulic Dragons",
+			"singular" : "Hydraulic Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "factory",
+		"aiValue" : 8031,
+		"attack" : 27,
+		"cost" :
+		{
+			"gold" : 3250,
+			"mercury" : 3
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 30
+		},
+		"defense" : 22,
+		"fightValue" : 6285,
+		"graphics" :
+		{
+			"animation" : "factory/battle/CR210.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.23 },
+			"map" : "factory/map/7b.def",
+			"iconSmall" : "factory/iconsSmall/CPrS210F.bmp",
+			"iconLarge" : "factory/iconsBig/CPrL210B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 240,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "factory/S210ATTK.wav",
+			"defend" : "factory/S210DFND.wav",
+			"killed" : "factory/S210KILL.wav",
+			"move" : "factory/S210MOVE.wav",
+			"wince" : "factory/S210WNCE.wav"                    
+		},
+		"speed" : 13,
+		"abilities" :
+		{
+            "nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+            "king2" :
+			{
+				"type" : "KING2"
+			},
+			"FULL_HP_REGENERATION" : 
+			{
+				"type" : "FULL_HP_REGENERATION"
+			},
+			"lvl1imm" : 
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 1
+			},
+			"receptive" : 
+			{
+				"type" : "RECEPTIVE"
+			}
+		}
+	}
+}

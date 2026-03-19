@@ -1,0 +1,69 @@
+{
+	"faMechanicalDragon":
+	{
+		"name" :
+		{
+			"plural" : "Mechanical Dragons",
+			"singular" : "Mechanical Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "factory",
+		"aiValue" : 5440,
+		"attack" : 22,
+		"cost" :
+		{
+			"gold" : 2750,
+			"mercury" : 2
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 25
+		},
+		"defense" : 22,
+		"fightValue" : 4357,
+		"graphics" :
+		{
+			"animation" : "factory/battle/CR209.DEF",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1.23 },
+			"map" : "factory/map/7aa.def",
+			"iconSmall" : "factory/iconsSmall/CPrS209F.bmp",
+			"iconLarge" : "factory/iconsBig/CPrL209B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 190,
+		"level" : 7,
+		"upgrades":
+		[
+			"faHydraulicDragon"
+		],
+		"sound" :
+		{
+			"attack" : "factory/S210ATTK.wav",
+			"defend" : "factory/S210DFND.wav",
+			"killed" : "factory/S210KILL.wav",
+			"move" : "factory/S210MOVE.wav",
+			"wince" : "factory/S210WNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+            "nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"HPregenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"subtype" : 1,
+				"val" : 50
+			}
+		}
+	}
+}

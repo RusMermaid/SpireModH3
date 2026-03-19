@@ -1,0 +1,67 @@
+{
+	"faCyberZombie":
+	{
+		"name" :
+		{
+			"plural" : "Grim Automatons",
+			"singular" : "Grim Automaton"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 50,
+			 "min" : 20
+		},
+		"faction" : "factory",
+		"aiValue" : 109,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 70
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 121,
+		"graphics" :
+		{
+			"animation" : "factory/battle/CR200.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "factory/map/militian.def",
+			"iconSmall" : "factory/iconsSmall/CPrS200F.bmp",
+			"iconLarge" : "factory/iconsBig/CPrL200B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+	
+		"growth" : 15,
+		"hitPoints" : 7,
+		"level" : 1,
+		"upgrades":
+		[
+			"faCyborg"
+		],
+		"sound" :
+		{
+			"attack" : "factory/S199ATTK.wav",
+			"defend" : "factory/S199DFND.wav",
+			"killed" : "factory/S199KILL.wav",
+			"move" : "factory/S199MOVE.wav",
+			"wince" : "factory/S199WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+            "non living" :
+			{
+				"type" : "NON_LIVING"
+			},    
+			"deathCloundImmunity"	:
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud"
+			}
+		}
+	}
+}
