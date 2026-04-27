@@ -1,0 +1,60 @@
+{
+	"gltavish" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "Tavish",
+			"biography" : "Tavish was left for dead in the jungle by bandits who had wiped out his entire family while they traveled through the woods. Raised by the local Pazuzus he grew to understand their methods of communication and has since spent his time with his flock guarding the forest paths.",
+			"specialty" :
+			{
+				"description" : "Increases Speed of any Magic Eyes or Misfortune Eyes by 1 and their Attack and Defense skills by 5% for 3 levels (rounded up).",
+				"tooltip" : "Creature bonus: Magic Eye",
+				"name" : "Magic Eyes"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/tavish/spec-small.png",
+			"specialtyLarge" : "glade/heroes/tavish/spec-large.png",
+			"large" : "glade/heroes/tavish/portrait-large.png",
+			"small" : "glade/heroes/tavish/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 7,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		"specialty" : {
+			"creature" : "gllv3"
+		}			
+	}
+}
+

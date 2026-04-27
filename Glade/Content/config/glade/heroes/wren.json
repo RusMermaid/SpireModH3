@@ -1,0 +1,67 @@
+{
+	"glwren" :
+	{
+		"class" : "glshaper",
+		"texts" :
+		{
+			"name" : "Wren",
+			"biography" : "Wren is a warrior merchant who has found her calling and fortune on the front lines of The Glades Battles.",
+			"specialty" :
+			{
+				"tooltip" : "+350 Gold per day",
+				"description" : "Increases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/wren/spec-small.png",
+			"specialtyLarge" : "glade/heroes/wren/spec-large.png",
+			"large" : "glade/heroes/wren/portrait-large.png",
+			"small" : "glade/heroes/wren/portrait-small.png"
+		},
+        "spellbook": [ "magicArrow" ],
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+

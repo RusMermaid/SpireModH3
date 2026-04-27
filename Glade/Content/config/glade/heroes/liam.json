@@ -1,0 +1,59 @@
+{
+	"glliam" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "Liam",
+			"biography" : "Liam has mastered the ways of taming the many flying beasts that inhabit The Glade. His call is usually the last thing you hear before talons dig into your skull.",
+			"specialty" :
+			{
+				"description" : "Increases Speed of any Fairy Bears or Mystical Bears by 1 and their Attack and Defense skills by 5% for 6 levels (rounded up).",
+				"tooltip" : "Creature bonus: Fairy Bears",
+				"name" : "Fairy Bears"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/liam/spec-small.png",
+			"specialtyLarge" : "glade/heroes/liam/spec-large.png",
+			"large" : "glade/heroes/liam/portrait-large.png",
+			"small" : "glade/heroes/liam/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"creature" : "gllv6"
+		}		
+	}
+}
+

@@ -1,0 +1,71 @@
+{
+	"glzarm" :
+	{
+		"class" : "glshaper",
+		"texts" :
+		{
+			"name" : "Zarm",
+			"biography" : "Zarm is a fearsome man able to cause a man to shrink away in debilitating fear just by looking at him.",
+
+			"specialty" :
+			{
+				"description" : "Casts Weakness with expert effects but not expert range.",
+				"tooltip" : "Spell bonus: Weakness",
+				"name" : "Weakness"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/zarm/spec-small.png",
+			"specialtyLarge" : "glade/heroes/zarm/spec-large.png",
+			"large" : "glade/heroes/zarm/portrait-large.png",
+			"small" : "glade/heroes/zarm/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"weakness"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}		
+	}
+}
+

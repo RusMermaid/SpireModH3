@@ -1,0 +1,59 @@
+{
+	"glshae" :
+	{
+		"class" : "glrunner",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Shae",
+			"biography" : "Shae was a female druid with many achievements,but war was never one of them. She often felt slighted, so she decided to do something about it and make a big splash. However, she was framed by other members of her tribe and ended up being sent to prison. The young druid escaped via her magic, and got as far away from Avlee as possible.",
+			"specialty" :
+			{
+				"description" : "Increases Speed of any Druids or High Druids by 1 and their Attack and Defense skills by 5% for 4 levels (rounded up).",
+				"tooltip" : "Creature bonus: Druids",
+				"name" : "Druids"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/shae/spec-small.png",
+			"specialtyLarge" : "glade/heroes/shae/spec-large.png",
+			"large" : "glade/heroes/shae/portrait-large.png",
+			"small" : "glade/heroes/shae/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills":
+		[
+			{ "skill" : "archery", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "gllv4"
+		}			
+	}
+}

@@ -1,0 +1,455 @@
+{
+	"glade" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"mageGuild1" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					}
+				},
+				"mageGuild2" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"upgrades" : "mageGuild2"
+				},
+				"mageGuild4" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
+					},
+					"upgrades" : "mageGuild3"
+				},
+				"mageGuild5" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
+					},
+					"upgrades" : "mageGuild4"
+				},	
+				"tavern" :
+				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					}
+				},
+				"shipyard" :
+				{
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" :
+					{
+						"wood" : 20,
+						"gold" : 2000
+					}
+				},
+				"fort" :
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" :
+					{
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					}
+				},
+				"citadel" :
+				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"upgrades" : "fort"
+				},
+				"castle" :
+				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :
+					{
+						"gold" : 5000,
+						"wood" : 10,
+						"ore" : 10
+					},
+					"upgrades" : "citadel"
+				},
+				"villageHall" :
+				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" : "auto"
+				},
+				"townHall" :
+				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"requires" : [ "allOf",["tavern"] ],
+					"upgrades" : "villageHall"
+				},
+				"cityHall" :
+				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
+					"upgrades" : "townHall"
+				},
+				"capitol" :
+				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"requires" : ["castle"] ,
+					"upgrades" : "cityHall"
+				},
+				"marketplace" :
+				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					}
+				},
+				"resourceSilo" :
+				{
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional +1 Gems each day.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"requires" : ["marketplace"],
+					"produce": { "gems": 1 }
+				},
+				"blacksmith" :
+				{
+					"description" : "The Blacksmith provides your armies with Heavy Crossbows.",
+					"name" : "Blacksmith",
+					"warMachine" : "ballista",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					}
+				},
+				"horde1" :
+				{
+					"description" : "The Fortunate Lantern increases weekly production of mouse1s by 10 per week.",
+					"name" : "Fortunate Lantern",
+					"cost" : {
+						"gold" : 1000
+					},
+					"upgrades" : "dwellingLvl1"
+				},
+				"horde1Upgr" :
+				{
+					"description" : "The Fortunate Lantern increases weekly production of mouse1 Elders by 10 per week.",
+					"name" : "Fortunate Lantern",
+					"cost" : {
+						"gold" : 1000
+					},
+					"upgrades" : "dwellingUpLvl1",
+					"requires" : [ "horde1" ],
+					"mode" : "auto"	
+				},
+				"special1" :
+				{
+					"description" : "The Rainbow earns your kingdom 250 gold per day.",
+					"produce" : { "gold" : 250 },
+					"name" : "Rainbow",
+					"cost" : {
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 750
+					},
+				},
+				"ship" :
+				{
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+                    "upgrades" : "shipyard"
+				},
+				"special2" :
+				{
+					"description" : "The Totem Pole increase spell power of visiting hero by +1.",
+					"name" : "Totem Pole",
+					"cost" : {
+						"gems" : 5,
+						"gold" : 1000
+					},
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "The Totem Pole teach you new ways to focus your magical powers (+1 Power)",
+								"primary" : {
+									"spellpower" : 1
+								}
+							}
+						]
+					},
+					"requires" : [
+						"mageGuild1"
+					]
+				},
+				"grail" : {
+					"description" : "Summon Stone increases weekly creature generation by 50 percent, adds 5000 gold per day, gives the hero the ability to walk on water and increases the Defense strength of every hero by +10.",
+					"name" : "Summon Stone",
+					"produce" : {
+						"gold" : 5000
+					},
+					"bonuses" : [
+						{
+							"type" : "WATER_WALKING",
+							"val" : 0,
+							"valueType" : "INDEPENDENT_MIN",
+							"propagator" : "PLAYER"
+						},
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "defence",
+							"val" : 10,
+							"propagator" : "PLAYER"
+						}
+					]
+				},
+				"dwellingLvl1" :
+				{
+					"description" : "Fortune Jungle allows you to recruit Mice.",
+					"name" : "Fortune Jungle",
+					"cost" : {
+						"gold" : 300,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires" : [ "fort" ]
+				},
+				"dwellingLvl2" :
+				{
+					"description" : "Cave allows you to recruit Cliff Crawlers.",
+					"name" : "Cave",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires" : [ "dwellingLvl1" ]
+				},
+				"dwellingLvl3" :
+				{
+					"description" : "Magic Hut allows you to recruit Magic Eyes.",
+					"name" : "Magic Hut",
+					"cost" : {
+						"gold" : 1500,
+						"wood" : 5
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl2"] ]
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "Stone Garden allows you to recruit Druids.",
+					"name" : "Stone Garden",
+					"cost" : {
+						"gems" : 10,
+						"gold" : 2500,
+						"ore" : 10
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl2"] ]
+				},
+				"dwellingLvl5" :
+				{
+					"description" : "Hatchery allows you to recruit Silver Pegasus.",
+					"name" : "Hatchery",
+					"cost" : {
+						"gold" : 3000,
+						"wood" : 15
+					},
+					"requires" : [ "dwellingLvl3" ]
+				},
+				"dwellingLvl6" :
+				{
+					"description" : "Dream Garden allows you to recruit Fairy Bears.",
+					"name" : "Dream Garden",
+					"cost" : {
+						"gold" : 4000,
+						"wood" : 5,
+						"ore" : 5,
+						"crystal" : 3,
+						"sulfur" : 3,
+						"gems" : 5,
+						"mercury" : 3
+					},
+					"requires" : [ "dwellingLvl4" ]
+				},
+				"dwellingLvl7" :
+				{
+					"description" : "Blackroot Forest allows you to recruit Treants.",
+					"name" : "Blackroot Forest",
+					"cost" : {
+						"gold" : 12000,
+						"wood" : 10,
+						"gems" : 10,
+						"mercury" : 10
+					},
+					"requires" : [ "allOf", ["dwellingLvl5"], ["dwellingLvl4"] ]
+				},
+				"dwellingUpLvl1" :
+				{
+					"description" : "Upg. Fortunate Jungle allows you to recruit Magic Mice.",
+					"name" : "Upg. Fortunate Jungle",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" :
+				{
+					"description" : "Upg. Cave allows you to recruit Cave Jumpers.",
+					"name" : "Upg. Cave",
+					"cost" : {
+						"gold" : 1200,
+						"ore" : 5
+					},
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" :
+				{
+					"description" : "Upg. Magic Hut allows you to recruit Unfortunate Eyes.",
+					"name" : "Upg. Magic Hut",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"crystal" : 3
+					},
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "Upg. Stone Garden allows you to recruit High Druids.",
+					"name" : "Upg. Stone Garden",
+					"cost" : {
+						"crystal" : 5,
+						"gold" : 2500,
+						"ore" : 10
+					},
+					"requires" :  [ "allOf", ["mageGuild1"], ["dwellingLvl4"] ],
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" :
+				{
+					"description" : "Upg. Hatchery allows you to recruit Silver Unicorns.",
+					"name" : "Upg. Hatchery",
+					"cost" : {
+						"wood" : 5,
+						"gold" : 2000,
+						"sulfur" : 5
+					},
+					"requires" : [ "citadel" ],
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUpLvl6" :
+				{
+					"description" : "Upg. Dream Garden allows you to recruit Mystical Bears.",
+					"name" : "Upg. Dream Garden",
+					"cost" : {
+						"gold" : 3000,
+						"wood" : 5,
+						"ore" : 5,
+						"gems" : 5
+					},
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" :
+				{
+					"description" : "Upg. Blackroot Forest allows you to recruit Ancient Treants.",
+					"name" : "Upg. Blackroot Forest",
+					"cost" : {
+						"gems" : 15,
+						"gold" : 20000,
+						"wood" : 15,
+						"mercury" : 10
+					},
+					"requires" : [ "mageGuild2" ],
+					"upgrades" : "dwellingLvl7"
+				}
+			}
+		}
+	}
+}
+

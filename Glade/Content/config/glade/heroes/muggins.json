@@ -1,0 +1,59 @@
+{
+	"glmuggins" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "Muggins",
+			"biography" : "Muggins decided to help the Mice escape from Avlee because he could not tolerate the unfair treatment of these people any longer. He found mice were treated as slaves, so he helped them to find a new life. Nowadays, he can be found in his mushroom patch within his new forest, settled in with his companions. It is said that he always has good luck for no apparent reason.",
+			"specialty" :
+			{
+				"description" : "Increases Speed of any Mice or Magic Mice by 1 and their Attack and Defense skills by 5% for 1 levels (rounded up).",
+				"tooltip" : "Creature bonus: Mice",
+				"name" : "Mice"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/muggins/spec-small.png",
+			"specialtyLarge" : "glade/heroes/muggins/spec-large.png",
+			"large" : "glade/heroes/muggins/portrait-large.png",
+			"small" : "glade/heroes/muggins/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "gllv1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "gllv1",
+				"max" : 17,
+				"min" : 10
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		"specialty" : {
+			"creature" : "gllv1"
+		}		
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"glzach" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "Zach",
+			"biography" : "Zach had always had an affinity towards music, and it was said that the enchanted flute he carried with him at all times had the power to render even the most frenzied Serpentine into a docile state.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Diplomacy skill percentage when surrendering.",
+				"tooltip" : "Skill Bonus: Diplomacy",
+				"name" : "Diplomacy"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/zach/spec-small.png",
+			"specialtyLarge" : "glade/heroes/zach/spec-large.png",
+			"large" : "glade/heroes/zach/portrait-large.png",
+			"small" : "glade/heroes/zach/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 12,
+				"min" : 7
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"diplomacy" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SURRENDER_DISCOUNT",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

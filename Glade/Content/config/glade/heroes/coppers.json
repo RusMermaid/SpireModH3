@@ -1,0 +1,58 @@
+{
+	"glshaper" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "Coppers",
+			"biography" : "Coppers the pickpocket has always been able to rub two gems together in order to produce a third. This is usually accomplished by removing the very same gem he just sold to a merchant the moment his attention shifted onto something else.",
+			"specialty" :
+			{
+				"description" : "Increases kingdom's gem production by 1 per day.",
+				"tooltip" : "Resource bonus: gems",
+				"name" : "+1 Gem"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/coppers/spec-small.png",
+			"specialtyLarge" : "glade/heroes/coppers/spec-large.png",
+			"large" : "glade/heroes/coppers/portrait-large.png",
+			"small" : "glade/heroes/coppers/portrait-small.png"
+		},
+        "spellbook": [ "magicArrow" ],
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "scholar", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

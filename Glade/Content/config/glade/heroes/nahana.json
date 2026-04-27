@@ -1,0 +1,60 @@
+{
+	"glnahana" :
+	{
+		"class" : "glrunner",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Nahana",
+			"biography" : "Nahana had always been good with her hands. As a child she would scavenge what little bits of metal and leather she could and fashion amazing suits of miniature armor for her dolls. As an adult she can usually be found on the front lines fighting and supplying her soldiers with amazing custom armor.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
+				"tooltip" : "Secondary skill bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/nahana/spec-small.png",
+			"specialtyLarge" : "glade/heroes/nahana/spec-large.png",
+			"large" : "glade/heroes/nahana/portrait-large.png",
+			"small" : "glade/heroes/nahana/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		"specialty" : {
+			"secondary" : "armorer"
+		}		
+	}
+}
+

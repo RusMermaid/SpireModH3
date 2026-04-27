@@ -1,0 +1,59 @@
+{
+	"gltim" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "Tim",
+			"biography" : "They call him Tim the Boar rider for a reason. Carelessly stampeding through a battlefield with his horde of Boars, he is usually the cause of much damage to both sides of every conflict.",
+			"specialty" :
+			{
+				"description" : "Increases Speed of any Cliff Crawlers or Cave Jumpers by 1 and their Attack and Defense skills by 5% for 2 levels (rounded up).",
+				"tooltip" : "Creature bonus: Cliff Crawler",
+				"name" : "Cliff Crawlers"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/tim/spec-small.png",
+			"specialtyLarge" : "glade/heroes/tim/spec-large.png",
+			"large" : "glade/heroes/tim/portrait-large.png",
+			"small" : "glade/heroes/tim/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 7
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 7
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		"specialty" : {
+			"creature" : "gllv2"
+		}			
+	}
+}

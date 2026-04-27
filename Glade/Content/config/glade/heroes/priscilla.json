@@ -1,0 +1,61 @@
+{
+	"glpriscilla" :
+	{
+		"class" : "glshaper",
+		"texts" :
+		{
+			"name" : "Priscilla",
+			"biography" : "One day Priscilla mysteriously appeared unconcious just outside of The Glade with a massive gash across her torso. The local healers were able to save her life but her memories are completely lost to her. The only thing she does know is that magic comes naturally to her.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "Secondary skill bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/priscilla/spec-small.png",
+			"specialtyLarge" : "glade/heroes/priscilla/spec-large.png",
+			"large" : "glade/heroes/priscilla/portrait-large.png",
+			"small" : "glade/heroes/priscilla/portrait-small.png"
+		},
+
+		"spellbook": [ "magicArrow" ],
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		"specialty" : {
+			"secondary" : "sorcery"
+		}		
+	}
+}
+

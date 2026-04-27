@@ -1,0 +1,80 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"gldwelling1" : {
+				"name" : "Fortune Jungle",
+				"creatures" : [[ "gllv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VBV", "ABV" ],
+					}
+				}
+			},
+			"gldwelling2" : {
+				"name" : "Cave",
+				"creatures" : [[ "gllv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VBB", "VAB" ],
+
+					}
+				}
+			},
+			"gldwelling3" : {
+				"name" : "Aviary",
+				"creatures" : [[ "gllv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "glade/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VBB", "VBA" ],
+					}
+				}
+			},
+			"gldwelling4" : {
+				"name" : "Stone Garden",
+				"creatures" : [[ "gllv4" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "VAB" ],
+					}
+				}
+			},
+			"gldwelling5" : {
+				"name" : "Hatchery",
+				"creatures" : [[ "gllv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VVV", "VAB" ],
+					}
+				}
+			},
+			"gldwelling6" : {
+				"name" : "Dream Garden",
+				"creatures" : [[ "gllv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "VVV", "VAB" ],
+					}
+				}
+			},
+			"gldwelling7" : {
+				"name" : "Blackroot Forest",
+				"creatures" : [[ "gllv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-7.def",
+						"mask" : [ "VVV", "VVV", "VAB" ],
+					}
+				}
+			}
+		}		
+	}
+}
