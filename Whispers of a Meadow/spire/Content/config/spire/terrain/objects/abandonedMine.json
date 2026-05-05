@@ -4,7 +4,7 @@
 			"mine" : {
 				"templates" : {
 					"nightStone_abandonedMine" : {
-						"animation" : "cradle/terrain/mine",
+						"animation" : "spire/terrain/mine",
 						"mask" : [
 							"VVVV",
 							"VBBB",

@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"nightStoneDelt1" : {
-						"animation" : "cradle/terrain/river/nightStoneDelt.def",
+						"animation" : "spire/terrain/river/nightStoneDelt.def",
 						"mask" : [
 							"VVV",
 							"VVV",
@@ -12,7 +12,7 @@
 						]
 					},
 					"nightStoneDelt2" : {
-						"animation" : "cradle/terrain/river/nightStoneDelt2.def",
+						"animation" : "spire/terrain/river/nightStoneDelt2.def",
 						"mask" : [
 							"VVV",
 							"VVV",
@@ -20,7 +20,7 @@
 						]
 					},
 					"nightStoneDelt3" : {
-						"animation" : "cradle/terrain/river/nightStoneDelt3.def",
+						"animation" : "spire/terrain/river/nightStoneDelt3.def",
 						"mask" : [
 							"VVV",
 							"VVV",
@@ -28,7 +28,7 @@
 						]
 					},
 					"nightStoneDelt4" : {
-						"animation" : "cradle/terrain/river/nightStoneDelt4.def",
+						"animation" : "spire/terrain/river/nightStoneDelt4.def",
 						"mask" : [
 							"VVV",
 							"VVV",

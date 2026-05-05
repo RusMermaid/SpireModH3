@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"nightStone_sign" : {
-						"animation" : "cradle/terrain/tablet",
+						"animation" : "spire/terrain/tablet",
 						"allowedTerrains" : [
 							"nightStone"
 						],

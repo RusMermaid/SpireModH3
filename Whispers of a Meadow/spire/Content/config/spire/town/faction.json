@@ -1,12 +1,12 @@
 {
-	"cradle" : {
-		"name" : "Cradle",
+	"spire" : {
+		"name" : "Spire",
 		"alignment" : "good",
 		"boat" : "boatFortress",
 		"nativeTerrain" : "nightStone",
 		"creatureBackground" : {
-			"120px" : "cradle/creaturebg120px",
-			"130px" : "cradle/creaturebg130px"
+			"120px" : "spire/creaturebg120px",
+			"130px" : "spire/creaturebg130px"
 		},
 		"town" : {
 			"mapObject" : {
@@ -50,58 +50,58 @@
 				},
 				"templates" : {
 					"capitol" : {
-						"animation" : "cradle/map/capitol.def"
+						"animation" : "spire/map/capitol.def"
 					},
 					"castle" : {
-						"animation" : "cradle/map/castle.def"
+						"animation" : "spire/map/castle.def"
 					},
 					"citadel" : {
-						"animation" : "cradle/map/citadel.def"
+						"animation" : "spire/map/citadel.def"
 					},
 					"fort" : {
-						"animation" : "cradle/map/fort.def"
+						"animation" : "spire/map/fort.def"
 					},
 					"village" : {
-						"animation" : "cradle/map/village.def"
+						"animation" : "spire/map/village.def"
 					}
 				}
 			},
 			"musicTheme" : [
-				"music/factions/cradle/CradleTown"
+				"music/factions/spire/SpireTown"
 			],
 			"creatures" : [
 				[
-					"cradle_lvl1",
-					"cradle_lvl1up"
+					"spire_lvl1",
+					"spire_lvl1up"
 				],
 				[
-					"cradle_lvl2",
-					"cradle_lvl2up"
+					"spire_lvl2",
+					"spire_lvl2up"
 				],
 				[
-					"cradle_lvl3",
-					"cradle_lvl3up"
+					"spire_lvl3",
+					"spire_lvl3up"
 				],
 				[
-					"cradle_lvl4",
-					"cradle_lvl4up"
+					"spire_lvl4",
+					"spire_lvl4up"
 				],
 				[
-					"cradle_lvl5",
-					"cradle_lvl5up",
-					"cradle_lvl5a",
-					"cradle_lvl5aup"
+					"spire_lvl5",
+					"spire_lvl5up",
+					"spire_lvl5a",
+					"spire_lvl5aup"
 				],
 				[
-					"cradle_lvl6",
-					"cradle_lvl6up"
+					"spire_lvl6",
+					"spire_lvl6up"
 				],
 				[
-					"cradle_lvl7",
-					"cradle_lvl7up"
+					"spire_lvl7",
+					"spire_lvl7up"
 				]
 			],
-			"guildWindow" : "cradle/town/mageguild",
+			"guildWindow" : "spire/town/mageguild",
 			"names" : [
 				"Noctela",
 				"Zvezdozor",
@@ -115,7 +115,7 @@
 				"Mirozor",
 				"Horstinus"
 			],
-			"hallBackground" : "cradle/town/hall",
+			"hallBackground" : "spire/town/hall",
 			"hallSlots" : [
 				[
 					[
@@ -213,29 +213,29 @@
 			"icons" : {
 				"fort" : {
 					"built" : {
-						"large" : "cradle/icons/fortbuildedlarge.bmp",
-						"small" : "cradle/icons/fortbuildedsmall.bmp"
+						"large" : "spire/icons/fortbuildedlarge.bmp",
+						"small" : "spire/icons/fortbuildedsmall.bmp"
 					},
 					"normal" : {
-						"large" : "cradle/icons/fortlarge.bmp",
-						"small" : "cradle/icons/fortsmall.bmp"
+						"large" : "spire/icons/fortlarge.bmp",
+						"small" : "spire/icons/fortsmall.bmp"
 					}
 				},
 				"village" : {
 					"built" : {
-						"large" : "cradle/icons/hallbuildedlarge.bmp",
-						"small" : "cradle/icons/hallbuildedsmall.bmp"
+						"large" : "spire/icons/hallbuildedlarge.bmp",
+						"small" : "spire/icons/hallbuildedsmall.bmp"
 					},
 					"normal" : {
-						"large" : "cradle/icons/halllarge.bmp",
-						"small" : "cradle/icons/hallsmall.bmp"
+						"large" : "spire/icons/halllarge.bmp",
+						"small" : "spire/icons/hallsmall.bmp"
 					}
 				}
 			},
 			"mageGuild" : 5,
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
-			"townBackground" : "cradle/town/background",
+			"townBackground" : "spire/town/background",
 			"guildBackground" : "TPMAGE.bmp"
 		}
 	}

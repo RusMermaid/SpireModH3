@@ -4,7 +4,7 @@
 			"crystalCavern" : {
 				"templates" : {
 					"nightStoneMines01" : {
-						"animation" : "cradle/terrain/mineCrystal",
+						"animation" : "spire/terrain/mineCrystal",
 						"visitableFrom" : [
 							"---",
 							"+++",
@@ -24,7 +24,7 @@
 			"goldMine" : {
 				"templates" : {
 					"nightStoneMines02" : {
-						"animation" : "cradle/terrain/mineGold",
+						"animation" : "spire/terrain/mineGold",
 						"visitableFrom" : [
 							"---",
 							"+++",
@@ -45,7 +45,7 @@
 			"sawmill" : {
 				"templates" : {
 					"nightStoneMines03" : {
-						"animation" : "cradle/terrain/mineWood",
+						"animation" : "spire/terrain/mineWood",
 						"mask" : [
 							"VVVVV",
 							"VVBBB",
@@ -66,7 +66,7 @@
 			"alchemistLab" : {
 				"templates" : {
 					"nightStoneMines04" : {
-						"animation" : "cradle/terrain/mineMercury",
+						"animation" : "spire/terrain/mineMercury",
 						"mask" : [
 							"VVV",
 							"VVV",
@@ -86,7 +86,7 @@
 			"orePit" : {
 				"templates" : {
 					"nightStoneMines05" : {
-						"animation" : "cradle/terrain/mineOre",
+						"animation" : "spire/terrain/mineOre",
 						"mask" : [
 							"BBB",
 							"BAB"
@@ -105,7 +105,7 @@
 			"sulfurDune" : {
 				"templates" : {
 					"nightStoneMines06" : {
-						"animation" : "cradle/terrain/mineSulfur",
+						"animation" : "spire/terrain/mineSulfur",
 						"mask" : [
 							"VVV",
 							"BAB"
@@ -124,7 +124,7 @@
 			"gemPond" : {
 				"templates" : {
 					"nightStoneMines07" : {
-						"animation" : "cradle/terrain/mineGem",
+						"animation" : "spire/terrain/mineGem",
 						"visitableFrom" : [
 							"---",
 							"+++",

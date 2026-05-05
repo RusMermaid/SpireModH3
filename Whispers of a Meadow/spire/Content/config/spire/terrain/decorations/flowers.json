@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"nightStoneflowers00" : {
-						"animation" : "cradle/terrain/flowers1",
+						"animation" : "spire/terrain/flowers1",
 						"mask" : [
 							"VVVV",
 							"VBBB"
@@ -14,7 +14,7 @@
 						]
 					},
 					"nightStoneflowers01" : {
-						"animation" : "cradle/terrain/flowers2",
+						"animation" : "spire/terrain/flowers2",
 						"mask" : [
 							"VVVV",
 							"VBBB"
@@ -24,7 +24,7 @@
 						]
 					},
 					"nightStoneflowers02" : {
-						"animation" : "cradle/terrain/flowers3",
+						"animation" : "spire/terrain/flowers3",
 						"mask" : [
 							"VVVV",
 							"VBBB"
@@ -34,7 +34,7 @@
 						]
 					},
 					"nightStoneflowers03" : {
-						"animation" : "cradle/terrain/flowers4",
+						"animation" : "spire/terrain/flowers4",
 						"mask" : [
 							"VV",
 							"VB"
@@ -44,7 +44,7 @@
 						]
 					},
 					"nightStoneflowers04" : {
-						"animation" : "cradle/terrain/flowers5",
+						"animation" : "spire/terrain/flowers5",
 						"mask" : [
 							"VV",
 							"BB"
@@ -54,7 +54,7 @@
 						]
 					},
 					"nightStoneflowers05" : {
-						"animation" : "cradle/terrain/flowers6",
+						"animation" : "spire/terrain/flowers6",
 						"mask" : [
 							"VV",
 							"VB"
@@ -64,7 +64,7 @@
 						]
 					},
 					"nightStoneflowers06" : {
-						"animation" : "cradle/terrain/flowers7",
+						"animation" : "spire/terrain/flowers7",
 						"mask" : [
 							"VV",
 							"VB"

@@ -5,7 +5,7 @@
 				"name" : "Rocks",
 				"templates" : {
 					"nightStone_reROC7" : {
-						"animation" : "cradle/terrain/Rock1",
+						"animation" : "spire/terrain/Rock1",
 						"mask" : [
 							"VV",
 							"VB"
@@ -15,7 +15,7 @@
 						]
 					},
 					"nightStone_reROC8" : {
-						"animation" : "cradle/terrain/Rock2",
+						"animation" : "spire/terrain/Rock2",
 						"mask" : [
 							"VV",
 							"BB"
@@ -25,7 +25,7 @@
 						]
 					},
 					"nightStone_reROC9" : {
-						"animation" : "cradle/terrain/Rock3",
+						"animation" : "spire/terrain/Rock3",
 						"mask" : [
 							"VV",
 							"BB"
@@ -35,7 +35,7 @@
 						]
 					},
 					"nightStone_reROC10" : {
-						"animation" : "cradle/terrain/Rock4",
+						"animation" : "spire/terrain/Rock4",
 						"mask" : [
 							"VV",
 							"BB"
@@ -45,7 +45,7 @@
 						]
 					},
 					"nightStone_reROC11" : {
-						"animation" : "cradle/terrain/Rock5",
+						"animation" : "spire/terrain/Rock5",
 						"mask" : [
 							"VVBV",
 							"VBBB"
@@ -55,7 +55,7 @@
 						]
 					},
 					"nightStone_reROC12" : {
-						"animation" : "cradle/terrain/Rock6",
+						"animation" : "spire/terrain/Rock6",
 						"mask" : [
 							"VVVV",
 							"BBBB"

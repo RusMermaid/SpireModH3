@@ -1,5 +1,5 @@
 {
-	"cradle_starfall" : {
+	"spire_starfall" : {
 		"type" : "combat",
 		"name" : "Star Fall",
 		"school" : {
@@ -12,7 +12,7 @@
 		"power" : 15,
 		"defaultGainChance" : 0,
 		"gainChance" : {
-			"cradle" : 30,
+			"spire" : 30,
 			"tower" : 0,
 			"necropolis" : 0,
 			"conflux" : 0
@@ -31,23 +31,23 @@
 		},
 
 		"graphics" : {
-			"iconBook" : "cradle/spells/starfallBook",
-			"iconScroll" : "cradle/spells/starfallScroll",
-			"iconScenarioBonus" : "cradle/spells/starfallScenario",
-			"iconEffect" : "cradle/spells/starfallEffect",
-			"iconImmune" : "cradle/spells/starfallImmune"
+			"iconBook" : "spire/spells/starfallBook",
+			"iconScroll" : "spire/spells/starfallScroll",
+			"iconScenarioBonus" : "spire/spells/starfallScenario",
+			"iconEffect" : "spire/spells/starfallEffect",
+			"iconImmune" : "spire/spells/starfallImmune"
 		},
 
 		"animation" : {
 			"affect" : [
 				{
-					"defName" : "cradle/spells/starfall.def"
+					"defName" : "spire/spells/starfall.def"
 				}
 			]
 		},
 
 		"sounds" : {
-			"cast" : "cradle/STARREIN.wav"
+			"cast" : "spire/STARREIN.wav"
 		},
 		"targetType" : "CREATURE",
 

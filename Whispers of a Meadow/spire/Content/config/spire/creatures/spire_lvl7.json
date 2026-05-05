@@ -1,31 +1,34 @@
 {
-	"cradle_lvl7up" : {
+	"spire_lvl7" : {
 		"name" : {
-			"singular" : "Moon Reaper",
-			"plural" : "Moon Reapers"
+			"singular" : "Night Reaper",
+			"plural" : "Night Reapers"
 		},
+		"upgrades" : [
+			"spire_lvl7up"
+		],
 		"level" : 7,
 		"special" : false,
-		"faction" : "cradle",
+		"faction" : "spire",
 		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
 			"ore" : 0,
 			"sulfur" : 0,
-			"crystal" : 2,
+			"crystal" : 1,
 			"gems" : 0,
-			"gold" : 4000
+			"gold" : 2400
 		},
-		"fightValue" : 5300,
-		"aiValue" : 7200,
+		"fightValue" : 3800,
+		"aiValue" : 5150,
 		"growth" : 1,
-		"attack" : 25,
-		"defense" : 18,
-		"hitPoints" : 240,
-		"speed" : 15,
+		"attack" : 20,
+		"defense" : 16,
+		"hitPoints" : 180,
+		"speed" : 12,
 		"damage" : {
 			"min" : 30,
-			"max" : 45
+			"max" : 40
 		},
 		"spellPoints" : 0,
 		"advMapAmount" : {
@@ -49,10 +52,10 @@
 		},
 		"hasDoubleWeek" : false,
 		"graphics" : {
-			"animation" : "cradle/creatures/battle/lvl7up.def",
-			"map" : "cradle/creatures/adventure/lvl7up.def",
-			"iconSmall" : "cradle/creatures/icon/lvl7up.bmp",
-			"iconLarge" : "cradle/creatures/portrait/lvl7up.bmp",
+			"animation" : "spire/creatures/battle/lvl7.def",
+			"map" : "spire/creatures/adventure/lvl7.def",
+			"iconSmall" : "spire/creatures/icon/lvl7.bmp",
+			"iconLarge" : "spire/creatures/portrait/lvl7.bmp",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1,
@@ -61,11 +64,11 @@
 			}
 		},
 		"sound" : {
-			"attack" : "cradle/LVL7ATTK.wav",
-			"defend" : "cradle/LVL7ATTK.wav",
-			"killed" : "cradle/LVL7DIE.wav",
-			"move" : "cradle/LVL7WALK.wav",
-			"wince" : "cradle/LVL7DMG.wav"
+			"attack" : "spire/LVL7ATTK.wav",
+			"defend" : "spire/LVL7ATTK.wav",
+			"killed" : "spire/LVL7DIE.wav",
+			"move" : "spire/LVL7WALK.wav",
+			"wince" : "spire/LVL7DMG.wav"
 		}
 	}
 }

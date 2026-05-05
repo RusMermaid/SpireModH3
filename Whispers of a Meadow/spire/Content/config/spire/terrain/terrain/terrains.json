@@ -13,9 +13,9 @@
 			66
 		],
 		"music" : [
-			"factions/cradle/nightStoneTerrain.ogg"
+			"factions/spire/nightStoneTerrain.ogg"
 		],
-		"tiles" : "cradle/terrain/terrain",
+		"tiles" : "spire/terrain/terrain",
 		"shortIdentifier" : "ns",
 		"battleFields" : [
 			"nightStone_back1",

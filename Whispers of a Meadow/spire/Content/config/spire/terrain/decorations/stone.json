@@ -5,7 +5,7 @@
 				"name" : "Stone",
 				"templates" : {
 					"nightStoneStone01" : {
-						"animation" : "cradle/terrain/stone1",
+						"animation" : "spire/terrain/stone1",
 						"mask" : [
 							"VB"
 						],
@@ -14,7 +14,7 @@
 						]
 					},
 					"nightStoneStone02" : {
-						"animation" : "cradle/terrain/stone2",
+						"animation" : "spire/terrain/stone2",
 						"mask" : [
 							"VB"
 						],
@@ -23,7 +23,7 @@
 						]
 					},
 					"nightStoneStone03" : {
-						"animation" : "cradle/terrain/stone3",
+						"animation" : "spire/terrain/stone3",
 						"mask" : [
 							"BB"
 						],
@@ -32,7 +32,7 @@
 						]
 					},
 					"nightStoneStone04" : {
-						"animation" : "cradle/terrain/stone4",
+						"animation" : "spire/terrain/stone4",
 						"mask" : [
 							"VB"
 						],
@@ -41,7 +41,7 @@
 						]
 					},
 					"nightStoneStone05" : {
-						"animation" : "cradle/terrain/stone5",
+						"animation" : "spire/terrain/stone5",
 						"mask" : [
 							"BB"
 						],

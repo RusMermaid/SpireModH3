@@ -1,22 +1,22 @@
 {
-	"cradle_soulguide" : {
+	"spire_soulguide" : {
 		"animation" : {
 			"battle" : {
-				"female" : "cradle/classes/soulguide/battle.def",
-				"male" : "cradle/classes/soulguide/battle.def"
+				"female" : "spire/classes/soulguide/battle.def",
+				"male" : "spire/classes/soulguide/battle.def"
 			}
 		},
 		"mapObject" : {
 			"templates" : {
 				"default" : {
-					"animation" : "cradle/classes/soulguide/adventure.def",
-					"editorAnimation" : "cradle/classes/soulguide/editor.def"
+					"animation" : "spire/classes/soulguide/adventure.def",
+					"editorAnimation" : "spire/classes/soulguide/editor.def"
 				}
 			}
 		},
 		"name" : "Soulguide",
-		"faction" : "cradle",
-		"commander" : "cradle_cmd",
+		"faction" : "spire",
+		"commander" : "spire_cmd",
 		"affinity" : "might",
 		"primarySkills" : {
 			"attack" : 2,
@@ -74,7 +74,7 @@
 			"necropolis" : 1,
 			"rampart" : 8,
 			"stronghold" : 6,
-			"cradle" : 9,
+			"spire" : 9,
 			"inferno" : 0,
 			"tower" : 0
 		}

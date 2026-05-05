@@ -1,12 +1,12 @@
 {
-	"cradle_lvl2up" : {
+	"spire_lvl2up" : {
 		"name" : {
 			"singular" : "Wart of Noctras",
 			"plural" : "Warts of Noctras"
 		},
 		"level" : 2,
 		"special" : false,
-		"faction" : "cradle",
+		"faction" : "spire",
 		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
@@ -47,10 +47,10 @@
 		},
 		"hasDoubleWeek" : true,
 		"graphics" : {
-			"animation" : "cradle/creatures/battle/lvl2up.def",
-			"map" : "cradle/creatures/adventure/lvl2up.def",
-			"iconSmall" : "cradle/creatures/icon/lvl2up.bmp",
-			"iconLarge" : "cradle/creatures/portrait/lvl2up.bmp",
+			"animation" : "spire/creatures/battle/lvl2up.def",
+			"map" : "spire/creatures/adventure/lvl2up.def",
+			"iconSmall" : "spire/creatures/icon/lvl2up.bmp",
+			"iconLarge" : "spire/creatures/portrait/lvl2up.bmp",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1,
@@ -59,11 +59,11 @@
 			}
 		},
 		"sound" : {
-			"attack" : "cradle/LVL2ATTK.wav",
+			"attack" : "spire/LVL2ATTK.wav",
 			"defend" : "MONKDFND.wav",
-			"killed" : "cradle/LVL2DIE.wav",
+			"killed" : "spire/LVL2DIE.wav",
 			"move" : "MONKMOVE.wav",
-			"wince" : "cradle/LVL2DMG.wav"
+			"wince" : "spire/LVL2DMG.wav"
 		}
 	}
 }

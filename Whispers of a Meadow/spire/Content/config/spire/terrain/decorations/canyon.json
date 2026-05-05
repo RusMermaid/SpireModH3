@@ -5,7 +5,7 @@
 				"name" : "Canyon",
 				"templates" : {
 					"canyonnightStone01" : {
-						"animation" : "cradle/terrain/Crack1",
+						"animation" : "spire/terrain/Crack1",
 						"mask" : [
 							"BBBB",
 							"BBBB"
@@ -15,7 +15,7 @@
 						]
 					},
 					"canyonnightStone02" : {
-						"animation" : "cradle/terrain/Crack2",
+						"animation" : "spire/terrain/Crack2",
 						"mask" : [
 							"BBB",
 							"BBB",
@@ -26,7 +26,7 @@
 						]
 					},
 					"canyonnightStone03" : {
-						"animation" : "cradle/terrain/Crack3",
+						"animation" : "spire/terrain/Crack3",
 						"mask" : [
 							"BB",
 							"BB"
@@ -36,7 +36,7 @@
 						]
 					},
 					"canyonnightStone04" : {
-						"animation" : "cradle/terrain/Crack4",
+						"animation" : "spire/terrain/Crack4",
 						"mask" : [
 							"BB",
 							"BB"
@@ -46,7 +46,7 @@
 						]
 					},
 					"canyonnightStone05" : {
-						"animation" : "cradle/terrain/Crack5",
+						"animation" : "spire/terrain/Crack5",
 						"mask" : [
 							"BB"
 						],
@@ -55,7 +55,7 @@
 						]
 					},
 					"canyonnightStone06" : {
-						"animation" : "cradle/terrain/Crack6",
+						"animation" : "spire/terrain/Crack6",
 						"mask" : [
 							"BB"
 						],

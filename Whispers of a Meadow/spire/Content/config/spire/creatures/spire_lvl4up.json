@@ -1,12 +1,12 @@
 {
-	"cradle_lvl4up" : {
+	"spire_lvl4up" : {
 		"name" : {
 			"singular" : "Eternal Guardian",
 			"plural" : "Eternal Guardians"
 		},
 		"level" : 4,
 		"special" : false,
-		"faction" : "cradle",
+		"faction" : "spire",
 		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
@@ -49,10 +49,10 @@
 		},
 		"hasDoubleWeek" : true,
 		"graphics" : {
-			"animation" : "cradle/creatures/battle/lvl4up.def",
-			"map" : "cradle/creatures/adventure/lvl4up.def",
-			"iconSmall" : "cradle/creatures/icon/lvl4up.bmp",
-			"iconLarge" : "cradle/creatures/portrait/lvl4up.bmp",
+			"animation" : "spire/creatures/battle/lvl4up.def",
+			"map" : "spire/creatures/adventure/lvl4up.def",
+			"iconSmall" : "spire/creatures/icon/lvl4up.bmp",
+			"iconLarge" : "spire/creatures/portrait/lvl4up.bmp",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 2,
@@ -61,11 +61,11 @@
 			}
 		},
 		"sound" : {
-			"attack" : "cradle/LVL4ATTK.wav",
+			"attack" : "spire/LVL4ATTK.wav",
 			"defend" : "SWRDDFND.wav",
-			"killed" : "cradle/LVL4DIE.wav",
-			"move" : "cradle/LVL4WALK.wav",
-			"wince" : "cradle/LVL4DMG.wav"
+			"killed" : "spire/LVL4DIE.wav",
+			"move" : "spire/LVL4WALK.wav",
+			"wince" : "spire/LVL4DMG.wav"
 		}
 	}
 }

@@ -1,29 +1,29 @@
 {
-	"cradle_imageTeyra" : {
+	"spire_imageTeyra" : {
 		"army" : [
 			{
-				"creature" : "cradle_lvl1",
+				"creature" : "spire_lvl1",
 				"max" : 25,
 				"min" : 15
 			},
 			{
-				"creature" : "cradle_lvl2",
+				"creature" : "spire_lvl2",
 				"max" : 9,
 				"min" : 7
 			},
 			{
-				"creature" : "cradle_lvl3",
+				"creature" : "spire_lvl3",
 				"max" : 5,
 				"min" : 3
 			}
 		],
 		"female" : false,
-		"class" : "cradle_oneiroguard",
+		"class" : "spire_oneiroguard",
 		"images" : {
-			"large" : "cradle/heroes/imageTeyra/imageTeyraB.bmp",
-			"small" : "cradle/heroes/imageTeyra/imageTeyraS.bmp",
-			"specialtyLarge" : "cradle/heroes/imageTeyra/imageTeyraSpecB.png",
-			"specialtySmall" : "cradle/heroes/imageTeyra/imageTeyraSpecS.png"
+			"large" : "spire/heroes/imageTeyra/imageTeyraB.bmp",
+			"small" : "spire/heroes/imageTeyra/imageTeyraS.bmp",
+			"specialtyLarge" : "spire/heroes/imageTeyra/imageTeyraSpecB.png",
+			"specialtySmall" : "spire/heroes/imageTeyra/imageTeyraSpecS.png"
 		},
 		"spellbook" : [
 			"cure"
@@ -49,7 +49,7 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Few nokshu can boast of having earned the name of the Cradle, as all their people prefer to serve the silent temple as monks. Teyra decided to change his fate; he long ago abandoned the walls of his native temple, having mastered the power of healing moonlight. He then took up his position on the borderlands of eternal night, assisting the defenders of the Cradle in battling invasions of vile undead who disregard the laws of existence, the evil horrors of the cities of the Reach, pirates, and many others.",
+			"biography" : "Few nokshu can boast of having earned the name of the Spire, as all their people prefer to serve the silent temple as monks. Teyra decided to change his fate; he long ago abandoned the walls of his native temple, having mastered the power of healing moonlight. He then took up his position on the borderlands of eternal night, assisting the defenders of the Spire in battling invasions of vile undead who disregard the laws of existence, the evil horrors of the cities of the Reach, pirates, and many others.",
 			"name" : "Image Teyra",
 			"specialty" : {
 				"description" : "{Cure}\r\n\r\nCasts Cure with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",

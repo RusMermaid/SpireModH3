@@ -2,8 +2,8 @@
 	"nightStoneRiver" : {
 		"text" : "Eternal river",
 		"shortIdentifier" : "nr",
-		"tilesFilename" : "cradle/terrain/river/river.def",
-		"delta" : "cradle/terrain/river/delta.def",
+		"tilesFilename" : "spire/terrain/river/river.def",
+		"delta" : "spire/terrain/river/delta.def",
 		"paletteAnimation" : [
 			{
 				"start" : 1,

@@ -1,22 +1,22 @@
 {
-	"cradle_oneiroguard" : {
+	"spire_oneiroguard" : {
 		"animation" : {
 			"battle" : {
-				"female" : "cradle/classes/oneiroguard/battle.def",
-				"male" : "cradle/classes/oneiroguard/battle.def"
+				"female" : "spire/classes/oneiroguard/battle.def",
+				"male" : "spire/classes/oneiroguard/battle.def"
 			}
 		},
 		"mapObject" : {
 			"templates" : {
 				"default" : {
-					"animation" : "cradle/classes/oneiroguard/adventure.def",
-					"editorAnimation" : "cradle/classes/oneiroguard/editor.def"
+					"animation" : "spire/classes/oneiroguard/adventure.def",
+					"editorAnimation" : "spire/classes/oneiroguard/editor.def"
 				}
 			}
 		},
 		"name" : "Oneiroguard",
-		"faction" : "cradle",
-		"commander" : "cradle_cmd",
+		"faction" : "spire",
+		"commander" : "spire_cmd",
 		"affinity" : "magic",
 		"primarySkills" : {
 			"attack" : 0,
@@ -73,7 +73,7 @@
 			"fortress" : 7,
 			"rampart" : 8,
 			"stronghold" : 4,
-			"cradle" : 8,
+			"spire" : 8,
 			"necropolis" : 0,
 			"inferno" : 0,
 			"tower" : 0

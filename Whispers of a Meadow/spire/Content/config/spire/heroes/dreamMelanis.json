@@ -1,29 +1,29 @@
 {
-	"cradle_dreamMelanis" : {
+	"spire_dreamMelanis" : {
 		"army" : [
 			{
-				"creature" : "cradle_lvl1",
+				"creature" : "spire_lvl1",
 				"max" : 25,
 				"min" : 15
 			},
 			{
-				"creature" : "cradle_lvl2",
+				"creature" : "spire_lvl2",
 				"max" : 9,
 				"min" : 7
 			},
 			{
-				"creature" : "cradle_lvl3",
+				"creature" : "spire_lvl3",
 				"max" : 5,
 				"min" : 3
 			}
 		],
 		"female" : false,
-		"class" : "cradle_oneiroguard",
+		"class" : "spire_oneiroguard",
 		"images" : {
-			"large" : "cradle/heroes/dreamMelanis/dreamMelanisB.bmp",
-			"small" : "cradle/heroes/dreamMelanis/dreamMelanisS.bmp",
-			"specialtyLarge" : "cradle/heroes/dreamMelanis/dreamMelanisSpecB.bmp",
-			"specialtySmall" : "cradle/heroes/dreamMelanis/dreamMelanisSpecS.bmp"
+			"large" : "spire/heroes/dreamMelanis/dreamMelanisB.bmp",
+			"small" : "spire/heroes/dreamMelanis/dreamMelanisS.bmp",
+			"specialtyLarge" : "spire/heroes/dreamMelanis/dreamMelanisSpecB.bmp",
+			"specialtySmall" : "spire/heroes/dreamMelanis/dreamMelanisSpecS.bmp"
 		},
 		"spellbook" : [
 			"shield"

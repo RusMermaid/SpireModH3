@@ -14,7 +14,7 @@
 			-13,
 			-12
 		],
-		"animation" : "cradle/terrain/Battle1.def",
+		"animation" : "spire/terrain/Battle1.def",
 		"absolute" : false
 	},
 	"ns_fog2" : {
@@ -28,7 +28,7 @@
 			0,
 			1
 		],
-		"animation" : "cradle/terrain/Battle2.def",
+		"animation" : "spire/terrain/Battle2.def",
 		"absolute" : false
 	},
 	"ns_fog3" : {
@@ -42,7 +42,7 @@
 			1,
 			2
 		],
-		"animation" : "cradle/terrain/Battle3.def",
+		"animation" : "spire/terrain/Battle3.def",
 		"absolute" : false
 	},
 	"ns_fog4" : {
@@ -57,7 +57,7 @@
 			2,
 			-15
 		],
-		"animation" : "cradle/terrain/Battle4.def",
+		"animation" : "spire/terrain/Battle4.def",
 		"absolute" : false
 	},
 	"ns_fog5" : {
@@ -77,7 +77,7 @@
 			3,
 			4
 		],
-		"animation" : "cradle/terrain/Battle5.def",
+		"animation" : "spire/terrain/Battle5.def",
 		"absolute" : false
 	},
 	"ns_fog6" : {
@@ -103,7 +103,7 @@
 			-30,
 			-31
 		],
-		"animation" : "cradle/terrain/Battle6.def",
+		"animation" : "spire/terrain/Battle6.def",
 		"absolute" : false
 	},
 	"ns_fog7" : {
@@ -133,7 +133,7 @@
 			-14,
 			-15
 		],
-		"animation" : "cradle/terrain/Battle7.def",
+		"animation" : "spire/terrain/Battle7.def",
 		"absolute" : false
 	}
 }

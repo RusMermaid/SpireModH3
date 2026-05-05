@@ -1,7 +1,7 @@
 {
-	"cradle" : {
+	"spire" : {
 		"town" : {
-			"buildingsIcons" : "cradle/townhall.def",
+			"buildingsIcons" : "spire/townhall.def",
 			"buildings" : {
 				"blacksmith" : {
 					"cost" : {
@@ -512,7 +512,7 @@
 						"gold" : 1000,
 						"crystal" : 10
 					},
-					"description" : "Horst's Light increases the maximum health of Cradle creatures by 2.",
+					"description" : "Horst's Light increases the maximum health of Spire creatures by 2.",
 					"bonuses" : [
 						{
 							"type" : "STACK_HEALTH",
@@ -523,7 +523,7 @@
 								{
 									"type" : "CREATURE_FACTION_LIMITER",
 									"parameters" : [
-										"cradle"
+										"spire"
 									]
 								}
 							]

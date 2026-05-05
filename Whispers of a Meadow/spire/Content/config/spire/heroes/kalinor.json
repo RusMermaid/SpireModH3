@@ -1,29 +1,29 @@
 {
-	"cradle_kalinor" : {
+	"spire_kalinor" : {
 		"army" : [
 			{
-				"creature" : "cradle_lvl1",
+				"creature" : "spire_lvl1",
 				"max" : 25,
 				"min" : 15
 			},
 			{
-				"creature" : "cradle_lvl2",
+				"creature" : "spire_lvl2",
 				"max" : 9,
 				"min" : 7
 			},
 			{
-				"creature" : "cradle_lvl3",
+				"creature" : "spire_lvl3",
 				"max" : 6,
 				"min" : 3
 			}
 		],
 		"female" : false,
-		"class" : "cradle_soulguide",
+		"class" : "spire_soulguide",
 		"images" : {
-			"large" : "cradle/heroes/kalinor/kalinorB.bmp",
-			"small" : "cradle/heroes/kalinor/kalinorS.bmp",
-			"specialtyLarge" : "cradle/heroes/kalinor/kalinorSpecB.bmp",
-			"specialtySmall" : "cradle/heroes/kalinor/kalinorSpecS.bmp"
+			"large" : "spire/heroes/kalinor/kalinorB.bmp",
+			"small" : "spire/heroes/kalinor/kalinorS.bmp",
+			"specialtyLarge" : "spire/heroes/kalinor/kalinorSpecB.bmp",
+			"specialtySmall" : "spire/heroes/kalinor/kalinorSpecS.bmp"
 		},
 		"skills" : [
 			{
@@ -39,7 +39,7 @@
 			"secondary" : "offence"
 		},
 		"texts" : {
-			"biography" : "A true representative of the realm of eternity, born in its boundless starry expanses of icy emptiness, Kalinor has adopted all the most essential traits of the night reapers, essential to fulfilling their duty at the border of two realities. The enemies of the Cradle will have no peace if they incur the wrath of his scythe, capable of severing souls from bodies, just as they will have no peace after death, in the hands of the cold-blooded reaper. As a close confidant of Horst himself, he is ready to once again pass through the gates of eternity to serve a greater purpose.",
+			"biography" : "A true representative of the realm of eternity, born in its boundless starry expanses of icy emptiness, Kalinor has adopted all the most essential traits of the night reapers, essential to fulfilling their duty at the border of two realities. The enemies of the Spire will have no peace if they incur the wrath of his scythe, capable of severing souls from bodies, just as they will have no peace after death, in the hands of the cold-blooded reaper. As a close confidant of Horst himself, he is ready to once again pass through the gates of eternity to serve a greater purpose.",
 			"name" : "Kalinor",
 			"specialty" : {
 				"description" : "{Offense}\r\n\r\nReceives a 5% per level bonus to Offense skill percentage.",

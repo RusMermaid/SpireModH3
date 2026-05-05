@@ -4,7 +4,7 @@
 			"treeOfKnowledge" : {
 				"templates" : {
 					"nightStone_treeOfKnowledge" : {
-						"animation" : "cradle/terrain/oak",
+						"animation" : "spire/terrain/oak",
 						"visitableFrom" : [
 							"---",
 							"-+-",
