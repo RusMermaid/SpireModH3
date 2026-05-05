@@ -1,0 +1,54 @@
+{
+  "creatures": {
+    "spire.raven": {
+      "abilities": {
+        "immuneQuicksand": { "type": "SPELL_IMMUNITY", "subtype": "spell.quicksand" }
+      },
+      "attack": 7,
+      "defense": 6,
+      "speed": 6,
+      "damage": { "min": 3, "max": 7 },
+      "hitPoints": 20,
+      "growth": 5,
+      "level": 3,
+      "faction": "spire",
+      "cost": { "gold": 240 },
+      "doubleWide": false,
+      "name": {
+        "singular": { "en": "Raven", "ru": "Вран" },
+        "plural":   { "en": "Ravens", "ru": "Враны" }
+      },
+      "graphics": {
+        "animation": "", "iconLarge": "", "iconSmall": "", "map": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 }, "timeBetweenFidgets": 1
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" },
+      "upgrades": [ "spire.courserRaven" ]
+    },
+
+    "spire.courserRaven": {
+      "abilities": {
+        "immuneQuicksand": { "type": "SPELL_IMMUNITY", "subtype": "spell.quicksand" }
+      },
+      "attack": 8,
+      "defense": 7,
+      "speed": 8,
+      "damage": { "min": 7, "max": 7 },
+      "hitPoints": 20,
+      "growth": 5,
+      "level": 3,
+      "faction": "spire",
+      "cost": { "gold": 280 },
+      "doubleWide": false,
+      "name": {
+        "singular": { "en": "Courser Raven", "ru": "Гонец-Вран" },
+        "plural":   { "en": "Courser Ravens", "ru": "Гонцы-Враны" }
+      },
+      "graphics": {
+        "animation": "", "iconLarge": "", "iconSmall": "", "map": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 }, "timeBetweenFidgets": 1
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" }
+    }
+  }
+}

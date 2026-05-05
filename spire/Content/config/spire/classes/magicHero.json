@@ -1,0 +1,93 @@
+{
+  "sprillusionist" :
+  {
+    "faction" : "Spire",
+    "animation" :
+    {
+      "battle" :
+      {
+        "male"   : "",
+        "female" : ""
+      }
+    },
+    "mapObject" : {
+      "templates" : {
+        "male"   : { "animation" : "" },
+        "female" : { "animation" : "" }
+      }
+    },
+
+    "name" : "Illusionist",
+
+    "affinity" : "magic",
+
+    "commander" : "sa(� compl�ter",
+
+    "primarySkills" :
+    {
+      "attack"     : 1,
+      "defence"    : 0,
+      "spellpower" : 1,
+      "knowledge"  : 3
+    },
+    "lowLevelChance" :
+    {
+      "attack"     : 30,
+      "defence"    : 20,
+      "spellpower" : 25,
+      "knowledge"  : 15
+    },
+    "highLevelChance" :
+    {
+      "attack"     : 25,
+      "defence"    : 25,
+      "spellpower" : 25,
+      "knowledge"  : 25
+    },
+    "secondarySkills" :
+    {
+      "pathfinding"  : 3,
+      "archery"      : 3,
+      "logistics"    : 3,
+      "scouting"     : 2,
+      "diplomacy"    : 4,
+      "navigation"   : 2,
+      "leadership"   : 6,
+      "wisdom"       : 3,
+      "mysticism"    : 5,
+      "luck"         : 6,
+      "ballistics"   : 3,
+      "eagleEye"     : 2,
+      "necromancy"   : 0,
+      "estates"      : 1,
+      "fireMagic"    : 1,
+      "airMagic"     : 8,
+      "waterMagic"   : 7,
+      "earthMagic"   : 2,
+      "scholar"      : 1,
+      "tactics"      : 0,
+      "artillery"    : 5,
+      "learning"     : 5,
+      "offence"      : 3,
+      "armorer"      : 2,
+      "intelligence" : 4,
+      "sorcery"      : 4,
+      "resistance"   : 3,
+      "firstAid"     : 2,
+      "Alkahestry"  : 10
+    },
+    "defaultTavern" : 5,
+    "tavern" :
+    {
+      "castle"     : 4,
+      "rampart"    : 3,
+      "tower"      : 3,
+      "inferno"    : 0,
+      "necropolis" : 1,
+      "dungeon"    : 1,
+      "stronghold" : 3,
+      "fortress"   : 3,
+      "conflux"    : 0
+    }
+  }
+}

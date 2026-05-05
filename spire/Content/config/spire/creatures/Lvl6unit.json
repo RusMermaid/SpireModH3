@@ -1,0 +1,223 @@
+{
+  "creatures": {
+    "phantasmare": {
+      "abilities": {
+        "daydreamProc": { "type": "SPELL_AFTER_ATTACK", "subtype": "spire.daydream", "val": 15, "addInfo": [3, 0] },
+        "ignoreDamage25": { "type": "DAMAGE_REDUCTION", "val": 25 },
+        "toggleUp": { "type": "SPELLCASTER", "subtype": "spire.shiftToNightmare", "val": 3, "addInfo": 0 }
+      },
+      "advMapAmount": { "max": 8, "min": 3 },
+      "attack": 14,
+      "cost": { "gold": 1100, "crystal": 1 },
+      "damage": { "max": 23, "min": 14 },
+      "defense": 16,
+      "doubleWide": true,
+      "faction": "spire",
+      "graphics": {
+        "animation": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 },
+        "iconLarge": "",
+        "iconSmall": "",
+        "map": "",
+        "timeBetweenFidgets": 1
+      },
+      "growth": 2,
+      "hitPoints": 120,
+      "level": 6,
+      "name": {
+        "plural": { "en": "Phantasmares", "ru": "Фантазмиры" },
+        "singular": { "en": "Phantasmare", "ru": "Фантазмир" }
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" },
+      "speed": 6,
+      "upgrades": [ "nightmare" ]
+    },
+    "nightmare": {
+      "abilities": {
+        "fearless": { "type": "NO_MORALE" },
+        "ignoreDamage50": { "type": "DAMAGE_REDUCTION", "val": 50 },
+        "soulwalker": { "type": "SPELL_AFTER_MOVE", "subtype": "spire.soulfire", "val": 100, "addInfo": [3, 0] },
+        "toggleDown": { "type": "SPELLCASTER", "subtype": "spire.shiftToPhantasmare", "val": 3, "addInfo": 0 }
+      },
+      "advMapAmount": { "max": 8, "min": 3 },
+      "attack": 16,
+      "cost": { "gold": 1350, "sulfur": 1 },
+      "damage": { "max": 30, "min": 15 },
+      "defense": 18,
+      "doubleWide": true,
+      "faction": "spire",
+      "graphics": {
+        "animation": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 },
+        "iconLarge": "",
+        "iconSmall": "",
+        "map": "",
+        "timeBetweenFidgets": 1
+      },
+      "growth": 2,
+      "hitPoints": 120,
+      "level": 6,
+      "name": {
+        "plural": { "en": "Nightmares", "ru": "Кошмары" },
+        "singular": { "en": "Nightmare", "ru": "Кошмар" }
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" },
+      "speed": 9
+    }
+  },
+
+  "spells": {
+    "spire.daydream": {
+      "type": "combat",
+      "name": { "en": "Daydream", "ru": "Мечтательность" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 0,
+      "allowedFor": ["CREATURE"],
+      "targetType": "CREATURE",
+      "flags": {
+        "positive": false,
+        "damage": false,
+        "offensive": true,
+        "hidden": true,
+        "noSpellbook": true,
+        "noShrine": true,
+        "noScroll": true
+      },
+      "sound": { "cast": "" },
+      "levels": {
+        "none": {
+          "description": { "en": "Target cannot retaliate for the rest of battle.", "ru": "Враг не может отвечать на удары до конца битвы." },
+          "effects": {},
+          "battleEffects": {
+            "timed": {
+              "cumulative": false,
+              "bonuses": {
+                "noRetal": { "type": "NO_RETALIATION", "duration": "ONE_BATTLE" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "spire.soulfire": {
+      "type": "combat",
+      "name": { "en": "Soulfire", "ru": "Огнь душ" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 0,
+      "allowedFor": ["CREATURE"],
+      "targetType": "POINT",
+      "flags": {
+        "positive": false,
+        "damage": true,
+        "offensive": true,
+        "hidden": true,
+        "noSpellbook": true,
+        "noShrine": true,
+        "noScroll": true
+      },
+      "sound": { "cast": "" },
+      "levels": {
+        "none": {
+          "description": { "en": "", "ru": "" },
+          "effects": {},
+          "graphics": { "projectile": "", "area": "" },
+          "battleEffects": {
+            "fireWall": { "base": "spell.fireWall", "limiters": ["OPPOSITE_SIDE"] }
+          }
+        }
+      }
+    },
+
+    "spire.shiftToNightmare": {
+      "type": "combat",
+      "name": { "en": "Shift: Nightmare", "ru": "Смена формы: Кошмар" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 0,
+      "allowedFor": ["CREATURE"],
+      "targetType": "CREATURE",
+      "flags": { "hidden": true, "noSpellbook": true, "noShrine": true, "noScroll": true, "positive": true },
+      "levels": {
+        "none": {
+          "description": { "en": "", "ru": "" },
+          "effects": {},
+          "battleEffects": {
+            "timed": {
+              "cumulative": false,
+              "bonuses": {
+                "noMorale": { "type": "NO_MORALE", "duration": "ONE_BATTLE" },
+                "dmgRed50": { "type": "DAMAGE_REDUCTION", "val": 50, "duration": "ONE_BATTLE" },
+                "spdUp": { "type": "PRIMARY_SKILL", "subtype": "creature.speed", "val": 3, "valueType": "ADDITIVE_VALUE", "duration": "ONE_BATTLE" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "spire.shiftToPhantasmare": {
+      "type": "combat",
+      "name": { "en": "Shift: Phantasmare", "ru": "Смена формы: Фантазмир" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 0,
+      "allowedFor": ["CREATURE"],
+      "targetType": "CREATURE",
+      "flags": { "hidden": true, "noSpellbook": true, "noShrine": true, "noScroll": true, "positive": true },
+      "levels": {
+        "none": {
+          "description": { "en": "", "ru": "" },
+          "effects": {},
+          "battleEffects": {
+            "timed": {
+              "cumulative": false,
+              "bonuses": {
+                "dmgRed25": { "type": "DAMAGE_REDUCTION", "val": 25, "duration": "ONE_BATTLE" },
+                "spdDown": { "type": "PRIMARY_SKILL", "subtype": "creature.speed", "val": -3, "valueType": "ADDITIVE_VALUE", "duration": "ONE_BATTLE" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "spire.mindshift.nightmare": {
+      "type": "adventure",
+      "name": { "en": "Mindshift: Nightmare", "ru": "Переключение на кошмар" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 20,
+      "allowedFor": ["HERO"],
+      "targetType": "NONE",
+      "flags": { "hidden": false, "noShrine": true, "noScroll": true },
+      "sound": { "cast": "" },
+      "levels": {
+        "none": {
+          "description": { "en": "", "ru": "" },
+          "effects": {}
+        }
+      }
+    },
+
+    "spire.mindshift.phantasmare": {
+      "type": "adventure",
+      "name": { "en": "Mindshift: Phantasmare", "ru": "Переключение на сон" },
+      "school": "NONE",
+      "level": 0,
+      "cost": 20,
+      "allowedFor": ["HERO"],
+      "targetType": "NONE",
+      "flags": { "hidden": false, "noShrine": true, "noScroll": true },
+      "sound": { "cast": "" },
+      "levels": {
+        "none": {
+          "description": { "en": "", "ru": "" },
+          "effects": {}
+        }
+      }
+    }
+  }
+}

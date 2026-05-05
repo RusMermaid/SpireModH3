@@ -1,0 +1,61 @@
+{
+  "creatures": {
+    "spire.goldenMoth.dwelling": {
+      "abilities": {
+        "airProt75":        { "type": "MAGIC_SCHOOL_PROTECTION", "subtype": "AIR", "val": 75 },
+        "vulnFireball":     { "type": "MORE_DAMAGE_FROM_SPELL", "subtype": "spell.fireball",    "val": 50 },
+        "vulnArmageddon":   { "type": "MORE_DAMAGE_FROM_SPELL", "subtype": "spell.armageddon",  "val": 50 },
+        "hatePixie":        { "type": "HATE", "subtype": "core:pixie" },
+        "hateSprite":       { "type": "HATE", "subtype": "core:sprite" }
+      },
+      "attack": 7,
+      "defense": 5,
+      "speed": 8,
+      "damage": { "min": 3, "max": 6 },
+      "hitPoints": 16,
+      "growth": 8,
+      "level": 2,
+      "faction": "neutral",
+      "cost": { "gold": 150 },
+      "doubleWide": false,
+      "name": {
+        "singular": { "en": "Golden Moth", "ru": "Золотой Мотылек" },
+        "plural":   { "en": "Golden Moths", "ru": "Золотые Мотыльки" }
+      },
+      "graphics": {
+        "animation": "", "iconLarge": "", "iconSmall": "", "map": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 }, "timeBetweenFidgets": 1
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" }
+    },
+
+    "spire.starMoth.dwelling": {
+      "abilities": {
+        "airImmunity":      { "type": "MAGIC_SCHOOL_IMMUNITY", "subtype": "AIR" },
+        "vulnFireball":     { "type": "MORE_DAMAGE_FROM_SPELL", "subtype": "spell.fireball",    "val": 50 },
+        "vulnArmageddon":   { "type": "MORE_DAMAGE_FROM_SPELL", "subtype": "spell.armageddon",  "val": 50 },
+        "hatePixie":        { "type": "HATE", "subtype": "core:pixie" },
+        "hateSprite":       { "type": "HATE", "subtype": "core:sprite" }
+      },
+      "attack": 7,
+      "defense": 5,
+      "speed": 8,
+      "damage": { "min": 4, "max": 6 },
+      "hitPoints": 18,
+      "growth": 8,
+      "level": 2,
+      "faction": "neutral",
+      "cost": { "gold": 165 },
+      "doubleWide": false,
+      "name": {
+        "singular": { "en": "Star Moth", "ru": "Звездный Мотылек" },
+        "plural":   { "en": "Star Moths", "ru": "Звездные Мотыльки" }
+      },
+      "graphics": {
+        "animation": "", "iconLarge": "", "iconSmall": "", "map": "",
+        "animationTime": { "attack": 1, "idle": 10, "walk": 1 }, "timeBetweenFidgets": 1
+      },
+      "sound": { "attack": "", "defend": "", "killed": "", "move": "", "wince": "" }
+    }
+  }
+}
