@@ -1,0 +1,137 @@
+{
+	"anxiety": {
+		"type": "combat",
+		"name": "Anxiety",
+		"school": {
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false,
+			"psychic": true
+		},
+		"level": 2,
+		"power": 10,
+		"defaultGainChance": 4,
+		"gainChance": {
+			"castle": 8,
+			"rampart": 8,
+			"tower": 10,
+			"spire": 10
+		},
+		"animation": {
+			"affect": [
+				{
+					"defName": "spire/spells/starfall.def"
+				}
+			]
+		},
+		"targetCondition": {
+			"allOf": {},
+			"anyOf": {},
+			"noneOf": {
+				"core:bonus.MIND_IMMUNITY": "normal",
+				"core:bonus.NON_LIVING": "normal",
+				"core:bonus.UNDEAD": "normal"
+			}
+		},
+		"graphics": {
+			"iconBook": "spire/spells/starfallBook",
+			"iconScroll": "spire/spells/starfallScroll",
+			"iconScenarioBonus": "spire/spells/starfallScenario",
+			"iconEffect": "spire/spells/starfallEffect",
+			"iconImmune": "spire/spells/starfallImmune"
+		},
+		"sounds": {
+			"cast": "spire/STARREIN.wav"
+		},
+		"targetType": "CREATURE",
+		"levels": {
+			"base": {
+				"power": 10,
+				"range": "0",
+				"description": "{Basic Anxiety}\n\nTarget unit gains speed but lowers defense and attack.\n",
+				"cost": 12,
+				"effects": {
+					"attack": {
+						"type": "PRIMARY_SKILL",
+						"subtype": "primarySkill.attack",
+						"duration": "N_TURNS"
+					},
+					"defence": {
+						"type": "PRIMARY_SKILL",
+						"subtype": "primarySkill.defence",
+						"duration": "N_TURNS"
+					},
+					"stacksSpeed": {
+						"type": "STACKS_SPEED",
+						"duration": "N_TURNS"
+					}
+				}
+			},
+			"none": {
+				"description": "{Anxiety}\n\nTarget enemy unit gain speed but reduces defense.\n",
+				"effects": {
+					"attack": {
+						"val": -3
+					},
+					"defence": {
+						"val": -3
+					},
+					"stacksSpeed": {
+						"val": 2
+					}
+				}
+			},
+			"basic": {
+				"description": "{Basic Anxiety}\n\nTarget enemy unit gain speed but reduces defense.\n",
+				"effects": {
+					"attack": {
+						"val": -3
+					},
+					"defence": {
+						"val": -3
+					},
+					"stacksSpeed": {
+						"val": 2
+					}
+				}
+			},
+			"advanced": {
+				"description": "{Advanced Anxiety}\n\nTarget enemy unit gain speed but reduces defense.\n",
+				"cost": 12,
+				"effects": {
+					"attack": {
+						"val": -3
+					},
+					"defence": {
+						"val": -3
+					},
+					"stacksSpeed": {
+						"val": 3
+					}
+				}
+			},
+			"expert": {
+				"description": "{Expert Anxiety}\n\nAll units gain speed but reduces defense.\n",
+				"cost": 12,
+				"effects": {
+					"attack": {
+						"val": -7
+					},
+					"defence": {
+						"val": -7
+					},
+					"stacksSpeed": {
+						"val": 4
+					}
+				}
+			}
+		},
+		"counters": {
+			"spell.frenzy": true
+		},
+		"flags": {
+			"positive": true
+		}
+	}
+}

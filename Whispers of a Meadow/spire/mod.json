@@ -80,10 +80,15 @@
 		"config/spire/heroes/visionIle.json",
 		"config/spire/heroes/whisperArvin.json"
 	],
+	"spellSchools" :[
+		"config/spire/spellSchools.json"
+	],
 	"spells" : [
 		"config/spire/spells/spire_comet.json",
 		"config/spire/spells/spire_StarCaster.json",
-		"config/spire/spells/spire_starfall.json"
+		"config/spire/spells/spire_starfall.json",
+
+		"config/spire/spells/anxiety.json"
 	],
 	"battlefields" : [
 		"config/spire/terrain/battlefields/battlefields.json"

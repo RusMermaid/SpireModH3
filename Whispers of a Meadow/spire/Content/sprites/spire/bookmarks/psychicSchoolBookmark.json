@@ -1,0 +1,12 @@
+{
+	"images" : [
+		{
+			"frame" : 0,
+			"file" : "spire/bookmarks/psychicBookmark02.png"
+		},
+		{
+			"frame" : 1,
+			"file" : "spire/bookmarks/psychicBookmark01.png"
+		}
+	]
+}
