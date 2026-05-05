@@ -1,0 +1,26 @@
+{
+	"core:subterraneanGate" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"nightStoneSubGat" : {
+						"animation" : "cradle/terrain/cave",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"nightStone"
+						]
+					}
+				}
+			}
+		}
+	}
+}
