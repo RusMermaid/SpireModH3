@@ -1,0 +1,94 @@
+{
+	"psychicMagic" : {
+		"name" : "Psychic Magic",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 7,
+
+			"knight" : 1,
+			"cleric" : 3,
+
+			"ranger" : 2,
+			"druid" : 2,
+
+			"alchemist" : 2,
+			"wizard" : 4,
+
+			"demoniac" : 4,
+			"heretic" : 7,
+
+			"deathknight" : 8,
+			"necromancer" : 10,
+
+			"overlord" : 4,
+			"warlock" : 7,
+
+			"barbarian" : 1,
+			"battlemage" : 4,
+
+			"beastmaster" : 2,
+			"witch" : 9,
+
+			"planeswalker" : 3,
+			"elementalist" : 6,
+
+			//"captain" : 3,
+			//"navigator" : 5,
+
+			//"mercenary" : 2,
+			//"artificer" : 4
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"psychic" : {
+					"subtype" : "psychic",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Psychic Magic}\n\nBasic Psychic Magic allows your hero to cast Psychic spells at reduced cost.",
+			"effects" : {
+				"psychic" : {
+					"val" : 1
+				}
+			},
+			"images" : {
+				"small" : "spire/skills/psychicSmall/1",
+				"medium" : "spire/skills/psychicMedium/1",
+				"large" : "spire/skills/psychicLarge/1",
+				"scenarioBonus" : "spire/skills/psychicBonus/1"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Psychic Magic}\n\nAdvanced Psychic Magic allows your hero to cast Psychic spells at reduced cost and increased effectiveness.",
+			"effects" : {
+				"psychic" : {
+					"val" : 2
+				}
+			},
+			"images" : {
+				"small" : "spire/skills/psychicSmall/2",
+				"medium" : "spire/skills/psychicMedium/2",
+				"large" : "spire/skills/psychicLarge/2",
+				"scenarioBonus" : "spire/skills/psychicBonus/2"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Psychic Magic}\n\nExpert Psychic Magic allows your hero to cast Psychic spells at reduced cost and maximum effectiveness.",
+			"effects" : {
+				"psychic" : {
+					"val" : 3
+				}
+			},
+			"images" : {
+				"small" : "spire/skills/psychicSmall/3",
+				"medium" : "spire/skills/psychicMedium/3",
+				"large" : "spire/skills/psychicLarge/3",
+				"scenarioBonus" : "spire/skills/psychicBonus/3"
+			}
+		}
+	}
+}

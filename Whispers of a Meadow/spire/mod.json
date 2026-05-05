@@ -100,7 +100,8 @@
 		"config/spire/terrain/terrain/rivers.json"
 	],
 	"skills" : [
-		"config/spire/skills/reflection.json"
+		"config/spire/skills/reflection.json",
+		"config/spire/skills/psychicMagic.json"
 	],
 	"obstacles" : [
 		"config/spire/terrain/obstacles/obstacles.json"
