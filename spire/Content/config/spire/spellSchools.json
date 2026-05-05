@@ -27,5 +27,11 @@
 		"name": "Psychic",
 		"schoolBorders" : "SplevP",
 		"schoolHeader": "Psychic"
+	},
+	"arcana": {
+		"index" : 5,
+		"name" : "Arcana",
+		"schoolBorders" : "SplevA",
+		"schoolHeader": "Arcana"
 	}
 }
