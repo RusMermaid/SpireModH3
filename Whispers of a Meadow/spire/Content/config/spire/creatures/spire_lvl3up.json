@@ -1,15 +1,12 @@
 {
-	"cradle_lvl3" : {
+	"spire_lvl3up" : {
 		"name" : {
-			"singular" : "Black Harbinger",
-			"plural" : "Black Harbingers"
+			"singular" : "Ancient Harbinger",
+			"plural" : "Ancient Harbingers"
 		},
-		"upgrades" : [
-			"cradle_lvl3up"
-		],
 		"level" : 3,
 		"special" : false,
-		"faction" : "cradle",
+		"faction" : "spire",
 		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
@@ -17,15 +14,15 @@
 			"sulfur" : 0,
 			"crystal" : 0,
 			"gems" : 0,
-			"gold" : 190
+			"gold" : 230
 		},
-		"fightValue" : 320,
-		"aiValue" : 345,
+		"fightValue" : 360,
+		"aiValue" : 450,
 		"growth" : 7,
-		"attack" : 7,
-		"defense" : 7,
+		"attack" : 8,
+		"defense" : 8,
 		"hitPoints" : 24,
-		"speed" : 7,
+		"speed" : 9,
 		"damage" : {
 			"min" : 4,
 			"max" : 5
@@ -48,10 +45,10 @@
 		},
 		"hasDoubleWeek" : true,
 		"graphics" : {
-			"animation" : "cradle/creatures/battle/lvl3.def",
-			"map" : "cradle/creatures/adventure/lvl3.def",
-			"iconSmall" : "cradle/creatures/icon/lvl3.bmp",
-			"iconLarge" : "cradle/creatures/portrait/lvl3.bmp",
+			"animation" : "spire/creatures/battle/lvl3up.def",
+			"map" : "spire/creatures/adventure/lvl3up.def",
+			"iconSmall" : "spire/creatures/icon/lvl3up.bmp",
+			"iconLarge" : "spire/creatures/portrait/lvl3up.bmp",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1,
@@ -60,11 +57,11 @@
 			}
 		},
 		"sound" : {
-			"attack" : "cradle/LVL3ATTK.wav",
+			"attack" : "spire/LVL3ATTK.wav",
 			"defend" : "TBRDDFND.wav",
-			"killed" : "cradle/LVL3DIE.wav",
+			"killed" : "spire/LVL3DIE.wav",
 			"move" : "TBRDMOVE.wav",
-			"wince" : "cradle/LVL3DMG.wav"
+			"wince" : "spire/LVL3DMG.wav"
 		}
 	}
 }

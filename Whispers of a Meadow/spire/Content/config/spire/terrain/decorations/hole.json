@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"nightStoneHole" : {
-						"animation" : "cradle/terrain/hole",
+						"animation" : "spire/terrain/hole",
 						"mask" : [
 							"V"
 						],

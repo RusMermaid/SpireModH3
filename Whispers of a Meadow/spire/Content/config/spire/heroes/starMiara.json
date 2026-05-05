@@ -1,29 +1,29 @@
 {
-	"cradle_starMiara" : {
+	"spire_starMiara" : {
 		"army" : [
 			{
-				"creature" : "cradle_lvl1",
+				"creature" : "spire_lvl1",
 				"max" : 25,
 				"min" : 15
 			},
 			{
-				"creature" : "cradle_lvl2",
+				"creature" : "spire_lvl2",
 				"max" : 9,
 				"min" : 7
 			},
 			{
-				"creature" : "cradle_lvl3",
+				"creature" : "spire_lvl3",
 				"max" : 5,
 				"min" : 3
 			}
 		],
 		"female" : true,
-		"class" : "cradle_soulguide",
+		"class" : "spire_soulguide",
 		"images" : {
-			"large" : "cradle/heroes/starMiara/starMiaraB.bmp",
-			"small" : "cradle/heroes/starMiara/starMiaraS.bmp",
-			"specialtyLarge" : "cradle/heroes/starMiara/starMiaraSpecB.png",
-			"specialtySmall" : "cradle/heroes/starMiara/starMiaraSpecS.png"
+			"large" : "spire/heroes/starMiara/starMiaraB.bmp",
+			"small" : "spire/heroes/starMiara/starMiaraS.bmp",
+			"specialtyLarge" : "spire/heroes/starMiara/starMiaraSpecB.png",
+			"specialtySmall" : "spire/heroes/starMiara/starMiaraSpecS.png"
 		},
 		"skills" : [
 			{
@@ -45,7 +45,7 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Miara Whitestar, instead of serving in the Temple of Quiet Song, chose to fulfill her duty to the Cradle in a manner quite different from that of her numerous Noctra sisters. The palaces of the lands of eternal night owe their stunning architecture to sorcerers like Miara, capable of creating wondrous things even from ordinary stone. The almighty Horst, whose spirit presides over all the cities of eternity and oversees the fulfillment of the duties of his creations, blessed Miara and the other sorcerers to create beauty, something never before seen by the eyes of mere mortals.",
+			"biography" : "Miara Whitestar, instead of serving in the Temple of Quiet Song, chose to fulfill her duty to the Spire in a manner quite different from that of her numerous Noctra sisters. The palaces of the lands of eternal night owe their stunning architecture to sorcerers like Miara, capable of creating wondrous things even from ordinary stone. The almighty Horst, whose spirit presides over all the cities of eternity and oversees the fulfillment of the duties of his creations, blessed Miara and the other sorcerers to create beauty, something never before seen by the eyes of mere mortals.",
 			"name" : "Star Miara",
 			"specialty" : {
 				"description" : "{Crystal}\r\n\r\nIncreases kingdom's crystal production by 1 per day.",

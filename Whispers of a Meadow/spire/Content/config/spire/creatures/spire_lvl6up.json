@@ -1,15 +1,12 @@
 {
-	"cradle_lvl6" : {
+	"spire_lvl6up" : {
 		"name" : {
-			"singular" : "Mourner",
-			"plural" : "Mourners"
+			"singular" : "Dark Mourner",
+			"plural" : "Dark Mourners"
 		},
-		"upgrades" : [
-			"cradle_lvl6up"
-		],
 		"level" : 6,
 		"special" : false,
-		"faction" : "cradle",
+		"faction" : "spire",
 		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
@@ -17,18 +14,18 @@
 			"sulfur" : 0,
 			"crystal" : 0,
 			"gems" : 0,
-			"gold" : 850
+			"gold" : 1000
 		},
-		"fightValue" : 1200,
-		"aiValue" : 1530,
+		"fightValue" : 1240,
+		"aiValue" : 1560,
 		"growth" : 2,
-		"attack" : 15,
-		"defense" : 12,
-		"hitPoints" : 80,
-		"speed" : 7,
+		"attack" : 16,
+		"defense" : 14,
+		"hitPoints" : 85,
+		"speed" : 9,
 		"damage" : {
-			"min" : 16,
-			"max" : 25
+			"min" : 20,
+			"max" : 30
 		},
 		"horde" : 2,
 		"spellPoints" : 0,
@@ -48,19 +45,22 @@
 			"destUndead" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.sorrow",
-				"val" : 1
+				"val" : 2
 			},
 			"castsCount" : {
 				"type" : "CASTS",
-				"val" : 1
+				"val" : 3
+			},
+			"strikeAndReturn" : {
+				"type" : "RETURN_AFTER_STRIKE"
 			}
 		},
 		"hasDoubleWeek" : true,
 		"graphics" : {
-			"animation" : "cradle/creatures/battle/lvl6.def",
-			"map" : "cradle/creatures/adventure/lvl6.def",
-			"iconSmall" : "cradle/creatures/icon/lvl6.bmp",
-			"iconLarge" : "cradle/creatures/portrait/lvl6.bmp",
+			"animation" : "spire/creatures/battle/lvl6up.def",
+			"map" : "spire/creatures/adventure/lvl6up.def",
+			"iconSmall" : "spire/creatures/icon/lvl6up.bmp",
+			"iconLarge" : "spire/creatures/portrait/lvl6up.bmp",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 0.5,
@@ -69,13 +69,13 @@
 			}
 		},
 		"sound" : {
-			"attack" : "cradle/LVL6ATTK.wav",
+			"attack" : "spire/LVL6ATTK.wav",
 			"defend" : "HHNDDFND.wav",
-			"killed" : "cradle/LVL6DIE.wav",
-			"shoot" : "cradle/LVL6MAGIK.wav",
-			"wince" : "cradle/LVL6DMG.wav",
-			"startMoving" : "cradle/LVL6WALK.wav",
-			"endMoving" : "cradle/LVL6WALK.wav"
+			"killed" : "spire/LVL6DIE.wav",
+			"shoot" : "spire/LVL6MAGIK.wav",
+			"wince" : "spire/LVL6DMG.wav",
+			"startMoving" : "spire/LVL6WALK.wav",
+			"endMoving" : "spire/LVL6WALK.wav"
 		}
 	}
 }

@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"nightStoneTre1" : {
-						"animation" : "cradle/terrain/treesAR",
+						"animation" : "spire/terrain/treesAR",
 						"mask" : [
 							"VVVV",
 							"VVBB",
@@ -15,7 +15,7 @@
 						]
 					},
 					"nightStoneTre2" : {
-						"animation" : "cradle/terrain/treesAL",
+						"animation" : "spire/terrain/treesAL",
 						"mask" : [
 							"VVVV",
 							"VBBV",
@@ -26,7 +26,7 @@
 						]
 					},
 					"nightStoneTre3" : {
-						"animation" : "cradle/terrain/treesBL",
+						"animation" : "spire/terrain/treesBL",
 						"mask" : [
 							"VVVV",
 							"VVBB",
@@ -38,7 +38,7 @@
 						]
 					},
 					"nightStoneTre4" : {
-						"animation" : "cradle/terrain/treesBR",
+						"animation" : "spire/terrain/treesBR",
 						"mask" : [
 							"VVVV",
 							"VBBV",
@@ -50,7 +50,7 @@
 						]
 					},
 					"nightStoneTre5" : {
-						"animation" : "cradle/terrain/treesSL",
+						"animation" : "spire/terrain/treesSL",
 						"mask" : [
 							"VVVV",
 							"VBBV",
@@ -61,7 +61,7 @@
 						]
 					},
 					"nightStoneTre6" : {
-						"animation" : "cradle/terrain/treesSR",
+						"animation" : "spire/terrain/treesSR",
 						"mask" : [
 							"VVVV",
 							"VVBB",
@@ -72,7 +72,7 @@
 						]
 					},
 					"nightStoneTre7" : {
-						"animation" : "cradle/terrain/tree1",
+						"animation" : "spire/terrain/tree1",
 						"mask" : [
 							"VV",
 							"VB"
@@ -82,7 +82,7 @@
 						]
 					},
 					"nightStoneTre8" : {
-						"animation" : "cradle/terrain/tree2",
+						"animation" : "spire/terrain/tree2",
 						"mask" : [
 							"VV",
 							"VB"
@@ -92,7 +92,7 @@
 						]
 					},
 					"nightStoneTre9" : {
-						"animation" : "cradle/terrain/tree3",
+						"animation" : "spire/terrain/tree3",
 						"mask" : [
 							"VV",
 							"VB"
@@ -102,7 +102,7 @@
 						]
 					},
 					"nightStoneTre10" : {
-						"animation" : "cradle/terrain/tree4",
+						"animation" : "spire/terrain/tree4",
 						"mask" : [
 							"VV",
 							"VB"
@@ -112,7 +112,7 @@
 						]
 					},
 					"nightStoneTre11" : {
-						"animation" : "cradle/terrain/tree5",
+						"animation" : "spire/terrain/tree5",
 						"mask" : [
 							"VV",
 							"VB"
@@ -122,7 +122,7 @@
 						]
 					},
 					"nightStoneTre12" : {
-						"animation" : "cradle/terrain/tree6",
+						"animation" : "spire/terrain/tree6",
 						"mask" : [
 							"VV",
 							"VB"

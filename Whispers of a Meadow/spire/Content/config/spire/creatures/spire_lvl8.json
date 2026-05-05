@@ -1,12 +1,12 @@
 {
-	"cradle_lvl8" : {
+	"spire_lvl8" : {
 		"name" : {
 			"singular" : "Lord of the Stars",
 			"plural" : "Lords of the Stars"
 		},
 		"level" : 8,
 		"special" : false,
-		"faction" : "cradle",
+		"faction" : "spire",
 		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
@@ -44,7 +44,7 @@
 			},
 			"StarEff" : {
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.cradle_comet"
+				"subtype" : "spell.spire_comet"
 			},
 			"mindImmun" : {
 				"type" : "MIND_IMMUNITY"
@@ -58,7 +58,7 @@
 			},
 			"castsIce" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.cradle_starfall",
+				"subtype" : "spell.spire_starfall",
 				"val" : 3
 			},
 			"castsCount" : {
@@ -68,10 +68,10 @@
 		},
 		"hasDoubleWeek" : false,
 		"graphics" : {
-			"animation" : "cradle/creatures/battle/lvl8.def",
-			"map" : "cradle/creatures/adventure/lvl8.def",
-			"iconSmall" : "cradle/creatures/icon/lvl8.bmp",
-			"iconLarge" : "cradle/creatures/portrait/lvl8.bmp",
+			"animation" : "spire/creatures/battle/lvl8.def",
+			"map" : "spire/creatures/adventure/lvl8.def",
+			"iconSmall" : "spire/creatures/icon/lvl8.bmp",
+			"iconLarge" : "spire/creatures/portrait/lvl8.bmp",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1,
@@ -80,7 +80,7 @@
 			},
 			"missile" : {
 				"attackClimaxFrame" : 5,
-				"projectile" : "cradle/projectiles/inv_shot.def",
+				"projectile" : "spire/projectiles/inv_shot.def",
 				"offset" : {
 					"upperX" : 0,
 					"upperY" : 0,
@@ -99,13 +99,13 @@
 			}
 		},
 		"sound" : {
-			"attack" : "cradle/LVL8ATTK.wav",
-			"defend" : "cradle/STARREIN.wav",
-			"killed" : "cradle/LVL8DIE.wav",
+			"attack" : "spire/LVL8ATTK.wav",
+			"defend" : "spire/STARREIN.wav",
+			"killed" : "spire/LVL8DIE.wav",
 			"wince" : "FAERWNCE.wav",
-			"shoot" : "cradle/LVL8ATTK.wav",
-			"startMoving" : "cradle/LVL8START.wav",
-			"endMoving" : "cradle/LVL8START.wav"
+			"shoot" : "spire/LVL8ATTK.wav",
+			"startMoving" : "spire/LVL8START.wav",
+			"endMoving" : "spire/LVL8START.wav"
 		}
 	}
 }

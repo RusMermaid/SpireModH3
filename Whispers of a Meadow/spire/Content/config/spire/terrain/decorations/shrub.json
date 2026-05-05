@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"nightStoneSHR1" : {
-						"animation" : "cradle/terrain/shrub1",
+						"animation" : "spire/terrain/shrub1",
 						"mask" : [
 							"VBV",
 							"BBB"
@@ -14,7 +14,7 @@
 						]
 					},
 					"nightStoneSHR3" : {
-						"animation" : "cradle/terrain/shrub2",
+						"animation" : "spire/terrain/shrub2",
 						"mask" : [
 							"BBB",
 							"BBB"
@@ -24,7 +24,7 @@
 						]
 					},
 					"nightStoneSHR4" : {
-						"animation" : "cradle/terrain/shrub3",
+						"animation" : "spire/terrain/shrub3",
 						"mask" : [
 							"BB",
 							"BB"
@@ -34,7 +34,7 @@
 						]
 					},
 					"nightStoneSHR5" : {
-						"animation" : "cradle/terrain/shrub4",
+						"animation" : "spire/terrain/shrub4",
 						"mask" : [
 							"BB",
 							"BB"
@@ -44,7 +44,7 @@
 						]
 					},
 					"nightStoneSHR6" : {
-						"animation" : "cradle/terrain/shrub5",
+						"animation" : "spire/terrain/shrub5",
 						"mask" : [
 							"BBB"
 						],
@@ -53,7 +53,7 @@
 						]
 					},
 					"nightStoneSHR7" : {
-						"animation" : "cradle/terrain/shrub6",
+						"animation" : "spire/terrain/shrub6",
 						"mask" : [
 							"BBB"
 						],
@@ -62,7 +62,7 @@
 						]
 					},
 					"nightStoneSHR8" : {
-						"animation" : "cradle/terrain/shrub7",
+						"animation" : "spire/terrain/shrub7",
 						"mask" : [
 							"VBV",
 							"BBB"
@@ -72,7 +72,7 @@
 						]
 					},
 					"nightStoneSHR9" : {
-						"animation" : "cradle/terrain/shrub8",
+						"animation" : "spire/terrain/shrub8",
 						"mask" : [
 							"BB",
 							"BB"

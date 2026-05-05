@@ -1,11 +1,11 @@
 {
 	"core:creatureBank" : {
 		"types" : {
-			"cradle_shiningPalace" : {
+			"spire_shiningPalace" : {
 				"name" : "Shining Palace",
 				"templates" : {
 					"base" : {
-						"animation" : "cradle/map/bankA.def",
+						"animation" : "spire/map/bankA.def",
 						"visitableFrom" : [
 							"---",
 							"+++",
@@ -44,27 +44,27 @@
 						"guards" : [
 							{
 								"amount" : 3,
-								"type" : "cradle_lvl5"
+								"type" : "spire_lvl5"
 							},
 							{
 								"amount" : 5,
-								"type" : "cradle_lvl4"
+								"type" : "spire_lvl4"
 							},
 							{
 								"amount" : 5,
-								"type" : "cradle_lvl4"
+								"type" : "spire_lvl4"
 							},
 							{
 								"amount" : 5,
-								"type" : "cradle_lvl4"
+								"type" : "spire_lvl4"
 							},
 							{
 								"amount" : 5,
-								"type" : "cradle_lvl4"
+								"type" : "spire_lvl4"
 							},
 							{
 								"amount" : 3,
-								"type" : "cradle_lvl5"
+								"type" : "spire_lvl5"
 							}
 						],
 						"message" : 34,
@@ -81,27 +81,27 @@
 						"guards" : [
 							{
 								"amount" : 5,
-								"type" : "cradle_lvl5"
+								"type" : "spire_lvl5"
 							},
 							{
 								"amount" : 8,
-								"type" : "cradle_lvl4"
+								"type" : "spire_lvl4"
 							},
 							{
 								"amount" : 8,
-								"type" : "cradle_lvl4up"
+								"type" : "spire_lvl4up"
 							},
 							{
 								"amount" : 8,
-								"type" : "cradle_lvl4up"
+								"type" : "spire_lvl4up"
 							},
 							{
 								"amount" : 8,
-								"type" : "cradle_lvl4"
+								"type" : "spire_lvl4"
 							},
 							{
 								"amount" : 5,
-								"type" : "cradle_lvl5"
+								"type" : "spire_lvl5"
 							}
 						],
 						"message" : 34,
@@ -119,27 +119,27 @@
 						"guards" : [
 							{
 								"amount" : 8,
-								"type" : "cradle_lvl5up"
+								"type" : "spire_lvl5up"
 							},
 							{
 								"amount" : 12,
-								"type" : "cradle_lvl4"
+								"type" : "spire_lvl4"
 							},
 							{
 								"amount" : 12,
-								"type" : "cradle_lvl4up"
+								"type" : "spire_lvl4up"
 							},
 							{
 								"amount" : 12,
-								"type" : "cradle_lvl4up"
+								"type" : "spire_lvl4up"
 							},
 							{
 								"amount" : 12,
-								"type" : "cradle_lvl4"
+								"type" : "spire_lvl4"
 							},
 							{
 								"amount" : 8,
-								"type" : "cradle_lvl5"
+								"type" : "spire_lvl5"
 							}
 						],
 						"message" : 34,
@@ -157,27 +157,27 @@
 						"guards" : [
 							{
 								"amount" : 15,
-								"type" : "cradle_lvl5up"
+								"type" : "spire_lvl5up"
 							},
 							{
 								"amount" : 20,
-								"type" : "cradle_lvl4up"
+								"type" : "spire_lvl4up"
 							},
 							{
 								"amount" : 20,
-								"type" : "cradle_lvl4up"
+								"type" : "spire_lvl4up"
 							},
 							{
 								"amount" : 20,
-								"type" : "cradle_lvl4up"
+								"type" : "spire_lvl4up"
 							},
 							{
 								"amount" : 20,
-								"type" : "cradle_lvl4up"
+								"type" : "spire_lvl4up"
 							},
 							{
 								"amount" : 15,
-								"type" : "cradle_lvl5up"
+								"type" : "spire_lvl5up"
 							}
 						],
 						"message" : 34,

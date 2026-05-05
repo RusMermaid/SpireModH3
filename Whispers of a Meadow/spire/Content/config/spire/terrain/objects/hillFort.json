@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"nightStone_hillFort" : {
-						"animation" : "cradle/terrain/hillFort",
+						"animation" : "spire/terrain/hillFort",
 						"visitableFrom" : [
 							"---",
 							"-+-",

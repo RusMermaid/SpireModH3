@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"nightStone_reROC1" : {
-						"animation" : "cradle/terrain/mountainsBL",
+						"animation" : "spire/terrain/mountainsBL",
 						"mask" : [
 							"VVVVVV",
 							"VBBBBV",
@@ -16,7 +16,7 @@
 						]
 					},
 					"nightStone_reROC2" : {
-						"animation" : "cradle/terrain/mountainsBR",
+						"animation" : "spire/terrain/mountainsBR",
 						"mask" : [
 							"VVVVVV",
 							"VVBBBB",
@@ -28,7 +28,7 @@
 						]
 					},
 					"nightStone_reROC3" : {
-						"animation" : "cradle/terrain/mountainsAL",
+						"animation" : "spire/terrain/mountainsAL",
 						"mask" : [
 							"VVVV",
 							"VBBB",
@@ -39,7 +39,7 @@
 						]
 					},
 					"nightStone_reROC4" : {
-						"animation" : "cradle/terrain/mountainsAR",
+						"animation" : "spire/terrain/mountainsAR",
 						"mask" : [
 							"VVVV",
 							"VBBB",
@@ -50,7 +50,7 @@
 						]
 					},
 					"nightStone_reROC5" : {
-						"animation" : "cradle/terrain/mountainsSR",
+						"animation" : "spire/terrain/mountainsSR",
 						"mask" : [
 							"VVVV",
 							"VVBB",
@@ -61,7 +61,7 @@
 						]
 					},
 					"nightStone_reROC6" : {
-						"animation" : "cradle/terrain/mountainsSL",
+						"animation" : "spire/terrain/mountainsSL",
 						"mask" : [
 							"VVVV",
 							"VBBV",

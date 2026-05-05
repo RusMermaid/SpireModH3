@@ -1,15 +1,15 @@
 {
-	"cradle_lvl5" : {
+	"spire_lvl5" : {
 		"name" : {
 			"singular" : "Star Caster",
 			"plural" : "Star Casters"
 		},
 		"upgrades" : [
-			"cradle_lvl5up"
+			"spire_lvl5up"
 		],
 		"level" : 5,
 		"special" : false,
-		"faction" : "cradle",
+		"faction" : "spire",
 		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
@@ -46,7 +46,7 @@
 			},
 			"StarEff" : {
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.cradle_StarCaster"
+				"subtype" : "spell.spire_StarCaster"
 			},
 			"mindImmun" : {
 				"type" : "MIND_IMMUNITY"
@@ -57,10 +57,10 @@
 		},
 		"hasDoubleWeek" : true,
 		"graphics" : {
-			"animation" : "cradle/creatures/battle/lvl5.def",
-			"map" : "cradle/creatures/adventure/lvl5.def",
-			"iconSmall" : "cradle/creatures/icon/lvl5.bmp",
-			"iconLarge" : "cradle/creatures/portrait/lvl5.bmp",
+			"animation" : "spire/creatures/battle/lvl5.def",
+			"map" : "spire/creatures/adventure/lvl5.def",
+			"iconSmall" : "spire/creatures/icon/lvl5.bmp",
+			"iconLarge" : "spire/creatures/portrait/lvl5.bmp",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1.4,
@@ -69,7 +69,7 @@
 			},
 			"missile" : {
 				"attackClimaxFrame" : 5,
-				"projectile" : "cradle/projectiles/missile5lvl.def",
+				"projectile" : "spire/projectiles/missile5lvl.def",
 				"offset" : {
 					"upperX" : 0,
 					"upperY" : 0,
@@ -88,11 +88,11 @@
 			}
 		},
 		"sound" : {
-			"attack" : "cradle/LVL5ATTK.wav",
-			"defend" : "cradle/STAREFFECT.wav",
-			"killed" : "cradle/LVL5DIE.wav",
+			"attack" : "spire/LVL5ATTK.wav",
+			"defend" : "spire/STAREFFECT.wav",
+			"killed" : "spire/LVL5DIE.wav",
 			"move" : "MAGEMOVE.wav",
-			"shoot" : "cradle/LVL5SHOT.wav",
+			"shoot" : "spire/LVL5SHOT.wav",
 			"wince" : "MAGEWNCE.wav"
 		}
 	}

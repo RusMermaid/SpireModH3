@@ -1,29 +1,29 @@
 {
-	"cradle_dustNaithel" : {
+	"spire_dustNaithel" : {
 		"army" : [
 			{
-				"creature" : "cradle_lvl1",
+				"creature" : "spire_lvl1",
 				"max" : 25,
 				"min" : 15
 			},
 			{
-				"creature" : "cradle_lvl2",
+				"creature" : "spire_lvl2",
 				"max" : 9,
 				"min" : 7
 			},
 			{
-				"creature" : "cradle_lvl3",
+				"creature" : "spire_lvl3",
 				"max" : 6,
 				"min" : 3
 			}
 		],
 		"female" : false,
-		"class" : "cradle_soulguide",
+		"class" : "spire_soulguide",
 		"images" : {
-			"large" : "cradle/heroes/dustNaithel/dustNaithelB.bmp",
-			"small" : "cradle/heroes/dustNaithel/dustNaithelS.bmp",
-			"specialtyLarge" : "cradle/heroes/dustNaithel/dustNaithelSpecB.png",
-			"specialtySmall" : "cradle/heroes/dustNaithel/dustNaithelSpecS.png"
+			"large" : "spire/heroes/dustNaithel/dustNaithelB.bmp",
+			"small" : "spire/heroes/dustNaithel/dustNaithelS.bmp",
+			"specialtyLarge" : "spire/heroes/dustNaithel/dustNaithelSpecB.png",
+			"specialtySmall" : "spire/heroes/dustNaithel/dustNaithelSpecS.png"
 		},
 		"skills" : [
 			{
@@ -36,7 +36,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "cradle_lvl6"
+			"creature" : "spire_lvl6"
 		},
 		"texts" : {
 			"biography" : "There's no one in the lands of eternal night more terrifying than Naithel Gravedust, who makes even the most inveterate necromancer tremble with fear. Rumor has it that this lord of mourners long ago turned against Horst himself, earning him the eternal punishment of watching over the most evil and lost souls, forced to walk alongside them on the path of great purification. Or, when the time comes, to harness their power to don the skin of a fearsome punisher.",

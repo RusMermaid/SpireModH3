@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"nightStoneSubGat" : {
-						"animation" : "cradle/terrain/cave",
+						"animation" : "spire/terrain/cave",
 						"visitableFrom" : [
 							"---",
 							"+++",

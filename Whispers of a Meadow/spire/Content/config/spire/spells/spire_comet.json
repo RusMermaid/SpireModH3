@@ -1,7 +1,7 @@
 {
-	"cradle_StarCaster" : {
+	"spire_comet" : {
 		"type" : "ability",
-		"name" : "Star sparks",
+		"name" : "Comet",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -20,11 +20,11 @@
 
 		"animation" : {
 			"affect" : [
-				"cradle/spells/effect5lvl.def"
+				"spire/spells/comet.def"
 			]
 		},
 		"sounds" : {
-			"cast" : "cradle/STAREFFECT.wav"
+			"cast" : "spire/LVL8STAR.wav"
 		},
 		"flags" : {
 			"damage" : true,
@@ -44,25 +44,25 @@
 				}
 			},
 			"none" : {
-				"description" : "Star sparks",
+				"description" : "Comet",
 
 				"cost" : 0,
 				"power" : 10
 			},
 			"basic" : {
-				"description" : "Star sparks",
+				"description" : "Comet",
 
 				"cost" : 0,
 				"power" : 10
 			},
 			"advanced" : {
-				"description" : "Star sparks",
+				"description" : "Comet",
 
 				"cost" : 0,
 				"power" : 10
 			},
 			"expert" : {
-				"description" : "Star sparks",
+				"description" : "Comet",
 
 				"cost" : 0,
 				"power" : 10

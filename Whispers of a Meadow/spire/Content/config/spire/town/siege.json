@@ -1,11 +1,11 @@
 {
-	"cradle" : {
+	"spire" : {
 		"town" : {
 			"siege" : {
-				"shooter" : "cradle_lvl5",
-				"towerIconSmall" : "cradle/icons/arrowtowersmall",
-				"towerIconLarge" : "cradle/icons/arrowtowerslarge",
-				"imagePrefix" : "cradle/siege/CradleSiege",
+				"shooter" : "spire_lvl5",
+				"towerIconSmall" : "spire/icons/arrowtowersmall",
+				"towerIconLarge" : "spire/icons/arrowtowerslarge",
+				"imagePrefix" : "spire/siege/SpireSiege",
 				"gate" : {
 					"arch" : {
 						"x" : 460,

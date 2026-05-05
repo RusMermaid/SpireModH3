@@ -1,6 +1,6 @@
 {
-	"name" : "Cradle-town",
-	"description" : "The new city of soul guides, Cradle, connected to the otherworldly dimension of eternity, night and dreams.",
+	"name" : "Spire-town",
+	"description" : "The new city of soul guides, Spire, connected to the otherworldly dimension of eternity, night and dreams.",
 	"author" : "Vovan1698",
 	"contact" : "discord: Vovan1698, zeryss",
 	"version" : "1.0.1",
@@ -12,14 +12,14 @@
 		"name" : "摇篮",
 		"description" : "灵魂指引者的新城镇摇篮，连接者包含永恒、黑夜与梦境的异界。",
 		"translations" : [
-			"translation/cradle/chinese.json"
+			"translation/spire/chinese.json"
 		]
 	},
 	"russian" : {
 		"name" : "Колыбель",
 		"description" : "Новый город проводников душ Колыбель, связанный с потусторонним измерением вечности, ночи и снов.",
 		"translations" : [
-			"translation/cradle/russian.json"
+			"translation/spire/russian.json"
 		]
 	},
 	"changelog" : {
@@ -31,95 +31,95 @@
 		]
 	},
 	"factions" : [
-		"config/cradle/town/faction.json",
-		"config/cradle/town/buildings.json",
-		"config/cradle/town/structures.json",
-		"config/cradle/town/spells.json",
-		"config/cradle/town/siege.json",
-		"config/cradle/town/puzzle.json"
+		"config/spire/town/faction.json",
+		"config/spire/town/buildings.json",
+		"config/spire/town/structures.json",
+		"config/spire/town/spells.json",
+		"config/spire/town/siege.json",
+		"config/spire/town/puzzle.json"
 	],
 	"creatures" : [
-		"config/cradle/creatures/cradle_lvl1.json",
-		"config/cradle/creatures/cradle_lvl1up.json",
-		"config/cradle/creatures/cradle_lvl2.json",
-		"config/cradle/creatures/cradle_lvl2up.json",
-		"config/cradle/creatures/cradle_lvl3.json",
-		"config/cradle/creatures/cradle_lvl3up.json",
-		"config/cradle/creatures/cradle_lvl4.json",
-		"config/cradle/creatures/cradle_lvl4up.json",
-		"config/cradle/creatures/cradle_lvl5.json",
-		"config/cradle/creatures/cradle_lvl5up.json",
-		"config/cradle/creatures/cradle_lvl5a.json",
-		"config/cradle/creatures/cradle_lvl5aup.json",
-		"config/cradle/creatures/cradle_lvl6.json",
-		"config/cradle/creatures/cradle_lvl6up.json",
-		"config/cradle/creatures/cradle_lvl7.json",
-		"config/cradle/creatures/cradle_lvl7up.json",
-		"config/cradle/creatures/cradle_lvl8.json",
-		"config/cradle/creatures/cradle_cmd.json"
+		"config/spire/creatures/spire_lvl1.json",
+		"config/spire/creatures/spire_lvl1up.json",
+		"config/spire/creatures/spire_lvl2.json",
+		"config/spire/creatures/spire_lvl2up.json",
+		"config/spire/creatures/spire_lvl3.json",
+		"config/spire/creatures/spire_lvl3up.json",
+		"config/spire/creatures/spire_lvl4.json",
+		"config/spire/creatures/spire_lvl4up.json",
+		"config/spire/creatures/spire_lvl5.json",
+		"config/spire/creatures/spire_lvl5up.json",
+		"config/spire/creatures/spire_lvl5a.json",
+		"config/spire/creatures/spire_lvl5aup.json",
+		"config/spire/creatures/spire_lvl6.json",
+		"config/spire/creatures/spire_lvl6up.json",
+		"config/spire/creatures/spire_lvl7.json",
+		"config/spire/creatures/spire_lvl7up.json",
+		"config/spire/creatures/spire_lvl8.json",
+		"config/spire/creatures/spire_cmd.json"
 	],
 	"heroClasses" : [
-		"config/cradle/classes/oneiroguard.json",
-		"config/cradle/classes/soulguide.json"
+		"config/spire/classes/oneiroguard.json",
+		"config/spire/classes/soulguide.json"
 	],
 	"heroes" : [
-		"config/cradle/heroes/astralia.json",
-		"config/cradle/heroes/dreamMelanis.json",
-		"config/cradle/heroes/dustNaithel.json",
-		"config/cradle/heroes/fogNoctus.json",
-		"config/cradle/heroes/guardPiron.json",
-		"config/cradle/heroes/imageTeyra.json",
-		"config/cradle/heroes/kalinor.json",
-		"config/cradle/heroes/lightHeilian.json",
-		"config/cradle/heroes/lumisa.json",
-		"config/cradle/heroes/moonSelena.json",
-		"config/cradle/heroes/nightElyon.json",
-		"config/cradle/heroes/selarin.json",
-		"config/cradle/heroes/shadowElystra.json",
-		"config/cradle/heroes/starMiara.json",
-		"config/cradle/heroes/visionIle.json",
-		"config/cradle/heroes/whisperArvin.json"
+		"config/spire/heroes/astralia.json",
+		"config/spire/heroes/dreamMelanis.json",
+		"config/spire/heroes/dustNaithel.json",
+		"config/spire/heroes/fogNoctus.json",
+		"config/spire/heroes/guardPiron.json",
+		"config/spire/heroes/imageTeyra.json",
+		"config/spire/heroes/kalinor.json",
+		"config/spire/heroes/lightHeilian.json",
+		"config/spire/heroes/lumisa.json",
+		"config/spire/heroes/moonSelena.json",
+		"config/spire/heroes/nightElyon.json",
+		"config/spire/heroes/selarin.json",
+		"config/spire/heroes/shadowElystra.json",
+		"config/spire/heroes/starMiara.json",
+		"config/spire/heroes/visionIle.json",
+		"config/spire/heroes/whisperArvin.json"
 	],
 	"spells" : [
-		"config/cradle/spells/cradle_comet.json",
-		"config/cradle/spells/cradle_StarCaster.json",
-		"config/cradle/spells/cradle_starfall.json"
+		"config/spire/spells/spire_comet.json",
+		"config/spire/spells/spire_StarCaster.json",
+		"config/spire/spells/spire_starfall.json"
 	],
 	"battlefields" : [
-		"config/cradle/terrain/battlefields/battlefields.json"
+		"config/spire/terrain/battlefields/battlefields.json"
 	],
 	"terrains" : [
-		"config/cradle/terrain/terrain/terrains.json"
+		"config/spire/terrain/terrain/terrains.json"
 	],
 	"rivers" : [
-		"config/cradle/terrain/terrain/rivers.json"
+		"config/spire/terrain/terrain/rivers.json"
 	],
 	"skills" : [
-		"config/cradle/skills/reflection.json"
+		"config/spire/skills/reflection.json"
 	],
 	"obstacles" : [
-		"config/cradle/terrain/obstacles/obstacles.json"
+		"config/spire/terrain/obstacles/obstacles.json"
 	],
 	"objects" : [
-		"config/cradle/terrain/decorations/canyon.json",
-		"config/cradle/terrain/decorations/flowers.json",
-		"config/cradle/terrain/decorations/fracture.json",
-		"config/cradle/terrain/decorations/hole.json",
-		"config/cradle/terrain/decorations/mountains.json",
-		"config/cradle/terrain/decorations/rock.json",
-		"config/cradle/terrain/decorations/shrub.json",
-		"config/cradle/terrain/decorations/stone.json",
-		"config/cradle/terrain/decorations/trees.json",
-		"config/cradle/terrain/decorations/deltas.json",
-		"config/cradle/terrain/objects/abandonedMine.json",
-		"config/cradle/terrain/objects/hillFort.json",
-		"config/cradle/terrain/objects/signs.json",
-		"config/cradle/terrain/objects/treeOfKnowledge.json",
-		"config/cradle/terrain/special/mines.json",
-		"config/cradle/terrain/special/obelisk.json",
-		"config/cradle/terrain/special/subgates.json",
-		"config/cradle/dwellings.json",
-		"config/cradle/banks/bankA.json",
-		"config/cradle/banks/bankB.json"
+		"config/spire/terrain/decorations/canyon.json",
+		"config/spire/terrain/decorations/flowers.json",
+		"config/spire/terrain/decorations/fracture.json",
+		"config/spire/terrain/decorations/hole.json",
+		"config/spire/terrain/decorations/mountains.json",
+		"config/spire/terrain/decorations/rock.json",
+		"config/spire/terrain/decorations/shrub.json",
+		"config/spire/terrain/decorations/stone.json",
+		"config/spire/terrain/decorations/trees.json",
+		"config/spire/terrain/decorations/deltas.json",
+		"config/spire/terrain/objects/abandonedMine.json",
+		"config/spire/terrain/objects/hillFort.json",
+		"config/spire/terrain/objects/signs.json",
+		"config/spire/terrain/objects/treeOfKnowledge.json",
+		"config/spire/terrain/special/mines.json",
+		"config/spire/terrain/special/obelisk.json",
+		"config/spire/terrain/special/subgates.json",
+		"config/spire/dwellings.json",
+		"config/spire/banks/bankA.json",
+		"config/spire/banks/bankB.json"
 	]
 }

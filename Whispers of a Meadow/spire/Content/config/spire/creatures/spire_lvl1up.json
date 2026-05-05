@@ -1,15 +1,12 @@
 {
-	"cradle_lvl1" : {
+	"spire_lvl1up" : {
 		"name" : {
-			"singular" : "Sleepwalker",
-			"plural" : "Sleepwalkers"
+			"singular" : "Moonnoide",
+			"plural" : "Moonnoides"
 		},
-		"upgrades" : [
-			"cradle_lvl1up"
-		],
 		"level" : 1,
 		"special" : false,
-		"faction" : "cradle",
+		"faction" : "spire",
 		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
@@ -17,18 +14,18 @@
 			"sulfur" : 0,
 			"crystal" : 0,
 			"gems" : 0,
-			"gold" : 60
+			"gold" : 70
 		},
-		"fightValue" : 55,
-		"aiValue" : 60,
+		"fightValue" : 70,
+		"aiValue" : 80,
 		"growth" : 14,
 		"horde" : 9,
-		"attack" : 3,
-		"defense" : 4,
+		"attack" : 4,
+		"defense" : 6,
 		"hitPoints" : 6,
-		"speed" : 6,
+		"speed" : 7,
 		"damage" : {
-			"min" : 1,
+			"min" : 2,
 			"max" : 2
 		},
 		"advMapAmount" : {
@@ -49,10 +46,10 @@
 		},
 		"hasDoubleWeek" : true,
 		"graphics" : {
-			"animation" : "cradle/creatures/battle/lvl1.def",
-			"map" : "cradle/creatures/adventure/lvl1.def",
-			"iconSmall" : "cradle/creatures/icon/lvl1.bmp",
-			"iconLarge" : "cradle/creatures/portrait/lvl1.bmp",
+			"animation" : "spire/creatures/battle/lvl1up.def",
+			"map" : "spire/creatures/adventure/lvl1up.def",
+			"iconSmall" : "spire/creatures/icon/lvl1up.bmp",
+			"iconLarge" : "spire/creatures/portrait/lvl1up.bmp",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 1,
@@ -63,8 +60,8 @@
 		"sound" : {
 			"attack" : "SPRTATTK.wav",
 			"defend" : "SPRTATTK.wav",
-			"killed" : "cradle/LVL1DIE.wav",
-			"move" : "cradle/LVL1WALK",
+			"killed" : "spire/LVL1DIE.wav",
+			"move" : "spire/LVL1WALK",
 			"wince" : "WGHTWNCE.wav"
 		}
 	}

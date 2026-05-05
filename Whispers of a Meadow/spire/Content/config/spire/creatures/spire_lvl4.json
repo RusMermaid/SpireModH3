@@ -1,15 +1,15 @@
 {
-	"cradle_lvl4" : {
+	"spire_lvl4" : {
 		"name" : {
 			"singular" : "Ethereal Guardian",
 			"plural" : "Ethereal Guardians"
 		},
 		"upgrades" : [
-			"cradle_lvl4up"
+			"spire_lvl4up"
 		],
 		"level" : 4,
 		"special" : false,
-		"faction" : "cradle",
+		"faction" : "spire",
 		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
@@ -52,14 +52,14 @@
 		},
 		"hasDoubleWeek" : true,
 		"graphics" : {
-			"animation" : "cradle/creatures/battle/lvl4.def",
-			"map" : "cradle/creatures/adventure/lvl4.def",
+			"animation" : "spire/creatures/battle/lvl4.def",
+			"map" : "spire/creatures/adventure/lvl4.def",
 			"mapMask" : [
 				"VV",
 				"AV"
 			],
-			"iconSmall" : "cradle/creatures/icon/lvl4.bmp",
-			"iconLarge" : "cradle/creatures/portrait/lvl4.bmp",
+			"iconSmall" : "spire/creatures/icon/lvl4.bmp",
+			"iconLarge" : "spire/creatures/portrait/lvl4.bmp",
 			"timeBetweenFidgets" : 1.0,
 			"animationTime" : {
 				"walk" : 2,
@@ -68,11 +68,11 @@
 			}
 		},
 		"sound" : {
-			"attack" : "cradle/LVL4ATTK.wav",
+			"attack" : "spire/LVL4ATTK.wav",
 			"defend" : "SWRDDFND.wav",
-			"killed" : "cradle/LVL4DIE.wav",
-			"move" : "cradle/LVL4WALK.wav",
-			"wince" : "cradle/LVL4DMG.wav"
+			"killed" : "spire/LVL4DIE.wav",
+			"move" : "spire/LVL4WALK.wav",
+			"wince" : "spire/LVL4DMG.wav"
 		}
 	}
 }
