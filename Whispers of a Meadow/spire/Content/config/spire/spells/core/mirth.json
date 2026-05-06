@@ -1,0 +1,11 @@
+{
+    "core:mirth": {
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        }
+    }
+}
