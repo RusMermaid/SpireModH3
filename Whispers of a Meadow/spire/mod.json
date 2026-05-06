@@ -88,7 +88,12 @@
 		"config/spire/spells/spire_StarCaster.json",
 		"config/spire/spells/spire_starfall.json",
 
-		"config/spire/spells/anxiety.json"
+		"config/spire/spells/core.json",
+		"config/spire/spells/anxiety.json",
+		"config/spire/spells/clarity.json",
+		"config/spire/spells/confusion.json",
+		"config/spire/spells/empathy.json",
+		"config/spire/spells/fear.json"
 	],
 	"battlefields" : [
 		"config/spire/terrain/battlefields/battlefields.json"

@@ -1,0 +1,123 @@
+{
+    "core:dimensionDoor": {
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": true,
+            "water": false,
+            "psychic": false
+        }
+    },
+
+    // Psychic
+    "core:blind" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        },
+        "level": 2
+    },
+    "core:disguise" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        }
+    },
+    "core:forgetfulness" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        }
+    },
+    "core:hypnotize" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        }
+    },
+    "core:antiMagic" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        },
+        "level": 3
+    },
+    "core:mirth" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        }
+    },
+    "core:berserk" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        }
+    },
+    "core:frenzy" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        }
+    },
+    "core:sorrow" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        }
+    },
+    "core:magicMirror" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        },
+        "level": 5
+    },
+
+    "core:clone" :{
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        },
+        "level": 2,
+        // Affect only T1-T6; must be tested
+        "targetCondition" : {
+			"noneOf" : {
+                "bonus.KING" : "absolute"
+			}
+		}
+    }
+}
