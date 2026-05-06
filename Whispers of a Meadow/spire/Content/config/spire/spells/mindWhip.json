@@ -33,13 +33,13 @@
 			"base" : {
 				"range" : "0",
 				"targetModifier" : {
-					"smart" : false
+					"smart" : true
 				},
                 "battleEffects" : {
 					"directDamage" : {
-						"type" : "core:damage"
+						"type" : "core:damage",
+                        //"ignoreImmunity" : true
 					}
-                    // "ignoreImmunity" : false
 				}
 			},
 			"none" : {
@@ -65,26 +65,16 @@
 		},
 		"flags" : {
 			"damage": true,
-			"negative": true,
-            "nonMagical": true
+			"negative": true
+            //"nonMagical": true
 		},
         "targetCondition": {
-            "noneOf": {
-                "bonus.MIND_IMMUNITY": "normal",
-                "bonus.MECHANICAL": "normal",
-                "bonus.SIEGE_WEAPON": "absolute",
-                "bonus.UNDEAD": "absolute",
-                
-                "core:creature.airElemental": "normal",
-                "core:creature.stormElemental": "normal",
-                "core:creature.waterElemental": "normal",
-                "core:creature.iceElemental": "normal",
-                "core:creature.fireElemental": "normal",
-                "core:creature.energyElemental": "normal",
-                "core:creature.earthElemental": "normal",
-                "core:creature.magmaElemental": "normal",
-                "core:creature.psychicElemental": "normal",
-                "core:creature.magicElemental": "normal"
+            "anyOf": {
+                "bonus.LIVING" : "absolute",
+                "core:creature.stoneGolem":"absolute",
+                "core:creature.ironGolem": "absolute",
+                "core:creature.goldGolem": "absolute",
+                "core:creature.diamondGolem": "absolute"
             }
         }
 	}
