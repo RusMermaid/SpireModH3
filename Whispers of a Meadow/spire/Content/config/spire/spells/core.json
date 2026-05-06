@@ -119,5 +119,14 @@
                 "bonus.KING" : "absolute"
 			}
 		}
+    },
+    "core:magicArrow": {
+        "school": {
+            "air": true,
+            "earth": true,
+            "fire": true,
+            "water": true,
+            "psychic": true
+        }
     }
 }
