@@ -103,7 +103,6 @@
         },
         "level": 5
     },
-
     "core:clone" :{
         "school": {
             "air": false,
@@ -113,10 +112,14 @@
             "psychic": true
         },
         "level": 2,
-        // Affect only T1-T6; must be tested
-        "targetCondition" : {
-			"noneOf" : {
-                "bonus.KING" : "absolute"
+        "levels": {
+			"expert":{
+				"battleEffects":{
+					"clone":{
+						"maxTier":6
+					}
+				},
+                "description" : "Creates a duplicate of the selected unit stack. The image is dispelled if it is attacked.\n\nClones creatures of a level 1-6 troop."
 			}
 		}
     },
