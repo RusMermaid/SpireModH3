@@ -37,8 +37,7 @@
 				},
                 "battleEffects" : {
 					"directDamage" : {
-						"type" : "core:damage",
-                        //"ignoreImmunity" : true
+						"type" : "core:damage"
 					}
 				}
 			},
@@ -65,8 +64,8 @@
 		},
 		"flags" : {
 			"damage": true,
-			"negative": true
-            //"nonMagical": true
+			"negative": true,
+            "nonMagical": true
 		},
         "targetCondition": {
             "anyOf": {
@@ -74,7 +73,8 @@
                 "core:creature.stoneGolem":"absolute",
                 "core:creature.ironGolem": "absolute",
                 "core:creature.goldGolem": "absolute",
-                "core:creature.diamondGolem": "absolute"
+                "core:creature.diamondGolem": "absolute",
+                "bonus.LEVEL_SPELL_IMMUNITY": "normal"
             }
         }
 	}

@@ -120,7 +120,9 @@
 	],
 	"skills" : [
 		"config/spire/skills/reflection.json",
-		"config/spire/skills/psychicMagic.json"
+		"config/spire/skills/psychicMagic.json",
+
+		"config/spire/skills/sorcery.json"
 	],
 	"obstacles" : [
 		"config/spire/terrain/obstacles/obstacles.json"
