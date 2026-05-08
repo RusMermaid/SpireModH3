@@ -43,7 +43,7 @@
 			},
 			"none" : {
                 "description" : "{Mind Whip}\n\nLashes the target's psyche with raw magical force. Deals damage to all living creatures and Golems, bypassing magic resistances. Has no effect on Undead, Elementals, or Siege Engines.\n\nUnit takes (Spell Power x 10 + 10) damage.\n",
-                "cost" : 5,
+                "cost" : 6,
                 "power" : 10
             },
             "basic" : {
@@ -53,13 +53,13 @@
             },
             "advanced" : {
                 "description" : "{Advanced Mind Whip}\n\nLashes the target's psyche with increased force. Deals damage to all living creatures and Golems, bypassing magic resistances. Has no effect on Undead, Elementals, or Siege Engines.\n\nUnit takes (Spell Power x 20 + 50) damage.\n",
-                "cost" : 4,
-                "power" : 20
+                "cost" : 5,
+                "power" : 25
             },
             "expert" : {
                 "description" : "{Expert Mind Whip}\n\nLashes the target's psyche with supreme force. Deals damage to all living creatures and Golems, bypassing magic resistances. Has no effect on Undead, Elementals, or Siege Engines.\n\nUnit takes (Spell Power x 30 + 100) damage.\n",
                 "cost" : 4,
-                "power" : 30
+                "power" : 50
             }
 		},
 		"flags" : {
