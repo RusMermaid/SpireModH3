@@ -113,6 +113,15 @@
 					}
 				}
 			}
+		},
+        "targetCondition" : {
+			"noneOf" : {
+				"bonus.MECHANICAL" : "normal",
+				"bonus.MIND_IMMUNITY" : "normal",
+				"bonus.NON_LIVING" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "absolute"
+			}
 		}
 	}
 }

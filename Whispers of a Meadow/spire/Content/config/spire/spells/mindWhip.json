@@ -69,12 +69,15 @@
 		},
         "targetCondition": {
             "anyOf": {
-                "bonus.LIVING" : "absolute",
+                "core:bonus.LIVING" : "absolute",
                 "core:creature.stoneGolem":"absolute",
                 "core:creature.ironGolem": "absolute",
                 "core:creature.goldGolem": "absolute",
                 "core:creature.diamondGolem": "absolute",
-                "bonus.LEVEL_SPELL_IMMUNITY": "normal"
+                "core:bonus.LEVEL_SPELL_IMMUNITY": "normal"
+            },
+            "noneOf": {
+                "core:bonus.MIND_IMMUNITY": "normal"
             }
         }
 	}

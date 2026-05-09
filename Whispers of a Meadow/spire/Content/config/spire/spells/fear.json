@@ -1,5 +1,5 @@
 {
-	"oh3Fear" : {
+	"fear" : {
 		"type" : "combat",
 		"name" : "Fear",
 		"school" : {
@@ -24,15 +24,13 @@
 		},
 
 		"targetCondition" : {
-			"allOf" : {},
-			"anyOf" : {},
 			"noneOf" : {
 				"core:bonus.NON_LIVING" : "normal",
-				"core:bonus.GARGOYLE" : "normal",
 				"core:bonus.MECHANICAL" : "normal",
-				//				"core:bonus.FEARLESS": "normal",
-				"core:bonus.FEARFUL" : "normal",
-				"core:bonus.UNDEAD" : "normal"
+				"core:bonus.MIND_IMMUNITY" : "normal",
+				"core:bonus.FEARFUL" : "normal", // FEARLESS
+				"core:bonus.UNDEAD" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
 		},
 
