@@ -150,5 +150,18 @@
 		"config/spire/dwellings.json",
 		"config/spire/banks/bankA.json",
 		"config/spire/banks/bankB.json"
-	]
+	],
+	"settings" : {
+		"combat": {
+			"goodMoraleChance": [3, 6, 8, 12, 24],
+			"badMoraleChance": [6, 8, 12, 24, 48],
+			"moraleDiceSize": 96,
+			"moraleBias": 24,
+
+			"goodLuckChance": [2, 3, 4, 8, 16],
+			"badLuckChance": [2, 3, 6, 12, 24],
+			"luckDiceSize": 48,
+			"luckBias": 12
+		}
+	}
 }
