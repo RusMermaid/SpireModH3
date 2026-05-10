@@ -101,6 +101,8 @@
 		"config/spire/spells/core/magicMirror.json",
 		"config/spire/spells/core/mirth.json",
 		"config/spire/spells/core/sorrow.json",
+		"config/spire/spells/core/fortune.json",
+		"config/spire/spells/core/misfortune.json",
 
 		"config/spire/spells/anxiety.json",
 		"config/spire/spells/clarity.json",
