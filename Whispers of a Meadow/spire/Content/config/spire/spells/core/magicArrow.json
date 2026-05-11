@@ -1,0 +1,20 @@
+{
+    "core:magicArrow": {
+        "school": {
+            "air": true,
+            "earth": true,
+            "fire": true,
+            "water": true,
+            "psychic": true
+        },
+        "targetCondition": {
+            "anyOf": {
+                "core:bonus.LIVING" : "absolute",
+                "core:creature.stoneGolem":"absolute",
+                "core:creature.ironGolem": "absolute",
+                "core:creature.goldGolem": "absolute",
+                "core:creature.diamondGolem": "absolute"
+            }
+        }
+    }
+}

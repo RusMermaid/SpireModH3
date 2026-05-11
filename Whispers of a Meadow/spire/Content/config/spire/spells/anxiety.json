@@ -1,4 +1,5 @@
 {
+	// TODO: replace starfall placeholders
 	"anxiety": {
 		"type": "combat",
 		"name": "Anxiety",
@@ -26,14 +27,14 @@
 			]
 		},
 		"targetCondition": {
-			"allOf": {},
-			"anyOf": {},
 			"noneOf": {
-				"core:bonus.MIND_IMMUNITY": "normal",
-				"core:bonus.NON_LIVING": "normal",
-				"core:bonus.UNDEAD": "normal"
+				"bonus.MECHANICAL": "normal",
+				"bonus.MIND_IMMUNITY": "normal",
+				"bonus.NON_LIVING": "normal",
+				"bonus.SIEGE_WEAPON": "absolute",
+				"bonus.UNDEAD": "absolute"
 			}
-		},
+		},		
 		"graphics": {
 			"iconBook": "spire/spells/starfallBook",
 			"iconScroll": "spire/spells/starfallScroll",

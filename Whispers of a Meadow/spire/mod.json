@@ -88,7 +88,28 @@
 		"config/spire/spells/spire_StarCaster.json",
 		"config/spire/spells/spire_starfall.json",
 
-		"config/spire/spells/anxiety.json"
+		"config/spire/spells/core/antiMagic.json",
+		"config/spire/spells/core/berserk.json",
+		"config/spire/spells/core/blind.json",
+		"config/spire/spells/core/clone.json",
+		"config/spire/spells/core/dimensionDoor.json",
+		"config/spire/spells/core/disguise.json",
+		"config/spire/spells/core/forgetfulness.json",
+		"config/spire/spells/core/frenzy.json",
+		"config/spire/spells/core/hypnotize.json",
+		"config/spire/spells/core/magicArrow.json",
+		"config/spire/spells/core/magicMirror.json",
+		"config/spire/spells/core/mirth.json",
+		"config/spire/spells/core/sorrow.json",
+		"config/spire/spells/core/fortune.json",
+		"config/spire/spells/core/misfortune.json",
+
+		"config/spire/spells/anxiety.json",
+		"config/spire/spells/clarity.json",
+		"config/spire/spells/confusion.json",
+		"config/spire/spells/empathy.json",
+		"config/spire/spells/fear.json",
+		"config/spire/spells/mindWhip.json"
 	],
 	"battlefields" : [
 		"config/spire/terrain/battlefields/battlefields.json"
@@ -101,7 +122,9 @@
 	],
 	"skills" : [
 		"config/spire/skills/reflection.json",
-		"config/spire/skills/psychicMagic.json"
+		"config/spire/skills/psychicMagic.json",
+
+		"config/spire/skills/sorcery.json"
 	],
 	"obstacles" : [
 		"config/spire/terrain/obstacles/obstacles.json"
@@ -127,5 +150,18 @@
 		"config/spire/dwellings.json",
 		"config/spire/banks/bankA.json",
 		"config/spire/banks/bankB.json"
-	]
+	],
+	"settings" : {
+		"combat": {
+			"goodMoraleChance": [3, 6, 8, 12, 24],
+			"badMoraleChance": [6, 8, 12, 24, 48],
+			"moraleDiceSize": 96,
+			"moraleBias": 24,
+
+			"goodLuckChance": [2, 3, 4, 8, 16],
+			"badLuckChance": [2, 3, 6, 12, 24],
+			"luckDiceSize": 48,
+			"luckBias": 12
+		}
+	}
 }
