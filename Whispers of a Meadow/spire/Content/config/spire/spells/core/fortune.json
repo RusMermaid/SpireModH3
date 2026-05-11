@@ -21,7 +21,7 @@
                         "val": 3
                     }
                 },
-                "description": "{Expert Misfortune}\n\nReduces the luck of all enemy units.\n\nEffect is thrice that of Basic Misfortune.\n",
+                "description": "{Expert Fortune}\n\nReduces the luck of all enemy units.\n\nEffect is thrice that of Basic Misfortune.\n",
                 "range": "X"
             }
         }
