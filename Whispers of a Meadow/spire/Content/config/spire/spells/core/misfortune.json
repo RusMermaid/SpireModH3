@@ -1,34 +1,27 @@
 {
-    "core:sorrow": {
-        "school": {
-            "air": false,
-            "earth": false,
-            "fire": false,
-            "water": false,
-            "psychic": true
-        },
+    "core:misfortune": {
         "levels": {
             "basic": {
                 "effects": {
-                    "morale": {
+                    "luck": {
                         "val": -1
                     }
-                },
+                }
             },
             "advanced": {
                 "effects": {
-                    "morale": {
+                    "luck": {
                         "val": -2
                     }
-                },
+                }
             },
             "expert": {
                 "effects": {
-                    "morale": {
+                    "luck": {
                         "val": -3
                     }
                 },
-                "description": "{Expert Sorrow}\n\nReduces the morale of all enemy units.\n\nEffect is thrice that of Basic Sorrow.\n",
+                "description": "{Expert Misfortune}\n\nReduces the luck of all enemy units.\n\nEffect is thrice that of Basic Misfortune.\n",
                 "range": "X"
             }
         }

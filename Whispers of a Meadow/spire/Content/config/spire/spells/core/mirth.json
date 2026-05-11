@@ -6,6 +6,31 @@
             "fire": false,
             "water": false,
             "psychic": true
+        },
+        "levels": {
+            "basic": {
+                "effects": {
+                    "morale": {
+                        "val": 1
+                    }
+                }
+            },
+            "advanced": {
+                "effects": {
+                    "morale": {
+                        "val": 2
+                    }
+                }
+            },
+            "expert": {
+                "description": "{Expert Mirth}\n\nIncreases the morale of all friendly units.\n\nEffect is thrice that of Basic Mirth.\n",
+                "range": "X",
+                "effects": {
+                    "morale": {
+                        "val": 3
+                    }
+                }
+            }
         }
     }
 }
