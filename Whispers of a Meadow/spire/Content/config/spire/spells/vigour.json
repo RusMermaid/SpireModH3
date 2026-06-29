@@ -1,0 +1,104 @@
+{
+	"vigour" : {
+		"type" : "combat",
+		"name" : "Vigour",
+		"school" : {
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 4,
+		"power" : 10,
+
+		"defaultGainChance" : 0,
+
+		"flags" : {
+			"positive" : true
+		},
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {}
+		},
+
+		"graphics" : {
+			"iconBook" : "spire/spells/vigour/vigourBook",
+			"iconScroll" : "spire/spells/vigour/vigourScroll",
+			"iconScenarioBonus" : "spire/spells/vigour/vigourScenario",
+			"iconEffect" : "spire/spells/vigour/vigourEffect"
+		},
+
+		"animation" : {
+			"affect" : [
+				"spire/spells/vigour/vigourSpell.def"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "spire/spells/vigour/sound.spell.reflexes.wav"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"power" : 10,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"effects" : {
+					"vigoureffect" : {
+						"type" : "SPELL_BEFORE_ATTACK",
+						"duration" : "N_TURNS",
+                        "subtype": "vigourHelper",
+                        "addInfo" : [0,0],
+                        "val": 100
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Vampirism}\n\nFriendly unit becomes undead and heals itself for 20% of damage dealt to enemy.\n",
+				"effects" : {
+					"vigoureffect" : {
+                        "val": 100
+					}
+				},
+				"cost" : 24
+			},
+			"basic" : {
+				"description" : "{Basic Vampirism}\n\nFriendly unit becomes undead and heals itself for 20% of damage dealt to enemy.\n",
+				"effects" : {
+					"vigoureffect" : {
+                        "val": 100
+					}
+				},
+				"cost" : 19
+			},
+			"advanced" : {
+				"description" : "{Advanced Vampirism}\n\nFriendly unit becomes undead and heals itself for 35% of damage dealt to enemy.\n",
+
+				"cost" : 19,
+
+				"effects" : {
+					"vigoureffect" : {
+                        "val": 100
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Vampirism}\n\nFriendly unit becomes undead and heals itself for 50% of damage dealt to enemy.\n",
+
+				"cost" : 19,
+
+				"effects" : {
+					"vigoureffect" : {
+                        "val": 100
+					}
+				}
+			}
+		}
+	}
+}

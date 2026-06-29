@@ -57,7 +57,6 @@
                             "notActive": {
                                 "val": 0,
                                 "type": "NOT_ACTIVE",
-                                "icon": "spire/spells/fear/fearEffect.png",
                                 "duration": [
                                     "UNTIL_BEING_ATTACKED",
                                     "N_TURNS"
@@ -72,14 +71,26 @@
                                     "UNTIL_BEING_ATTACKED",
                                     "N_TURNS"
                                 ]
-                            }
+                            },
+                            // I tryed equalize reduction from freezeBroken until being attacked but it doesn't work.
+                            // "strength": {
+                            //     "description": "idk",
+                            //     "turns": 100,
+                            //     "type": "PRIMARY_SKILL",
+                            //     "subtype": "attack",
+                            //     "duration": [
+                            //         "UNTIL_BEING_ATTACKED",
+                            //         "N_TURNS"
+                            //     ],
+                            //     "valueType": "PERCENT_TO_ALL",
+                            //     "val": 50
+                            // }
                         }
                     },
                     "freezeBroken": {
                         "type": "core:timed",
                         "bonus": {
                             "weakness": {
-                                "icon": "spire/spells/fear/fearEffect.png",
                                 "description": "weakness",
                                 "turns": 100,
                                 "type": "PRIMARY_SKILL",
@@ -101,11 +112,11 @@
                 "cost": 45
             },
             "none": {
-                "description": "{deepFrostDeep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 1 turn. After the freeze ends, their Attack is reduced by 50%.",
+                "description": "{Deep Frost}",
                 "cost": 40
             },
             "basic": {
-                "description": "{Basic deepFrostDeep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 1 turn. After the freeze ends, their Attack is reduced by 50%.",
+                "description": "{Basic Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 1 turn. After the freeze ends, their Attack is reduced by 50%.",
                 "cost": 40,
                 "battleEffects": {
                     "frozen": {
@@ -121,7 +132,7 @@
                 }
             },
             "advanced": {
-                "description": "{Advanced deepFrostDeep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 2 turns. After the freeze ends, their Attack is reduced by 50%.",
+                "description": "{Advanced Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 2 turns. After the freeze ends, their Attack is reduced by 50%.",
                 "cost": 40,
                 "battleEffects": {
                     "frozen": {
@@ -137,7 +148,7 @@
                 }
             },
             "expert": {
-                "description": "{Expert deepFrostDeep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 3 turns. After the freeze ends, their Attack is reduced by 50%.",
+                "description": "{Expert Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 3 turns. After the freeze ends, their Attack is reduced by 50%.",
                 "cost": 40,
                 "battleEffects": {
                     "frozen": {
