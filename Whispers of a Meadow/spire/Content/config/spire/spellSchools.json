@@ -23,7 +23,7 @@
 	// 	"schoolBorders" : "SplevW"
 	// },
 	"psychic" : {
-		"index" : 4,
+		// "index" : 4,
 		"name": "Psychic",
 		"schoolBookmark" : "spire/bookmarks/psychicSchoolBookmark.json",
 		"schoolBorders" : "spire/frames/psychicSchoolFrames.json",
