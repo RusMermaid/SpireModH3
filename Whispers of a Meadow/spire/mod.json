@@ -110,7 +110,7 @@
 		"config/spire/spells/empathy.json",
 		"config/spire/spells/fear.json",
 		"config/spire/spells/mindWhip.json",
-		"config/spire/spells/intervention.json",
+		"config/spire/spells/silence.json",
 		"config/spire/spells/deepFrost.json",
 		"config/spire/spells/vigour.json",
 		"config/spire/spells/vigourHelper.json"

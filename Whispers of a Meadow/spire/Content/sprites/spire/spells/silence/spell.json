@@ -1,5 +1,5 @@
 {
-	"basepath" : "spells/intervention/frames/",
+	"basepath" : "spire/spells/silence/frames/",
 	"sequences" : [
 		{
 			"group" : 0,
