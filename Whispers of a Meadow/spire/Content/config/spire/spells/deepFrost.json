@@ -94,12 +94,22 @@
                 "cost": 50
             },
             "none": {
-                "description": "{Deep Frost}",
-                "cost": 50
+                "description": "{Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 1 turn. After the freeze ends, their Attack is reduced by 50% for their first attack.",
+                "battleEffects": {
+                    "frozen": {
+                        "bonus": {
+                            "frostImmobilize": {
+                                "turns": 1
+                            },
+                            "frostImmobilizeIcon": {
+                                "turns": 1
+                            }
+                        }
+                    }
+                }
             },
             "basic": {
                 "description": "{Basic Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 1 turn. After the freeze ends, their Attack is reduced by 50% for their first attack.",
-                "cost": 50,
                 "battleEffects": {
                     "frozen": {
                         "bonus": {
@@ -115,7 +125,6 @@
             },
             "advanced": {
                 "description": "{Advanced Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 2 turns. After the freeze ends, their Attack is reduced by 50% for their first attack.",
-                "cost": 45,
                 "battleEffects": {
                     "frozen": {
                         "bonus": {
@@ -131,7 +140,6 @@
             },
             "expert": {
                 "description": "{Expert Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 3 turns. After the freeze ends, their Attack is reduced by 50% for their first attack.",
-                "cost": 40,
                 "battleEffects": {
                     "frozen": {
                         "bonus": {
