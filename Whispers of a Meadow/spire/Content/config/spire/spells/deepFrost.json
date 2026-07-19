@@ -29,7 +29,6 @@
         },
         "animation": {
             "hit": [
-                //"spire/spells/deepFrost/dFreezeSpell.def"
                 "spire/spells/deepFrost/spell.def"
             ],
             "affect": [
@@ -48,60 +47,43 @@
                 "power": 1,
                 "battleEffects": {
                     "directDamage": {
-                        "killByCount": true,
-                        "type": "core:damage"
+                        "type": "core:damage",
+                        "killByCount": true
                     },
                     "frozen": {
                         "type": "core:timed",
                         "bonus": {
-                            "notActive": {
+                            "frostImmobilize": {
                                 "val": 0,
                                 "type": "NOT_ACTIVE",
                                 "duration": [
-                                    "UNTIL_BEING_ATTACKED",
-                                    "N_TURNS"
+                                    "N_TURNS",
+                                    "UNTIL_BEING_ATTACKED"
                                 ],
-                                "turns": 1,
-                                "description": "notActive"
+                                "turns": 1
                             },
-                            "frozenBonus": {
-                                "type": "frozen",
-                                "turns": 1,
+                            "frostImmobilizeIcon": {
+                                "type": "frostImmobilize",
                                 "duration": [
-                                    "UNTIL_BEING_ATTACKED",
-                                    "N_TURNS"
-                                ]
+                                    "N_TURNS",
+                                    "UNTIL_BEING_ATTACKED"
+                                ],
+                                "turns": 1
                             },
-                            // I tryed equalize reduction from freezeBroken until being attacked but it doesn't work.
-                            // "strength": {
-                            //     "description": "idk",
-                            //     "turns": 100,
-                            //     "type": "PRIMARY_SKILL",
-                            //     "subtype": "attack",
-                            //     "duration": [
-                            //         "UNTIL_BEING_ATTACKED",
-                            //         "N_TURNS"
-                            //     ],
-                            //     "valueType": "PERCENT_TO_ALL",
-                            //     "val": 50
-                            // }
-                        }
-                    },
-                    "freezeBroken": {
-                        "type": "core:timed",
-                        "bonus": {
-                            "weakness": {
-                                "description": "weakness",
-                                "turns": 100,
+                            "frostbitten": {
                                 "type": "PRIMARY_SKILL",
                                 "subtype": "attack",
-                                "duration": "ONE_BATTLE",
+                                "val": -50,
                                 "valueType": "PERCENT_TO_ALL",
-                                "val": -50
+                                "duration": [
+                                    "UNTIL_ATTACK"
+                                ]
                             },
-                            "weakenedBonus": {
-                                "type": "weakened",
-                                "duration": "ONE_BATTLE"
+                            "frostbittenIcon": {
+                                "type": "frostbitten",
+                                "duration": [
+                                    "UNTIL_ATTACK"
+                                ]
                             }
                         }
                     }
@@ -109,22 +91,22 @@
                 "targetModifier": {
                     "smart": true
                 },
-                "cost": 45
+                "cost": 50
             },
             "none": {
                 "description": "{Deep Frost}",
-                "cost": 40
+                "cost": 50
             },
             "basic": {
-                "description": "{Basic Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 1 turn. After the freeze ends, their Attack is reduced by 50%.",
-                "cost": 40,
+                "description": "{Basic Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 1 turn. After the freeze ends, their Attack is reduced by 50% for their first attack.",
+                "cost": 50,
                 "battleEffects": {
                     "frozen": {
                         "bonus": {
-                            "notActive": {
+                            "frostImmobilize": {
                                 "turns": 1
                             },
-                            "frozenBonus": {
+                            "frostImmobilizeIcon": {
                                 "turns": 1
                             }
                         }
@@ -132,15 +114,15 @@
                 }
             },
             "advanced": {
-                "description": "{Advanced Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 2 turns. After the freeze ends, their Attack is reduced by 50%.",
-                "cost": 40,
+                "description": "{Advanced Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 2 turns. After the freeze ends, their Attack is reduced by 50% for their first attack.",
+                "cost": 45,
                 "battleEffects": {
                     "frozen": {
                         "bonus": {
-                            "notActive": {
+                            "frostImmobilize": {
                                 "turns": 2
                             },
-                            "frozenBonus": {
+                            "frostImmobilizeIcon": {
                                 "turns": 2
                             }
                         }
@@ -148,26 +130,20 @@
                 }
             },
             "expert": {
-                "description": "{Expert Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 3 turns. After the freeze ends, their Attack is reduced by 50%.",
+                "description": "{Expert Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 3 turns. After the freeze ends, their Attack is reduced by 50% for their first attack.",
                 "cost": 40,
                 "battleEffects": {
                     "frozen": {
                         "bonus": {
-                            "notActive": {
+                            "frostImmobilize": {
                                 "turns": 3
                             },
-                            "frozenBonus": {
+                            "frostImmobilizeIcon": {
                                 "turns": 3
                             }
                         }
                     }
                 }
-            }
-        },
-        "targetCondition": {
-            "noneOf": {
-                "core:bonus.NON_LIVING": "absolute",
-                "bonus.SIEGE_WEAPON": "absolute"
             }
         }
     }
