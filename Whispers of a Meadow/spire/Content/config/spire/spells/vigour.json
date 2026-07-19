@@ -60,7 +60,7 @@
 				}
 			},
 			"none" : {
-				"description" : "{Vampirism}\n\nFriendly unit becomes undead and heals itself for 20% of damage dealt to enemy.\n",
+				"description" : "{Vigour}\n\n...\n",
 				"effects" : {
 					"vigoureffect" : {
                         "val": 100
@@ -69,7 +69,7 @@
 				"cost" : 24
 			},
 			"basic" : {
-				"description" : "{Basic Vampirism}\n\nFriendly unit becomes undead and heals itself for 20% of damage dealt to enemy.\n",
+				"description" : "{Basic Vigour}\n\n...\n",
 				"effects" : {
 					"vigoureffect" : {
                         "val": 100
@@ -78,7 +78,7 @@
 				"cost" : 19
 			},
 			"advanced" : {
-				"description" : "{Advanced Vampirism}\n\nFriendly unit becomes undead and heals itself for 35% of damage dealt to enemy.\n",
+				"description" : "{Advanced Vigour}\n\n...\n",
 
 				"cost" : 19,
 
@@ -89,7 +89,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Vampirism}\n\nFriendly unit becomes undead and heals itself for 50% of damage dealt to enemy.\n",
+				"description" : "{Expert Vigour}\n\n...\n",
 
 				"cost" : 19,
 

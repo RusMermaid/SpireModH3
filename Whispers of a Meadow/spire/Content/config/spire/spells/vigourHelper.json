@@ -47,6 +47,7 @@
 
 		"levels" : {
 			"base" : {
+				"description" : "{Vigour}\n\n...\n",
 				"power" : 10,
 				"cost" : 0,
 				//				"aiValue": 15,
