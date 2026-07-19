@@ -113,7 +113,8 @@
 		"config/spire/spells/silence.json",
 		"config/spire/spells/deepFrost.json",
 		"config/spire/spells/vigour.json",
-		"config/spire/spells/vigourHelper.json"
+		"config/spire/spells/vigourHelper.json",
+		"config/spire/spells/waspSwarm.json"
 	],
 	"battlefields" : [
 		"config/spire/terrain/battlefields/battlefields.json"
