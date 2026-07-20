@@ -87,7 +87,7 @@
 		"config/spire/spells/spire_comet.json",
 		"config/spire/spells/spire_StarCaster.json",
 		"config/spire/spells/spire_starfall.json",
-
+		
 		"config/spire/spells/core/antiMagic.json",
 		"config/spire/spells/core/berserk.json",
 		"config/spire/spells/core/blind.json",
@@ -104,6 +104,7 @@
 		"config/spire/spells/core/fortune.json",
 		"config/spire/spells/core/misfortune.json",
 		
+		"config/spire/spells/starfall.json",
 		"config/spire/spells/anxiety.json",
 		"config/spire/spells/clarity.json",
 		"config/spire/spells/confusion.json",
