@@ -1,0 +1,104 @@
+{
+	"waspSwarm": {
+		"type": "combat",
+		"name": "Wasp Swarm",
+		"school": {
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level": 2,
+		"power": 10,
+		"defaultGainChance": 10,
+		"gainChance": {
+			"rampart": 20,
+			"necropolis": 5,
+			"inferno": 0,
+			"stronghold": 15,
+			"fortress": 20,
+			"conflux": 0
+		},
+		"flags": {
+			"damage": true,
+			"offensive": true,
+			"negative": true
+		},
+		"targetCondition": {
+			"allOf": {},
+			"anyOf": {},
+			"noneOf": {
+				"core:bonus.NON_LIVING": "normal",
+				"core:bonus.UNDEAD": "normal"
+			}
+		},
+		"graphics": {
+			"iconBook": "spire/spells/waspSwarm/waspBook.bmp",
+			"iconScroll": "spire/spells/waspSwarm/waspScroll.bmp",
+			"iconScenarioBonus": "spire/spells/waspSwarm/waspScenario.bmp",
+			"iconEffect": "spire/spells/waspSwarm/waspEffect.bmp",
+			"iconImmune": "spire/spells/waspSwarm/waspImmune.bmp"
+		},
+		"animation": {
+			"hit": [
+				"spire/spells/waspSwarm/waspSpell.def"
+			]
+		},
+		"sounds": {
+			"cast": "spire/spells/sound.spell.wasp.wav"
+		},
+		"targetType": "CREATURE",
+		"levels": {
+			"base": {
+				"description": "{Wasp Swarm}\n\nDoes little damage to target and reduces its speed for this turn.\n",
+				"range": "0",
+				"power": 15,
+				"targetModifier": {
+					"smart": true
+				},
+				"effects": {
+					"speed": {
+						"type": "STACKS_SPEED",
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "STACK_GETS_TURN"
+					}
+				}
+			},
+			"none": {
+				"cost": 8,
+				"effects": {
+					"speed": {
+						"val": -25
+					}
+				}
+			},
+			"basic": {
+				"description": "{Basic Wasp Swarm}\n\nDoes little damage to target and reduces its speed for this turn.\n",
+				"cost": 6,
+				"effects": {
+					"speed": {
+						"val": -25
+					}
+				}
+			},
+			"advanced": {
+				"description": "{Advanced Wasp Swarm}\n\nDoes little damage to target and reduces its speed for this turn.\n",
+				"cost": 6,
+				"effects": {
+					"speed": {
+						"val": -33
+					}
+				}
+			},
+			"expert": {
+				"description": "{Expert Wasp Swarm}\n\nDoes little damage to target and reduces its speed for this turn.\n",
+				"cost": 6,
+				"effects": {
+					"speed": {
+						"val": -50
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,158 @@
+{
+    "deepFrost": {
+        "type": "combat",
+        "name": "Deep Frost",
+        "targetType": "CREATURE",
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": true
+        },
+        "level": 5,
+        "defaultGainChance": 18,
+        "gainChance": {
+            "tower": 22,
+            "inferno": 16,
+            "necropolis": 20
+        },
+        "power": 0,
+        "flags": {
+            "damage": true,
+            "negative": true
+        },
+        "graphics": {
+            "iconBook": "spire/spells/deepFrost/book",
+            "iconScroll": "spire/spells/deepFrost/scroll",
+            "iconScenarioBonus": "spire/spells/deepFrost/scenario",
+            "iconEffect": "spire/spells/deepFrost/effect"
+        },
+        "animation": {
+            "hit": [
+                "spire/spells/deepFrost/spell.def"
+            ],
+            "affect": [
+                {
+                    "effectName": "deepFrost",
+                    "transparency": 1
+                }
+            ]
+        },
+        "sounds": {
+            "cast": "ICERAY"
+        },
+        "levels": {
+            "base": {
+                "range": "0",
+                "power": 1,
+                "battleEffects": {
+                    "directDamage": {
+                        "type": "core:damage",
+                        "killByCount": true
+                    },
+                    "frozen": {
+                        "type": "core:timed",
+                        "bonus": {
+                            "frostImmobilize": {
+                                "val": 0,
+                                "type": "NOT_ACTIVE",
+                                "duration": [
+                                    "N_TURNS",
+                                    "UNTIL_BEING_ATTACKED"
+                                ],
+                                "turns": 1
+                            },
+                            "frostImmobilizeIcon": {
+                                "type": "frostImmobilize",
+                                "duration": [
+                                    "N_TURNS",
+                                    "UNTIL_BEING_ATTACKED"
+                                ],
+                                "turns": 1
+                            },
+                            "frostbitten": {
+                                "type": "PRIMARY_SKILL",
+                                "subtype": "attack",
+                                "val": -50,
+                                "valueType": "PERCENT_TO_ALL",
+                                "duration": [
+                                    "UNTIL_ATTACK"
+                                ]
+                            },
+                            "frostbittenIcon": {
+                                "type": "frostbitten",
+                                "duration": [
+                                    "UNTIL_ATTACK"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "targetModifier": {
+                    "smart": true
+                },
+                "cost": 50
+            },
+            "none": {
+                "description": "{Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 1 turn. After the freeze ends, their Attack is reduced by 50% for their first attack.",
+                "battleEffects": {
+                    "frozen": {
+                        "bonus": {
+                            "frostImmobilize": {
+                                "turns": 1
+                            },
+                            "frostImmobilizeIcon": {
+                                "turns": 1
+                            }
+                        }
+                    }
+                }
+            },
+            "basic": {
+                "description": "{Basic Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 1 turn. After the freeze ends, their Attack is reduced by 50% for their first attack.",
+                "battleEffects": {
+                    "frozen": {
+                        "bonus": {
+                            "frostImmobilize": {
+                                "turns": 1
+                            },
+                            "frostImmobilizeIcon": {
+                                "turns": 1
+                            }
+                        }
+                    }
+                }
+            },
+            "advanced": {
+                "description": "{Advanced Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 2 turns. After the freeze ends, their Attack is reduced by 50% for their first attack.",
+                "battleEffects": {
+                    "frozen": {
+                        "bonus": {
+                            "frostImmobilize": {
+                                "turns": 2
+                            },
+                            "frostImmobilizeIcon": {
+                                "turns": 2
+                            }
+                        }
+                    }
+                }
+            },
+            "expert": {
+                "description": "{Expert Deep Frost}\n\nKills 1 creature in the target enemy stack. Survivors are frozen for 3 turns. After the freeze ends, their Attack is reduced by 50% for their first attack.",
+                "battleEffects": {
+                    "frozen": {
+                        "bonus": {
+                            "frostImmobilize": {
+                                "turns": 3
+                            },
+                            "frostImmobilizeIcon": {
+                                "turns": 3
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
