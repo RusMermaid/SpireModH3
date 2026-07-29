@@ -1,0 +1,3 @@
+# The Spire project uses nonstandard HoMM3 mod configuration formats.
+# Count its JSON configuration as C++ in GitHub Linguist without including archives or images.
+*.json linguist-language=C++ linguist-detectable=true
