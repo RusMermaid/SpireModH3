@@ -1,0 +1,14 @@
+{
+  "frostImmobilize": {
+    "description": "{Frozen}\nCreature misses its turns. The effect ends early if the creature is attacked.",
+    "graphics": {
+      "icon": "spire/spells/deepFrost/Effect.png"
+    }
+  },
+  "frostbitten": {
+    "description": "{Frostbitten}\nFirst Attack is reduced by 50%.",
+    "graphics": {
+      "icon": "spire/spells/weakness0.png"
+    }
+  }
+}
