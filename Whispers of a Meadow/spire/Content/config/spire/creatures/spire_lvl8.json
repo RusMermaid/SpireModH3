@@ -42,10 +42,10 @@
 			"Shoot" : {
 				"type" : "SHOOTER"
 			},
-			"StarEff" : {
-				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.spire_comet"
-			},
+			// "StarEff" : {
+			// 	"type" : "SPELL_LIKE_ATTACK",
+			// 	"subtype" : "spell.spire_comet"
+			// },
 			"mindImmun" : {
 				"type" : "MIND_IMMUNITY"
 			},
@@ -56,11 +56,11 @@
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"castsIce" : {
-				"type" : "SPELLCASTER",
-				"subtype" : "spell.spire_starfall",
-				"val" : 3
-			},
+			// "castsIce" : {
+			// 	"type" : "SPELLCASTER",
+			// 	"subtype" : "spell.spire_starfall",
+			// 	"val" : 3
+			// },
 			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 2
