@@ -1,0 +1,74 @@
+{
+	"vigour": {
+		"type": "combat",
+		"name": "Vigour",
+		"targetType": "LOCATION",
+		"school": {
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 4,
+		"power": 10,
+		"defaultGainChance": 0,
+		"flags": {
+			"positive": true
+		},
+		"targetCondition": {
+			"noneOf": {
+				"bonus.SIEGE_WEAPON": "absolute"
+			}
+		},
+		"graphics": {
+			"iconBook": "spire/spells/vigour/vigourBook",
+			"iconScroll": "spire/spells/vigour/vigourScroll",
+			"iconScenarioBonus": "spire/spells/vigour/vigourScenario",
+			"iconEffect": "spire/spells/vigour/vigourEffect"
+		},
+		"animation": {
+			"affect": [
+				"spire/spells/vigour/vigourSpell.def"
+			]
+		},
+		"sounds": {
+			"cast": "spire/spells/sound.spell.reflexes.wav"
+		},
+		"levels": {
+			"base": {
+				"power": 10,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"effects": {
+					"attacks": {
+						"type": "ADDITIONAL_ATTACK",
+						"val": 1,
+						"duration": [
+							"UNTIL_ATTACK",
+							"N_TURNS"
+						]
+					}
+				}
+			},
+			"none": {
+				"description": "{Vigour}\n\nThe selected unit will strike twice the next time it attacks in melee.",
+				"cost": 18
+			},
+			"basic": {
+				"description": "{Basic Vigour}\n\nThe selected unit will strike twice the next time it attacks in melee.",
+				"cost": 14
+			},
+			"advanced": {
+				"description": "{Advanced Vigour}\n\nGives the selected unit the ability to strike twice in melee.",
+				"cost": 14
+			},
+			"expert": {
+				"description": "{Expert Vigour}\n\nGives the selected and adjacent units the ability to strike twice in melee.",
+				"cost": 14,
+				"range": "0,1"
+			}
+		}
+	}
+}

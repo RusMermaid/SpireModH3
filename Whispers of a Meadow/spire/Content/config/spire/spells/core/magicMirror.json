@@ -1,0 +1,57 @@
+{
+    "core:magicMirror": {
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        },
+        "level": 5,
+        "levels": {
+            "base": {
+                "range": "0",
+                "targetModifier": {"smart": true},
+                "effects": {
+                    "magicMirror": {
+                        "type": "MAGIC_MIRROR",
+                        "valueType": "INDEPENDENT_MAX",
+                        "duration": "N_TURNS"
+                    }
+                }
+            },
+            "none" : {
+                "description" : "{Magic Mirror}\nHas a 30% chance to redirect an offensive spell to an enemy unit.",
+                "effects": {
+                    "magicMirror": {
+                        "val": 30
+                    }
+                }
+            },
+            "basic" : {
+                "description" : "{Magic Mirror}\nHas a 30% chance to redirect an offensive spell to an enemy unit.",
+                "effects": {
+                    "magicMirror": {
+                        "val": 30
+                    }
+                }
+            },
+            "advanced" : {
+                "description" : "{Magic Mirror}\nHas a 40% chance to redirect an offensive spell to an enemy unit.",
+                "effects": {
+                    "magicMirror": {
+                        "val": 40
+                    }
+                }
+            },
+            "expert" : {
+                "description" : "{Magic Mirror}\nHas a 50% chance to redirect an offensive spell to an enemy unit.",
+                "effects": {
+                    "magicMirror": {
+                        "val": 50
+                    }
+                }
+            }
+        }
+    }
+}

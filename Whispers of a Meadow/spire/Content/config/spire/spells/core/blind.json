@@ -1,0 +1,12 @@
+{
+    "core:blind": {
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        },
+        "level": 2
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "core:dimensionDoor": {
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": true,
+            "water": false,
+            "psychic": false
+        }
+    }
+}

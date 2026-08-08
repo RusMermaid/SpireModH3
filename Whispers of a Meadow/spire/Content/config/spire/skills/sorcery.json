@@ -1,0 +1,30 @@
+{
+    "core:sorcery" : {
+        "base" : {
+            "effects" : {
+                // mindWhip use nonMagical so it's necessary
+                "mindWhip" : {
+                    "type" : "SPECIFIC_SPELL_DAMAGE",
+                    "subtype" : "mindWhip",
+                    "valueType" : "BASE_NUMBER"
+                }
+            }
+        },
+        "basic" : {
+            "effects" : {
+                "mindWhip" : { "val" : 5}
+            }
+        },
+        "advanced" : {
+            "effects" : {
+                "mindWhip" : { "val" : 10}
+
+            }
+        },
+        "expert" : {
+            "effects" : {
+                "mindWhip" : { "val" : 15}
+            }
+        }
+    }
+}

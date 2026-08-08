@@ -1,0 +1,22 @@
+{
+    "core:clone": {
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        },
+        "level": 2,
+        "levels": {
+            "expert": {
+                "battleEffects": {
+                    "clone": {
+                        "maxTier": 6
+                    }
+                },
+                "description": "Creates a duplicate of the selected unit stack. The image is dispelled if it is attacked.\n\nClones creatures of a level 1-6 troop."
+            }
+        }
+    }
+}

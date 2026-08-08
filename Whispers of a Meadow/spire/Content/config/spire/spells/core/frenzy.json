@@ -1,0 +1,11 @@
+{
+    "core:frenzy": {
+        "school": {
+            "air": false,
+            "earth": false,
+            "fire": false,
+            "water": false,
+            "psychic": true
+        }
+    }
+}

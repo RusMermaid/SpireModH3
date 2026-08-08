@@ -44,10 +44,10 @@
 			"Shoot" : {
 				"type" : "SHOOTER"
 			},
-			"StarEff" : {
-				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.spire_StarCaster"
-			},
+			// "StarEff" : {
+			// 	"type" : "SPELL_LIKE_ATTACK",
+			// 	"subtype" : "spell.spire_StarCaster"
+			// },
 			"mindImmun" : {
 				"type" : "MIND_IMMUNITY"
 			},

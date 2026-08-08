@@ -1,0 +1,29 @@
+{
+    "core:fortune": {
+        "levels": {
+            "basic": {
+                "effects": {
+                    "luck": {
+                        "val": 1
+                    }
+                }
+            },
+            "advanced": {
+                "effects": {
+                    "luck": {
+                        "val": 2
+                    }
+                }
+            },
+            "expert": {
+                "effects": {
+                    "luck": {
+                        "val": 3
+                    }
+                },
+                "description": "{Expert Misfortune}\n\nReduces the luck of all enemy units.\n\nEffect is thrice that of Basic Misfortune.\n",
+                "range": "X"
+            }
+        }
+    }
+}
