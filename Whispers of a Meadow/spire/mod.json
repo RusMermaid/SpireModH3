@@ -152,6 +152,9 @@
 		"config/spire/banks/bankA.json",
 		"config/spire/banks/bankB.json"
 	],
+	"bonuses" : [
+		"config/bonuses.json"
+	],
 	"settings" : {
 		"combat": {
 			"goodMoraleChance": [3, 6, 8, 12, 24],
