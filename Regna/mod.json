@@ -1,0 +1,66 @@
+{
+	"name" : "Regna",
+	"description" : "Regna Town Restored for V 0.99",
+	"author" : "Baronus, Acidchalk",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "0.50",
+	"modType" : "Town",
+
+	"factions" :
+	[
+		"config/regna/town/buildings.json",
+		"config/regna/town/faction.json",
+		"config/regna/town/siege.json",
+		"config/regna/town/spells.json",
+		"config/regna/town/structures.json",
+		"config/regna/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+		"config/regna/creatures/rat1.json",
+		"config/regna/creatures/rat2.json",
+        "config/regna/creatures/pirate1.json",
+		"config/regna/creatures/pirate2.json",
+		"config/regna/creatures/pgirl1.json",
+		"config/regna/creatures/pgirl2.json",
+		"config/regna/creatures/triton1.json",
+		"config/regna/creatures/triton2.json",
+		"config/regna/creatures/wmage1.json",
+		"config/regna/creatures/wmage2.json",
+		"config/regna/creatures/marid1.json",
+		"config/regna/creatures/marid2.json",
+		"config/regna/creatures/lev1.json",
+		"config/regna/creatures/lev2.json",
+		"config/regna/creatures/merc.json",
+		
+	],
+	"heroClasses" :
+	[
+		"config/regna/classes/Filibuster.json",
+		"config/regna/classes/Caper.json"
+
+	],
+
+	"heroes" :
+	[
+		"config/regna/heroes/seprinteer.json",
+		"config/regna/heroes/julian.json",
+		"config/regna/heroes/Meltes.json",
+		"config/regna/heroes/singhel.json",
+		"config/regna/heroes/niclas.json",
+		"config/regna/heroes/charity.json",
+		"config/regna/heroes/sunni.json",
+		"config/regna/heroes/kastore.json",
+		"config/regna/heroes/rengist.json",
+		"config/regna/heroes/minore.json",
+		"config/regna/heroes/leane.json",
+		"config/regna/heroes/tarkin.json",
+		"config/regna/heroes/maximus.json",
+		"config/regna/heroes/cistrict.json",
+		"config/regna/heroes/karen.json",
+		"config/regna/heroes/resurrecta.json",
+		
+	],
+	"objects" : [ "config/regna/dwellings" ]
+}

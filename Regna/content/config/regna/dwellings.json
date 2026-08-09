@@ -1,0 +1,79 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"rgburrow" : {
+				"name" : "Burrow",
+				"creatures" : [[ "rgrat1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"rgbarracks" : {
+				"name" : "Barracks",
+				"creatures" : [[ "rgpirate1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"rghide" : {
+				"name" : "Hideout",
+				"creatures" : [[ "rgpgirl1" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "regna/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"rgwhirl" : {
+				"name" : "Whirl Pool",
+				"creatures" : [[ "rgtriton1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "BAV" ]
+					}
+				}
+			},
+			"rgwind" : {
+				"name" : "Wind Tower",
+				"creatures" : [[ "rgwmage1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VBB", "BBA" ]
+					}
+				}
+			},
+			"rgcursed" : {
+				"name" : "Cursed Cave",
+				"creatures" : [[ "rgmarid1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"rgserpmon" : {
+				"name" : "Serpent Monument",
+				"creatures" : [[ "rglev1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "regna/adventure-map/dwelling-7.def",
+						"mask" : [ "VVV", "BBV", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}
